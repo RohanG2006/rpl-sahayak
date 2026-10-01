@@ -18,7 +18,7 @@ from pydantic import BaseModel, ValidationError
 
 from app.ai import rules
 from app.ai.providers.base import ImageInput, LLMProvider, ProviderError
-from app.ai.schemas import SkillExtraction
+from app.ai.schemas import DocumentClaims, EvidenceObservation, SkillExtraction
 from app.core.config import PROMPTS_DIR, Settings, get_settings
 from app.core.errors import AIUnavailable
 
@@ -132,6 +132,35 @@ class AIService:
             "skill_extraction", "skill_extraction",
             {"declaration": text, "profile": profile or {}},
             SkillExtraction, lambda: rules.extract_worker_skills(text, profile),
+        )
+
+    def analyze_evidence(self, *, data: bytes | None, mime: str, kind: str, size_bytes: int, caption: str | None,
+                         criterion: dict | None, task: dict | None, required: list[dict],
+                         uploaded_kinds_for_criterion: list[str]) -> AIResult:
+        """Observation on one evidence item. Media bytes go to the LLM only when AI_SEND_EVIDENCE=true."""
+        def rule_fn():
+            return rules.analyze_evidence(
+                kind=kind, mime=mime, size_bytes=size_bytes, caption=caption,
+                criterion_text=(criterion or {}).get("text"), evidence_hint=(criterion or {}).get("evidence_hint"),
+                required=required, uploaded_kinds_for_criterion=uploaded_kinds_for_criterion, data=data)
+
+        send_media = self.settings.ai_send_evidence and data is not None and (kind == "image" or (kind == "video" and getattr(self.provider, "name", "") == "gemini"))
+        if self.provider is not None and not send_media:
+            # Without the media an LLM would only be guessing from text; use the honest rule-based path.
+            res = AIResult(rule_fn(), "evidence_analysis", "rules", None, "evidence_analysis", load_prompt("evidence_analysis")[0],
+                           error="AI_SEND_EVIDENCE disabled: metadata-only analysis")
+            return res
+        return self._run(
+            "evidence_analysis", "evidence_analysis",
+            {"criterion": criterion or {}, "task": task or {}, "caption": caption or "", "required": required},
+            EvidenceObservation, rule_fn, images=[ImageInput(mime, data)] if send_media and data else None,
+        )
+
+    def extract_document_claims(self, doc_type: str, text: str | None, image: tuple[str, bytes] | None = None) -> AIResult:
+        return self._run(
+            "document_claims", "document_claims", {"doc_type": doc_type, "text": text or ""},
+            DocumentClaims, lambda: rules.extract_document_claims(doc_type, text),
+            images=[ImageInput(*image)] if image and self.settings.ai_send_evidence else None,
         )
 
 

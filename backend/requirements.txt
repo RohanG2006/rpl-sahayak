@@ -13,3 +13,5 @@ slowapi==0.1.*
 reportlab==4.*
 httpx==0.28.*
 pytest==8.*
+pillow>=12.2
+pypdf==5.*

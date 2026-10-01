@@ -6,7 +6,8 @@ os.environ["DATABASE_URL"] = os.environ.get(
     "TEST_DATABASE_URL", "postgresql+psycopg://rpl:rpl@localhost:5433/rpl_sahayak_test"
 )
 os.environ["AI_PROVIDER"] = "mock"
-os.environ["RATE_LIMIT_LOGIN"] = "1000/minute"
+import tempfile  # noqa: E402
+os.environ["STORAGE_DIR"] = tempfile.mkdtemp(prefix="rpl-test-storage-")
 
 import pytest  # noqa: E402
 from fastapi.testclient import TestClient  # noqa: E402
@@ -14,6 +15,9 @@ from fastapi.testclient import TestClient  # noqa: E402
 from app.db.base import Base  # noqa: E402
 from app.db.session import SessionLocal, engine  # noqa: E402
 from app.main import app  # noqa: E402
+from app.core.ratelimit import limiter  # noqa: E402
+
+limiter.enabled = False  # exercised explicitly in test_security.py::test_rate_limit_on_login
 from app.seed.base import DEMO_PASSWORD, seed_roles_and_staff  # noqa: E402
 from app.seed.official import load_qualifications, load_task_banks  # noqa: E402
 
