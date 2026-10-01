@@ -18,7 +18,7 @@ from pydantic import BaseModel, ValidationError
 
 from app.ai import rules
 from app.ai.providers.base import ImageInput, LLMProvider, ProviderError
-from app.ai.schemas import DocumentClaims, EvidenceObservation, SkillExtraction
+from app.ai.schemas import DocumentClaims, EvidenceObservation, NarrativeOut, SkillExtraction
 from app.core.config import PROMPTS_DIR, Settings, get_settings
 from app.core.errors import AIUnavailable
 
@@ -155,6 +155,46 @@ class AIService:
             {"criterion": criterion or {}, "task": task or {}, "caption": caption or "", "required": required},
             EvidenceObservation, rule_fn, images=[ImageInput(mime, data)] if send_media and data else None,
         )
+
+    # ---- Narrative helpers: explain computed results; they never change a number -----------------
+    def _narrative(self, kind: str, prompt: str, payload: dict, template: str) -> AIResult:
+        return self._run(kind, prompt, {"data": payload}, NarrativeOut,
+                         lambda: NarrativeOut(summary=template, confidence=1.0))
+
+    def match_qualification(self, match: dict) -> AIResult:
+        top = match["results"][0]
+        t = (f"Closest qualification: {top['title']} ({top['qualification_code']}, NSQF {top['nsqf_level']}) at {top['final_pct']}%. "
+             f"{len(top['matched_skills'])} confirmed skills map to official learning outcomes; "
+             f"{top['lo_coverage']['matched']} of {top['lo_coverage']['total']} outcomes are evidenced by the declaration.")
+        return self._narrative("match_explanation", "qualification_matching", {"top": {k: top[k] for k in ("title", "final_pct", "components", "matched_skills", "eligibility")}}, t)
+
+    def generate_assessment(self, plan_summary: dict) -> AIResult:
+        t = (f"Your assessment has {plan_summary['n_tasks']} practical tasks covering {plan_summary['n_los']} learning outcomes of "
+             f"{plan_summary['qualification']}. Each task lists its steps, safety rules and the photos to add.")
+        return self._narrative("assessment_intro", "assessment_generation", plan_summary, t)
+
+    def summarize_competencies(self, results: dict) -> AIResult:
+        comp = {results["competency_labels"].get(k, k): v for k, v in results["competencies"].items() if v is not None}
+        strong = [k for k, v in comp.items() if v >= 75]
+        weak = [k for k, v in comp.items() if v < 60]
+        t = (f"Overall practical score {results['overall_pct']}%. "
+             + (f"Strong: {', '.join(strong)}. " if strong else "")
+             + (f"Below threshold: {', '.join(weak)}." if weak else "All assessed areas at or above the 60% threshold."))
+        return self._narrative("competency_summary", "competency_summary", {"competencies": comp, "overall": results["overall_pct"]}, t)
+
+    def generate_skill_gaps(self, gaps: dict) -> AIResult:
+        g = [a for a in gaps["areas"] if a["status"] == "gap"]
+        t = ("No competency gaps against the 60% threshold in the assessed scope." if not g else
+             "Gaps: " + "; ".join(f"{a['label']} {a['demonstrated']:.0f}% (needs {a['required']:.0f}%)" for a in g) + ".")
+        return self._narrative("skill_gap_summary", "skill_gap_analysis", {"areas": [{k: a[k] for k in ("label", "required", "demonstrated", "gap")} for a in gaps["areas"]]}, t)
+
+    def generate_recommendation(self, rec: dict) -> AIResult:
+        failed = [r["label"] for r in rec["rule_trace"] if not r["passed"]]
+        t = (f"Suggested outcome: {rec['outcome'].replace('_', ' ').lower()}. Competency coverage {rec['competency_coverage']:.0%}, "
+             f"evidence coverage {rec['evidence_coverage']:.0%}. "
+             + ("All rules satisfied." if not failed else "Not satisfied: " + "; ".join(failed) + ".")
+             + " The assessor makes the final decision.")
+        return self._narrative("recommendation_narrative", "recommendation", {k: rec[k] for k in ("outcome", "competency_coverage", "evidence_coverage", "overall_pct", "rule_trace", "flags")}, t)
 
     def extract_document_claims(self, doc_type: str, text: str | None, image: tuple[str, bytes] | None = None) -> AIResult:
         return self._run(
