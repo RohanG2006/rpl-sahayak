@@ -32,6 +32,8 @@ def _schema():
         load_task_banks(db)
         db.commit()
     yield
+    import shutil
+    shutil.rmtree(os.environ["STORAGE_DIR"], ignore_errors=True)  # remove this run's temporary uploads
 
 
 @pytest.fixture
