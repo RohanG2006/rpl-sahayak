@@ -148,6 +148,12 @@ not photographs of real work. Labelled "Synthetic evidence placeholder".
   correctly and displays a before/after comparison. It is **not** evidence of real-world improvement.
   A real pilot would replace this file with ratings collected from assessors scoring the same
   recorded evidence with and without the rubric.
+- Parameters used for `prototype-v1` (also in `data/demo/consistency_parameters.json` and the CSV header):
+  seed 2026; ability ~ U(1.2, 3.6); criterion SD 0.6; assessor severity ~ N(0, 0.5) → drawn A01 +0.433, A02 +0.402,
+  A03 −0.989, A04 −0.074, A05 +0.284; baseline noise σ 0.7; standardised: severity × 0.35, noise σ 0.4.
+  5,600 rows = 20 cases × 28 criteria × 5 assessors × 2 modes.
+- Statistics (`backend/app/services/stats.py`) are verified in tests against published worked examples:
+  ICC(2,1) = 0.29 on Shrout & Fleiss (1979) Table 2; Fleiss' κ = 0.210 on the standard 10-subject × 14-rater example.
 - UI label: **"Prototype / Test Dataset Demonstration — not real-world validated improvement."**
 
 ---

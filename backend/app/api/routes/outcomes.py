@@ -250,3 +250,11 @@ def dashboard(db: Session = Depends(get_db), user: User = Depends(require_roles(
         "evidence_items": db.scalar(select(func.count()).select_from(Evidence).where(Evidence.plan_id.in_(ids))) if ids else 0,
         "note": "Score variance here is across different candidates (spread of ability), not assessor disagreement — see /analytics/consistency.",
     }
+
+
+@router.get("/analytics/consistency")
+def consistency(db: Session = Depends(get_db), user: User = Depends(require_roles("assessor", "admin"))):
+    """Multi-rater consistency on the labelled SIMULATION dataset: baseline vs standardised workflow.
+    Every statistic is computed from the stored ratings at request time."""
+    from app.services.consistency import analyse
+    return analyse(db)

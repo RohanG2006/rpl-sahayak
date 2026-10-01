@@ -16,7 +16,7 @@ Legend: ⬜ not started · 🟨 in progress · ✅ verified · 🧪 simulated (d
 | R3 | Guided practical task evaluation | Assessment plan + step checklists + safety prompts | `/worker/assessment`, `/assessor/assessment/[id]` | `POST /assessments`, `/start`, task bank loader | `assessment_tasks`, `assessment_criteria`, `assessment_attempts` | `test_assessment.py::test_plan_from_mapped_los` | 6 | ✅ |
 | R4 | Video/image-based assessment aids where feasible | Evidence upload per criterion + AI evidence observation | `/worker/evidence`, assessor evidence panel | `POST /evidence`, `POST /evidence/{id}/analyze`, `AIService.analyze_evidence` | `evidence`, `ai_observations` | `test_evidence.py` (validation, linkage, mock analysis, malformed AI fallback) | 7, 8 | 🟨 |
 | R5 | Standardised scoring rubrics | 0–4 anchored rubric per criterion, weights | assessor scoring grid | `POST /assessments/{id}/tasks/{task_id}/score`, `services/scoring.py` | `assessor_scores` | `test_scoring.py` (task/LO/overall math) | 9 | ✅ |
-| R6 | Reduced evaluator-to-evaluator variance | Rubric anchors + evidence checklist; consistency analytics | `/assessor/consistency`, `/admin/analytics` | `GET /analytics/consistency`, `services/consistency.py` | `consistency_ratings` (🧪) | `test_consistency.py` (κ, Fleiss κ, ICC vs hand fixtures) | 16 | ⬜ |
+| R6 | Reduced evaluator-to-evaluator variance | Rubric anchors + evidence checklist; consistency analytics | `/assessor/consistency`, `/admin/analytics` | `GET /analytics/consistency`, `services/consistency.py` | `consistency_ratings` (🧪) | `test_consistency.py` (κ, Fleiss κ, ICC vs hand fixtures) | 16 | ✅ 🧪 |
 | R7 | NSQF-aligned competency profile | LO-level + official formative-dimension profile, radar/bars | `/worker/results`, candidate detail | `GET /competencies/{id}`, `services/competency.py` | `competency_results` | `test_competency.py` | 10 | ✅ |
 | R8 | Certification recommendation for assessor sign-off | Rule-based recommendation with rule trace | candidate detail "Recommendation" | `POST /assessments/{id}/recommendation`, `services/recommendation.py` | `recommendations` | `test_recommendation.py` (70 % rule, safety gate, insufficient evidence) | 12 | ✅ |
 | R9 | Offline-capable operation | PWA + IndexedDB + local-first writes + demo toggle | all worker screens; status chip | — (client) | Dexie stores | `frontend/__tests__/syncQueue.test.ts` | 15 | ⬜ |
@@ -28,7 +28,7 @@ Legend: ⬜ not started · 🟨 in progress · ✅ verified · 🧪 simulated (d
 |---|---|---|---|
 | O1 | Working workflow self-declaration → assessor scoring for ≥ 1 trade | R1–R5, R8, R11 for Electrician (DGT/1001) | ✅ |
 | O2 | NSQF qualification-pack mapping engine | R2 | ✅ |
-| O3 | Consistency improvement evidence on labelled test/simulation dataset | R6 (🧪) | ⬜ |
+| O3 | Consistency improvement evidence on labelled test/simulation dataset | R6 (🧪) | ✅ 🧪 |
 | O4 | Offline-capable mobile/web interface | R9, R10, mobile-first worker UI | ⬜ |
 | O5 | Explicit separation of AI assistance vs human judgement | R11, R12 | ✅ |
 
