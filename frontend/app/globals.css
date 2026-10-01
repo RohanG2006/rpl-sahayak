@@ -26,6 +26,12 @@
   --ai: #b45309;
   --ai-wash: #fff6e8;
   --focus: #1d4ed8;
+  /* Chart categorical slots — fixed order, validated (dataviz validate_palette.js, light, surface #fffefb):
+     CVD worst adjacent ΔE 9.1, normal-vision 19.6. Slots 3,4,5 < 3:1 contrast → always paired with a value table. */
+  --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a; --series-4: #eda100;
+  --series-5: #e87ba4; --series-6: #008300; --series-7: #4a3aa7; --series-8: #e34948;
+  /* Sequential (magnitude): single blue hue, light→dark */
+  --seq-1: #dbe6f7; --seq-2: #a9c4ee; --seq-3: #6f9ce3; --seq-4: #2a78d6; --seq-5: #1a4f99;
 }
 
 @theme inline {

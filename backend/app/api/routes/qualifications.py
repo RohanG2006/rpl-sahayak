@@ -1,9 +1,13 @@
 from fastapi import APIRouter, Depends
+from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
-from app.api.deps import get_current_user
+from app.api.deps import ensure_worker_access, get_current_user
+from app.core.errors import NotFound
 from app.db.session import get_db
-from app.models import Qualification, User
+from app.models import Qualification, User, WorkerProfile
+from app.services import audit, workflow
+from app.services.mapping import match_worker
 from app.repositories import qualifications as repo
 from app.schemas.qualifications import CompetencyOut, QualificationDetail, QualificationSummary, SourceOut, TaskOut
 
@@ -50,3 +54,26 @@ def get_qualification(qualification_id: str, db: Session = Depends(get_db), _: U
     )
 
 
+# ---- Mapping engine ------------------------------------------------------------------------------
+class MatchIn(BaseModel):
+    worker_id: str
+
+
+@router.post("/qualifications/match")
+def match_qualifications(body: MatchIn, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
+    """Rank official qualifications for a worker's **confirmed** skills. Deterministic and explainable:
+    every component, weight, matched LO and eligibility check (with QF page reference) is returned."""
+    w = db.get(WorkerProfile, body.worker_id)
+    if not w:
+        raise NotFound("Worker not found.")
+    ensure_worker_access(user, w)
+    workflow.require_worker_at_least(w, "SKILLS_CONFIRMED", "match qualifications")
+    result = match_worker(w, repo.list_qualifications(db))
+    w.last_match = result
+    workflow.advance_worker(db, w, "QUALIFICATION_MATCHED", user)
+    top = result["results"][0]
+    audit.record(db, "qualification.mapped", "worker_profile", w.id, actor=user,
+                 summary=f"Top match {top['title']} ({top['qualification_code']}) {top['final_pct']}%",
+                 after={"ranking": [(r["qualification_code"], r["final_pct"]) for r in result["results"]]})
+    db.commit()
+    return {**result, "worker_id": w.id, "label": "Automated rule-based mapping — the worker confirms and the assessor reviews."}

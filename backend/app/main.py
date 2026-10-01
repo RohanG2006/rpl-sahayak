@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from slowapi.errors import RateLimitExceeded
 from fastapi.responses import JSONResponse
 
-from app.api.routes import auth, qualifications, workers
+from app.api.routes import assessments, auth, qualifications, workers
 from app.core.config import get_settings
 from app.core.errors import install_handlers
 from app.core.ratelimit import limiter
@@ -38,6 +38,7 @@ def create_app() -> FastAPI:
     api.include_router(auth.router)
     api.include_router(qualifications.router)
     api.include_router(workers.router)
+    api.include_router(assessments.router)
 
     @api.get("/health", tags=["meta"])
     def health():

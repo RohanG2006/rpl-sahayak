@@ -39,6 +39,7 @@ class WorkerProfile(IdMixin, TimestampMixin, OriginMixin, Base):
     tools: Mapped[list] = mapped_column(JsonType, default=list)
     typical_work: Mapped[str | None] = mapped_column(Text, nullable=True)
     archetype: Mapped[str | None] = mapped_column(String(40), nullable=True)  # synthetic data only
+    last_match: Mapped[dict | None] = mapped_column(JsonType, nullable=True)  # latest mapping engine output
     status: Mapped[str] = mapped_column(String(30), default="REGISTERED", index=True)
 
     experiences: Mapped[list["WorkerExperience"]] = relationship(

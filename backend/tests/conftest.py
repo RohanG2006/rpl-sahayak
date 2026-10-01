@@ -55,3 +55,18 @@ def assessor_headers(client):
 @pytest.fixture
 def admin_headers(client):
     return login(client, "admin@demo.rpl")
+
+
+def make_worker(client, *, skills, occupation="Electrician", years=6, age=29, education="10th", sci=True, tasks=(), mobile=None):
+    """Create a worker via the public API and confirm a skill list. Returns (worker_id, headers)."""
+    import uuid
+    body = {"full_name": "Fixture Worker", "mobile": mobile or "9" + str(uuid.uuid4().int)[:9], "pin": "4321",
+            "age": age, "state": "Bihar", "district": "Patna", "occupation": occupation, "years_experience": years,
+            "education_level": education, "has_science_maths": sci}
+    r = client.post("/api/v1/workers", json=body)
+    assert r.status_code == 201, r.text
+    wid, h = r.json()["worker"]["id"], {"Authorization": f"Bearer {r.json()['access_token']}"}
+    assert client.post(f"/api/v1/workers/{wid}/experience", headers=h, json={"raw_text": "Declaration for fixture: " + ", ".join(skills)}).status_code == 201
+    items = [{"kind": "skill", "label": s} for s in skills] + [{"kind": "task", "label": t} for t in tasks]
+    assert client.put(f"/api/v1/workers/{wid}/skills", headers=h, json={"skills": items}).status_code == 200
+    return wid, h
