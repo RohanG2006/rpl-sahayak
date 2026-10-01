@@ -1,0 +1,66 @@
+# OFFICIAL SOURCE DATA — NOS codes per learning outcome, QF DGT/1001 (NQR). source_column distinguishes the two QF tables.
+qualification_code,lo_number,lo_title,nos_code,source_column,nos_mismatch
+DGT/1001,1,Prepare profile with an appropriate accuracy as per drawing.,PSS/N2001,summary_table_s20,False
+DGT/1001,1,Prepare profile with an appropriate accuracy as per drawing.,PSS/N2001,lo_assessment_table,False
+DGT/1001,2,"Prepare electrical wire joints, carry out soldering, crimping and measure insulation resistance of underground cable.",PSS/N0108,summary_table_s20,False
+DGT/1001,2,"Prepare electrical wire joints, carry out soldering, crimping and measure insulation resistance of underground cable.",PSS/N0108,lo_assessment_table,False
+DGT/1001,3,Verify characteristics of electrical and magnetic circuits.,PSS/N6001,summary_table_s20,False
+DGT/1001,3,Verify characteristics of electrical and magnetic circuits.,PSS/N6003,summary_table_s20,False
+DGT/1001,3,Verify characteristics of electrical and magnetic circuits.,PSS/N6001,lo_assessment_table,False
+DGT/1001,3,Verify characteristics of electrical and magnetic circuits.,PSS/N6003,lo_assessment_table,False
+DGT/1001,4,"Install, test and maintenance of batteries and solar cell.",PSS/N6001,summary_table_s20,False
+DGT/1001,4,"Install, test and maintenance of batteries and solar cell.",PSS/N6001,lo_assessment_table,False
+DGT/1001,5,"Estimate, Assemble, install and test wiring system.",PSS/N6001,summary_table_s20,False
+DGT/1001,5,"Estimate, Assemble, install and test wiring system.",PSS/N6001,lo_assessment_table,False
+DGT/1001,6,Plan and prepare Earthing installation.,PSS/N6002,summary_table_s20,False
+DGT/1001,6,Plan and prepare Earthing installation.,PSS/N6002,lo_assessment_table,False
+DGT/1001,7,Plan and execute electrical illumination system and test.,PSS/N9403,summary_table_s20,True
+DGT/1001,7,Plan and execute electrical illumination system and test.,N/A,lo_assessment_table,True
+DGT/1001,8,Select and perform measurements using analog / digital instruments and install/ diagnose smart meters.,PSS/N1707,summary_table_s20,False
+DGT/1001,8,Select and perform measurements using analog / digital instruments and install/ diagnose smart meters.,PSS/N1707,lo_assessment_table,False
+DGT/1001,9,"Perform testing, verify errors and calibrate instruments.",PSS/N9404,summary_table_s20,True
+DGT/1001,9,"Perform testing, verify errors and calibrate instruments.",N/A,lo_assessment_table,True
+DGT/1001,10,"Plan and carry out installation, fault detection and repairing of domestic appliances.",PSS/N6003,summary_table_s20,False
+DGT/1001,10,"Plan and carry out installation, fault detection and repairing of domestic appliances.",PSS/N6003,lo_assessment_table,False
+DGT/1001,11,"Execute testing, evaluate performance and maintenance of transformer.",PSS/N2406,summary_table_s20,False
+DGT/1001,11,"Execute testing, evaluate performance and maintenance of transformer.",PSS/N2407,summary_table_s20,False
+DGT/1001,11,"Execute testing, evaluate performance and maintenance of transformer.",PSS/N2406,lo_assessment_table,False
+DGT/1001,11,"Execute testing, evaluate performance and maintenance of transformer.",PSS/N2407,lo_assessment_table,False
+DGT/1001,12,Read and apply engineering drawing for different application in the field of work.,PSS/N9401,summary_table_s20,True
+DGT/1001,12,Read and apply engineering drawing for different application in the field of work.,(none listed),lo_assessment_table,True
+DGT/1001,13,Demonstrate basic mathematical concept and principles to perform practical operations. Understand and explain basic science in the field of study.,PSS/N9402,summary_table_s20,True
+DGT/1001,13,Demonstrate basic mathematical concept and principles to perform practical operations. Understand and explain basic science in the field of study.,(none listed),lo_assessment_table,True
+DGT/1001,14,"Plan, execute commissioning and evaluate performance of DC machines.",PSS/N4402,summary_table_s20,False
+DGT/1001,14,"Plan, execute commissioning and evaluate performance of DC machines.",PSS/N4402,lo_assessment_table,False
+DGT/1001,15,"Execute testing, and maintenance of DC machines and motor starters.",PSS/N4402,summary_table_s20,False
+DGT/1001,15,"Execute testing, and maintenance of DC machines and motor starters.",PSS/N4402,lo_assessment_table,False
+DGT/1001,16,"Plan, execute commissioning and evaluate performance of AC motors.",PSS/N1709,summary_table_s20,False
+DGT/1001,16,"Plan, execute commissioning and evaluate performance of AC motors.",PSS/N1709,lo_assessment_table,False
+DGT/1001,17,"Execute testing, and maintenance of AC motors and starters.",PSS/N1709,summary_table_s20,False
+DGT/1001,17,"Execute testing, and maintenance of AC motors and starters.",PSS/N1709,lo_assessment_table,False
+DGT/1001,18,"Plan, execute testing, evaluate performance and carry out maintenance of Alternator / MG set.",PSS/N9405,summary_table_s20,True
+DGT/1001,18,"Plan, execute testing, evaluate performance and carry out maintenance of Alternator / MG set.",N/A,lo_assessment_table,True
+DGT/1001,19,Execute parallel operation of alternators.,PSS/N9405,summary_table_s20,True
+DGT/1001,19,Execute parallel operation of alternators.,N/A,lo_assessment_table,True
+DGT/1001,20,"Distinguish, organise and perform motor winding.",PSS/N4402,summary_table_s20,False
+DGT/1001,20,"Distinguish, organise and perform motor winding.",PSS/N4402,lo_assessment_table,False
+DGT/1001,21,Assemble simple electronic circuits and test for functioning.,PSS/N9406,summary_table_s20,True
+DGT/1001,21,Assemble simple electronic circuits and test for functioning.,N/A,lo_assessment_table,True
+DGT/1001,22,Assemble accessories and carry out wiring of control cabinets and equipment.,PSS/N9407,summary_table_s20,True
+DGT/1001,22,Assemble accessories and carry out wiring of control cabinets and equipment.,N/A,lo_assessment_table,True
+DGT/1001,23,Perform speed control of AC and DC motors by using solid state devices.,PSS/N9408,summary_table_s20,True
+DGT/1001,23,Perform speed control of AC and DC motors by using solid state devices.,N/A,lo_assessment_table,True
+DGT/1001,24,"Detect the faults and troubleshoot inverter, stabilizer, battery charger, emergency light and UPS etc.",PSS/N6002,summary_table_s20,False
+DGT/1001,24,"Detect the faults and troubleshoot inverter, stabilizer, battery charger, emergency light and UPS etc.",PSS/N6002,lo_assessment_table,False
+DGT/1001,25,"Plan, assemble and install solar panel.",PSS/N9409,summary_table_s20,True
+DGT/1001,25,"Plan, assemble and install solar panel.",N/A,lo_assessment_table,True
+DGT/1001,26,Erect overhead domestic service line and outline various power plant layout and explain smart distribution grid and its components.,PSS/N0106,summary_table_s20,False
+DGT/1001,26,Erect overhead domestic service line and outline various power plant layout and explain smart distribution grid and its components.,PSS/N0106,lo_assessment_table,False
+DGT/1001,27,Examine the faults and carry out repairing of circuit breakers.,PSS/N7001,summary_table_s20,False
+DGT/1001,27,Examine the faults and carry out repairing of circuit breakers.,PSS/N7001,lo_assessment_table,False
+DGT/1001,28,Install and troubleshoot Electric Vehicle charging stations.,PSS/N9410,summary_table_s20,True
+DGT/1001,28,Install and troubleshoot Electric Vehicle charging stations.,N/A,lo_assessment_table,True
+DGT/1001,29,Read and apply engineering drawing for different application in the field of work.,PSS/N9401,summary_table_s20,True
+DGT/1001,29,Read and apply engineering drawing for different application in the field of work.,(none listed),lo_assessment_table,True
+DGT/1001,30,Demonstrate basic mathematical concept and principles to perform practical operations. Understand and explain basic science in the field of study.,PSS/N9402,summary_table_s20,True
+DGT/1001,30,Demonstrate basic mathematical concept and principles to perform practical operations. Understand and explain basic science in the field of study.,(none listed),lo_assessment_table,True

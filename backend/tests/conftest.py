@@ -15,6 +15,7 @@ from app.db.base import Base  # noqa: E402
 from app.db.session import SessionLocal, engine  # noqa: E402
 from app.main import app  # noqa: E402
 from app.seed.base import DEMO_PASSWORD, seed_roles_and_staff  # noqa: E402
+from app.seed.official import load_qualifications, load_task_banks  # noqa: E402
 
 
 @pytest.fixture(scope="session", autouse=True)
@@ -23,6 +24,8 @@ def _schema():
     Base.metadata.create_all(engine)
     with SessionLocal() as db:
         seed_roles_and_staff(db)
+        load_qualifications(db)
+        load_task_banks(db)
         db.commit()
     yield
 

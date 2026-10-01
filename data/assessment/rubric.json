@@ -1,0 +1,33 @@
+{
+  "_label": "PROJECT-AUTHORED REFERENCE DATA — standardised scoring rubric. Scale wording from the project specification; dimension list and weightages from QF ELECTRICIAN (DGT/1001) §24 'Formative Assessment Breakup'. Thresholds cite their sources.",
+  "version": "prototype-v1",
+  "scale": {
+    "0": {"label": "Not demonstrated", "label_hi": "नहीं दिखाया", "guidance": "Candidate did not attempt, or the outcome is absent/unsafe."},
+    "1": {"label": "Requires substantial assistance", "label_hi": "काफ़ी मदद चाहिए", "guidance": "Completed only with step-by-step help from the assessor."},
+    "2": {"label": "Partially demonstrated", "label_hi": "आंशिक रूप से", "guidance": "Some parts correct; a significant error or omission remains."},
+    "3": {"label": "Competent with minor issues", "label_hi": "सक्षम, छोटी कमियाँ", "guidance": "Meets the criterion; minor issue that does not affect safety or function."},
+    "4": {"label": "Competent independently", "label_hi": "पूरी तरह सक्षम", "guidance": "Meets the criterion fully and independently."}
+  },
+  "rules": {
+    "criterion_anchors_take_precedence": "Where a criterion has its own anchors (data/assessment/electrician_tasks.json), score against those; the generic scale is the fallback.",
+    "evidence_before_score": "A final score may be recorded without uploaded evidence only if the assessor writes an observation note.",
+    "ai_is_advisory": "AI-suggested scores are stored separately (ai_suggested_score) and never used in calculations. Only assessor-confirmed final_score counts."
+  },
+  "formative_dimensions_official": [
+    {"key": "safety", "label": "Safety consciousness", "weight_pct": 15},
+    {"key": "hygiene", "label": "Workplace hygiene", "weight_pct": 5},
+    {"key": "attendance", "label": "Attendance/ Punctuality", "weight_pct": 10, "used_in_rpl_prototype": false, "reason": "Not observable in a single RPL practical sitting"},
+    {"key": "manuals", "label": "Ability to follow Manuals/ Written instructions", "weight_pct": 5},
+    {"key": "knowledge", "label": "Application of Knowledge", "weight_pct": 10},
+    {"key": "tools", "label": "Skills to handle tools / equipment/ Instruments/ Devices", "weight_pct": 10},
+    {"key": "materials", "label": "Economical use of materials", "weight_pct": 5},
+    {"key": "strategy", "label": "Working Strategy", "weight_pct": 10},
+    {"key": "quality", "label": "Quality in workmanship/ Performance", "weight_pct": 15},
+    {"key": "viva", "label": "VIVA", "weight_pct": 15}
+  ],
+  "thresholds": {
+    "competency_required_pct": {"value": 60, "source": "QF DGT/1001 §23: minimum pass percent for Trade Practical and Formative assessment is 60%. Used here as the prototype competency threshold per competency area."},
+    "lo_coverage_required": {"value": 0.70, "source": "NCVET RPL Guidelines (Gazette 19 Jun 2024) §6.2(c): assessor ensures applicant has met more than 70% of all the declared learning outcomes for direct RPL assessments."},
+    "safety_gate_max_score": {"value": 1, "source": "Project design rule (not an official requirement): any safety-critical criterion scored 0 or 1 blocks an 'Eligible' recommendation. Rationale: QF §25 notes errors in these outcomes 'could cause fatal accidents'."}
+  }
+}

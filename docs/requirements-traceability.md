@@ -48,7 +48,7 @@ Legend: ⬜ not started · 🟨 in progress · ✅ verified · 🧪 simulated (d
 | R20 | Security & privacy | JWT, bcrypt, RBAC, upload validation, rate limit, no keys client-side, PII-redacted logs | — | `core/security.py` | `users` | `test_security.py` | — | ⬜ |
 | R21 | AI provider abstraction + validation + fallback | AIService, providers, prompts, retry/fallback | — | `app/ai/*`, `/prompts` | `ai_observations` | `test_ai_service.py` (mock, malformed, fallback) | 3, 8 | ⬜ |
 | R22 | Demo mode (Raj Kumar) | One-click scenario | `/` & header "DEMO MODE" | `POST /demo/load` | seeded rows (🧪) | `test_demo.py` | all | ⬜ |
-| R23 | Dataset provenance & labelling | dataset docs, source metadata, `data_origin` column | `/about`, admin qualification page | — | `qualification_sources`, `data_origin` | `test_data_labels.py` (every synthetic row labelled) | — | ⬜ |
+| R23 | Dataset provenance & labelling | dataset docs, source metadata, `data_origin` column | `/about`, admin qualification page | — | `qualification_sources`, `data_origin` | `test_data_labels.py` (every synthetic row labelled) | — | 🟨 |
 | R24 | Graceful error states | AI unavailable, offline, upload/sync failed, invalid evidence, malformed AI, unauthorised, expired session | global error boundary + toasts | exception handlers (no stack traces) | — | `test_errors.py` | — | ⬜ |
 
 ## D. Five-minute demo script ↔ steps

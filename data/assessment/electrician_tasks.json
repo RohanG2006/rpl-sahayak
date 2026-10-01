@@ -1,0 +1,440 @@
+{
+  "_label": "PROJECT-AUTHORED REFERENCE DATA — prototype practical-task bank derived from the official learning outcomes and assessment criteria of QF ELECTRICIAN (DGT/1001, NSQF 4). The quoted qf_criterion_ref strings are verbatim from the QF; task design, steps, weights and score anchors are project design decisions, not official requirements.",
+  "trade_code": "ELECTRICIAN",
+  "qualification_code": "DGT/1001",
+  "version": "prototype-v1",
+  "scoring_scale": {
+    "0": "Not demonstrated",
+    "1": "Requires substantial assistance",
+    "2": "Partially demonstrated",
+    "3": "Competent with minor issues",
+    "4": "Competent independently"
+  },
+  "competencies": {
+    "components_tools": {"label": "Tools & Components", "label_hi": "औज़ार और पुर्ज़े"},
+    "safety": {"label": "Electrical Safety", "label_hi": "बिजली सुरक्षा"},
+    "joints": {"label": "Joints & Terminations", "label_hi": "जोड़ और टर्मिनेशन"},
+    "wiring": {"label": "Technical Wiring", "label_hi": "वायरिंग"},
+    "testing": {"label": "Testing & Measurement", "label_hi": "जाँच और माप"},
+    "fault_diagnosis": {"label": "Fault Diagnosis", "label_hi": "खराबी ढूँढना"},
+    "protection": {"label": "Circuit Protection", "label_hi": "सर्किट सुरक्षा (MCB/फ्यूज़)"},
+    "drawing": {"label": "Drawing Interpretation", "label_hi": "डायग्राम पढ़ना"}
+  },
+  "tasks": [
+    {
+      "task_id": "T01",
+      "title": "Identify trade tools, wires and electrical components",
+      "title_hi": "औज़ार, तार और पुर्ज़े पहचानें",
+      "description": "From a tray of common tools, wires and accessories, name each item, say what it is used for, and check tools for damage before use.",
+      "description_hi": "ट्रे में रखे औज़ार, तार और पुर्ज़ों का नाम बताएं, उनका काम बताएं, और इस्तेमाल से पहले औज़ार की जाँच करें।",
+      "competency_id": "components_tools",
+      "lo_numbers": [1, 3],
+      "weight": 1.0,
+      "steps": [
+        {"en": "Pick up each tool and say its name and use.", "hi": "हर औज़ार उठाकर उसका नाम और काम बताएं।"},
+        {"en": "Sort the wires by size and type; read the marking on one cable.", "hi": "तारों को साइज़ और प्रकार से अलग करें; एक केबल पर लिखी जानकारी पढ़ें।"},
+        {"en": "Check the screwdriver and plier insulation for cracks.", "hi": "पेचकस और प्लायर की इंसुलेशन में दरार जाँचें।"}
+      ],
+      "evidence_required": [
+        {"kind": "image", "what": "Tools and components laid out and labelled by the candidate", "criterion": "C01.1"},
+        {"kind": "image", "what": "Cable marking / wire gauge being read", "criterion": "C01.2"}
+      ],
+      "safety_requirements": ["Damaged or un-insulated tools must be set aside, not used"],
+      "source_ref": {"qualification_code": "DGT/1001", "lo_numbers": [1, 3], "nos_codes": ["PSS/N2001", "PSS/N6001", "PSS/N6003"]},
+      "criteria": [
+        {
+          "criterion_id": "C01.1",
+          "text": "Names common trade tools and states their correct use",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "tools",
+          "qf_criterion_ref": "LO1: Identify the trade tools; demonstrate their uses with safety, care & maintenance.",
+          "anchors": {"0": "Cannot name tools", "1": "Names fewer than half; needs prompting", "2": "Names most but confuses uses of 2 or more", "3": "Names all, one minor confusion of use", "4": "Names all and explains use and care without prompting"},
+          "evidence_hint": "Photo of labelled tool layout"
+        },
+        {
+          "criterion_id": "C01.2",
+          "text": "Identifies wire and cable types and reads their specification",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "knowledge",
+          "qf_criterion_ref": "LO3: Identify types of wires, cables and verify their specifications.",
+          "anchors": {"0": "Cannot distinguish wire types", "1": "Distinguishes only by colour; cannot read size", "2": "Identifies type but misreads size/rating", "3": "Correct type and size, hesitant on rating/application", "4": "Correct type, size, rating and suitable application"},
+          "evidence_hint": "Photo of cable marking"
+        },
+        {
+          "criterion_id": "C01.3",
+          "text": "Inspects tools for damaged insulation before use and rejects unsafe tools",
+          "weight": 1.0, "is_safety_critical": true, "qf_dimension": "safety",
+          "qf_criterion_ref": "LO1: Identify the trade tools; demonstrate their uses with safety, care & maintenance.",
+          "anchors": {"0": "Uses a damaged tool", "1": "Inspects only when told; misses the damaged tool", "2": "Inspects but does not set damaged tool aside", "3": "Finds and rejects damaged tool after a prompt", "4": "Inspects unprompted and rejects the damaged tool"},
+          "evidence_hint": "Observation note / photo of rejected tool"
+        }
+      ]
+    },
+    {
+      "task_id": "T02",
+      "title": "Safety preparation and supply isolation",
+      "title_hi": "सुरक्षा तैयारी और सप्लाई बंद करना",
+      "description": "Prepare to work on a live installation: wear protective equipment, switch off and isolate the supply, and prove it is dead before touching conductors.",
+      "description_hi": "काम शुरू करने से पहले सुरक्षा उपकरण पहनें, मेन सप्लाई बंद करें, और तार छूने से पहले टेस्टर से जाँच लें कि करंट नहीं है।",
+      "competency_id": "safety",
+      "lo_numbers": [5],
+      "weight": 1.5,
+      "steps": [
+        {"en": "Put on insulated gloves and safety shoes.", "hi": "इंसुलेटेड दस्ताने और सेफ्टी जूते पहनें।"},
+        {"en": "Switch off the main switch / MCB and put a warning tag.", "hi": "मेन स्विच / MCB बंद करें और चेतावनी टैग लगाएं।"},
+        {"en": "Test with a tester on a known live point, then on the circuit, then again on the live point.", "hi": "टेस्टर को पहले चालू पॉइंट पर, फिर सर्किट पर, फिर दोबारा चालू पॉइंट पर जाँचें।"},
+        {"en": "Keep the work area clean and dry.", "hi": "काम की जगह साफ़ और सूखी रखें।"}
+      ],
+      "evidence_required": [
+        {"kind": "image", "what": "Candidate wearing PPE at the work point", "criterion": "C02.1"},
+        {"kind": "image", "what": "Isolated MCB/main switch with tag", "criterion": "C02.2"},
+        {"kind": "video", "what": "Short clip of prove-dead test (optional)", "criterion": "C02.2"}
+      ],
+      "safety_requirements": ["No work on conductors before prove-dead test", "PPE on throughout"],
+      "source_ref": {"qualification_code": "DGT/1001", "lo_numbers": [5], "nos_codes": ["PSS/N6001"], "formative_dimension": "Safety consciousness (15%)"},
+      "criteria": [
+        {
+          "criterion_id": "C02.1",
+          "text": "Selects and wears appropriate PPE for the task",
+          "weight": 1.0, "is_safety_critical": true, "qf_dimension": "safety",
+          "qf_criterion_ref": "LO5: Comply with safety & IE rules when performing the wiring.",
+          "anchors": {"0": "No PPE", "1": "PPE worn only after instruction, incomplete", "2": "Some PPE worn unprompted, item missing", "3": "Full PPE, worn correctly after a reminder on one item", "4": "Full, correct PPE unprompted throughout"},
+          "evidence_hint": "Photo showing gloves/footwear at work point"
+        },
+        {
+          "criterion_id": "C02.2",
+          "text": "Isolates the supply and proves dead before touching conductors",
+          "weight": 2.0, "is_safety_critical": true, "qf_dimension": "safety",
+          "qf_criterion_ref": "LO5: Comply with safety & IE rules when performing the wiring.",
+          "anchors": {"0": "Touches conductors without isolating", "1": "Isolates only when told; no prove-dead test", "2": "Isolates but tests only the circuit (tester not proven)", "3": "Isolates and proves dead; omits tag or second check", "4": "Isolates, tags, proves tester-circuit-tester before work"},
+          "evidence_hint": "Photo of tagged isolator; optional video of test"
+        },
+        {
+          "criterion_id": "C02.3",
+          "text": "Keeps work area clean, dry and tools organised",
+          "weight": 0.5, "is_safety_critical": false, "qf_dimension": "hygiene",
+          "qf_criterion_ref": "QF §24 formative dimension: Workplace hygiene (5%)",
+          "anchors": {"0": "Hazardous clutter/wet area", "1": "Cluttered; tidies only when told", "2": "Mostly tidy; offcuts left on floor", "3": "Tidy with minor lapse", "4": "Clean, dry, tools returned and offcuts cleared"},
+          "evidence_hint": "Photo of work area"
+        }
+      ]
+    },
+    {
+      "task_id": "T03",
+      "title": "Wire joints, crimping and soldering",
+      "title_hi": "तार जोड़ना, क्रिम्पिंग और सोल्डरिंग",
+      "description": "Make a straight twist joint and a rat-tail joint, terminate a cable lug with a crimping tool, and solder one joint safely.",
+      "description_hi": "सीधा ट्विस्ट जोड़ और रैट-टेल जोड़ बनाएं, क्रिम्पिंग टूल से केबल लग लगाएं, और एक जोड़ को सुरक्षित तरीके से सोल्डर करें।",
+      "competency_id": "joints",
+      "lo_numbers": [2],
+      "weight": 1.0,
+      "steps": [
+        {"en": "Strip insulation to the right length without nicking the copper.", "hi": "कॉपर को काटे बिना सही लंबाई तक इंसुलेशन छीलें।"},
+        {"en": "Make the straight twist and rat-tail joints.", "hi": "सीधा ट्विस्ट और रैट-टेल जोड़ बनाएं।"},
+        {"en": "Crimp a lug on the cable end and pull-test it.", "hi": "केबल के सिरे पर लग क्रिम्प करें और खींचकर जाँचें।"},
+        {"en": "Solder one joint and insulate it.", "hi": "एक जोड़ सोल्डर करें और उस पर इंसुलेशन लगाएं।"}
+      ],
+      "evidence_required": [
+        {"kind": "image", "what": "Close-up of finished joints", "criterion": "C03.1"},
+        {"kind": "image", "what": "Crimped lug", "criterion": "C03.2"}
+      ],
+      "safety_requirements": ["Soldering iron on stand when not in use", "Eye protection while cutting wire"],
+      "source_ref": {"qualification_code": "DGT/1001", "lo_numbers": [2], "nos_codes": ["PSS/N0108"]},
+      "criteria": [
+        {
+          "criterion_id": "C03.1",
+          "text": "Makes straight twist and rat-tail joints that are tight and correctly formed",
+          "weight": 1.5, "is_safety_critical": false, "qf_dimension": "quality",
+          "qf_criterion_ref": "LO2: Make simple straight twist and rat-tail joints in single strand conductors.",
+          "anchors": {"0": "Joint not attempted / falls apart", "1": "Loose joint, needs re-doing with help", "2": "One joint acceptable, one loose or nicked", "3": "Both tight; minor unevenness of turns", "4": "Both tight, even turns, no nicked copper"},
+          "evidence_hint": "Close-up photo"
+        },
+        {
+          "criterion_id": "C03.2",
+          "text": "Terminates a cable lug using a crimping tool; termination passes pull test",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "tools",
+          "qf_criterion_ref": "LO2: Prepare termination of cable lugs by using crimping tool.",
+          "anchors": {"0": "Cannot use crimping tool", "1": "Wrong die/lug size; needs guidance", "2": "Crimped but strands outside barrel or fails pull test", "3": "Passes pull test; minor strand protrusion", "4": "Correct lug and die, clean crimp, passes pull test"},
+          "evidence_hint": "Photo of crimped lug"
+        },
+        {
+          "criterion_id": "C03.3",
+          "text": "Observes precautions while jointing and soldering",
+          "weight": 1.0, "is_safety_critical": true, "qf_dimension": "safety",
+          "qf_criterion_ref": "LO2: Observe safety/ precaution during joints & soldering.",
+          "anchors": {"0": "Unsafe handling of hot iron/blade", "1": "Repeated unsafe acts corrected by assessor", "2": "One unsafe act (e.g. iron left off stand)", "3": "Safe throughout after one reminder", "4": "Safe throughout unprompted"},
+          "evidence_hint": "Observation note"
+        }
+      ]
+    },
+    {
+      "task_id": "T04",
+      "title": "Wire a switch, socket and lamp circuit on a test board",
+      "title_hi": "टेस्ट बोर्ड पर स्विच, सॉकेट और बल्ब की वायरिंग",
+      "description": "Plan and wire a board with one switch-controlled lamp and one 6A socket in PVC channel, then test it.",
+      "description_hi": "PVC चैनल में एक स्विच से चलने वाला बल्ब और एक 6A सॉकेट वाला बोर्ड बनाएं, फिर उसकी जाँच करें।",
+      "competency_id": "wiring",
+      "lo_numbers": [1, 5],
+      "weight": 1.5,
+      "steps": [
+        {"en": "Mark the layout and list the material you need.", "hi": "लेआउट बनाएं और ज़रूरी सामान की सूची बनाएं।"},
+        {"en": "Fix channel and accessories; run phase, neutral and earth.", "hi": "चैनल और एक्सेसरीज़ लगाएं; फेज़, न्यूट्रल और अर्थ तार चलाएं।"},
+        {"en": "Connect: switch in phase, socket with earth.", "hi": "जोड़ें: स्विच फेज़ में, सॉकेट में अर्थ।"},
+        {"en": "Check with a tester before switching on; then test lamp and socket.", "hi": "चालू करने से पहले टेस्टर से जाँचें; फिर बल्ब और सॉकेट चलाकर देखें।"}
+      ],
+      "evidence_required": [
+        {"kind": "image", "what": "Finished board, front", "criterion": "C04.3"},
+        {"kind": "image", "what": "Open switch/socket showing terminations", "criterion": "C04.2"},
+        {"kind": "document", "what": "Material list / estimate (photo of paper is fine)", "criterion": "C04.1"}
+      ],
+      "safety_requirements": ["Switch must break the phase conductor", "Socket earth terminal connected", "Board energised only after assessor permission"],
+      "source_ref": {"qualification_code": "DGT/1001", "lo_numbers": [1, 5], "nos_codes": ["PSS/N2001", "PSS/N6001"]},
+      "criteria": [
+        {
+          "criterion_id": "C04.1",
+          "text": "Plans the layout and estimates material correctly",
+          "weight": 0.75, "is_safety_critical": false, "qf_dimension": "materials",
+          "qf_criterion_ref": "LO5: Estimate the cost of material for wiring in PVC channel for an office room having 2 lamps, 1 Fan, one 6A socket outlet and wire up.",
+          "anchors": {"0": "No plan", "1": "Plan only with assistance; large omissions", "2": "Plan with 2+ items missing or wrong quantity", "3": "Plan complete, one quantity off", "4": "Complete layout and accurate material list"},
+          "evidence_hint": "Photo of material list"
+        },
+        {
+          "criterion_id": "C04.2",
+          "text": "Connects correctly: switch in phase, neutral direct to load, socket earthed",
+          "weight": 2.0, "is_safety_critical": true, "qf_dimension": "quality",
+          "qf_criterion_ref": "LO1: Make and wire up of a test board and test it.",
+          "anchors": {"0": "Circuit unsafe (switch in neutral or no earth)", "1": "Wrong connections corrected only with step-by-step help", "2": "Works but one non-safety error (e.g. polarity at lamp holder)", "3": "All safety connections correct; minor termination issue", "4": "All connections correct and verified by candidate"},
+          "evidence_hint": "Photo of open switch and socket terminals"
+        },
+        {
+          "criterion_id": "C04.3",
+          "text": "Neat workmanship: secure terminations, no exposed copper, channel fixed straight",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "quality",
+          "qf_criterion_ref": "LO1: Demonstrate fixing of surface mounting type of accessories.",
+          "anchors": {"0": "Loose accessories, exposed copper", "1": "Several loose terminations", "2": "Functional but untidy; some copper exposed", "3": "Neat with one minor defect", "4": "Neat, straight, all terminations tight and covered"},
+          "evidence_hint": "Front photo of board"
+        },
+        {
+          "criterion_id": "C04.4",
+          "text": "Tests the circuit before and after energising",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "knowledge",
+          "qf_criterion_ref": "LO1: Make and wire up of a test board and test it.",
+          "anchors": {"0": "Energises without any test", "1": "Tests only when told", "2": "Functional test only, no pre-energise check", "3": "Pre- and post-checks with one omission", "4": "Continuity/polarity check before, functional test after"},
+          "evidence_hint": "Observation / video"
+        }
+      ]
+    },
+    {
+      "task_id": "T05",
+      "title": "Measurement and continuity testing with a multimeter",
+      "title_hi": "मल्टीमीटर से माप और कंटिन्युटी जाँच",
+      "description": "Use a digital multimeter to check continuity of a cable, measure a resistance, and measure supply voltage safely; record the readings.",
+      "description_hi": "डिजिटल मल्टीमीटर से केबल की कंटिन्युटी, रेज़िस्टेंस और सप्लाई वोल्टेज सुरक्षित तरीके से मापें और रीडिंग लिखें।",
+      "competency_id": "testing",
+      "lo_numbers": [8, 17],
+      "weight": 1.25,
+      "steps": [
+        {"en": "Choose the right setting on the meter for each test.", "hi": "हर जाँच के लिए मीटर पर सही सेटिंग चुनें।"},
+        {"en": "Check continuity of the given cable cores.", "hi": "दिए गए केबल के तारों की कंटिन्युटी जाँचें।"},
+        {"en": "Measure the supply voltage holding probes safely.", "hi": "प्रोब सुरक्षित पकड़कर सप्लाई वोल्टेज मापें।"},
+        {"en": "Write down every reading with its unit.", "hi": "हर रीडिंग यूनिट के साथ लिखें।"}
+      ],
+      "evidence_required": [
+        {"kind": "image", "what": "Meter display during continuity test", "criterion": "C05.2"},
+        {"kind": "image", "what": "Reading sheet", "criterion": "C05.4"}
+      ],
+      "safety_requirements": ["Meter set to voltage before probing live terminals", "Fingers behind probe guards"],
+      "source_ref": {"qualification_code": "DGT/1001", "lo_numbers": [8, 17], "nos_codes": ["PSS/N1707", "PSS/N1709"]},
+      "criteria": [
+        {
+          "criterion_id": "C05.1",
+          "text": "Selects the correct function and range on the multimeter",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "tools",
+          "qf_criterion_ref": "LO8: Measure the value of resistance, voltage and current using digital multimeter.",
+          "anchors": {"0": "Cannot set meter", "1": "Sets meter only with step-by-step help", "2": "Correct for 1 of 3 measurements", "3": "Correct for all after one self-correction", "4": "Correct function and range first time for all"},
+          "evidence_hint": "Photo of meter dial"
+        },
+        {
+          "criterion_id": "C05.2",
+          "text": "Performs continuity test and correctly interprets open/short result",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "knowledge",
+          "qf_criterion_ref": "LO17: Test continuity and insulation of various AC motors.",
+          "anchors": {"0": "Cannot perform test", "1": "Performs test but cannot interpret", "2": "Interprets one core correctly, misses open core", "3": "All cores correct, hesitant explanation", "4": "All cores correct with clear explanation of open/short"},
+          "evidence_hint": "Photo of meter reading"
+        },
+        {
+          "criterion_id": "C05.3",
+          "text": "Measures live voltage safely (correct setting before probing, fingers behind guards)",
+          "weight": 1.5, "is_safety_critical": true, "qf_dimension": "safety",
+          "qf_criterion_ref": "LO8: Measure the value of resistance, voltage and current using digital multimeter.",
+          "anchors": {"0": "Probes live terminal on resistance/current range", "1": "Unsafe grip corrected by assessor", "2": "Safe setting but poor probe handling", "3": "Safe with one reminder", "4": "Safe setting and handling throughout"},
+          "evidence_hint": "Observation / video"
+        },
+        {
+          "criterion_id": "C05.4",
+          "text": "Records readings with correct units",
+          "weight": 0.5, "is_safety_critical": false, "qf_dimension": "manuals",
+          "qf_criterion_ref": "QF §24 formative dimension: Ability to follow Manuals/ Written instructions (5%)",
+          "anchors": {"0": "No record", "1": "Record incomplete and unitless", "2": "Readings recorded, units missing", "3": "Complete with one unit error", "4": "Complete and correct"},
+          "evidence_hint": "Photo of reading sheet"
+        }
+      ]
+    },
+    {
+      "task_id": "T06",
+      "title": "Locate and repair a fault in domestic wiring",
+      "title_hi": "घरेलू वायरिंग में खराबी ढूँढना और ठीक करना",
+      "description": "A fault has been placed in a domestic wiring board (e.g. open neutral or loose switch terminal). Find it systematically, repair it, and re-test.",
+      "description_hi": "घरेलू वायरिंग बोर्ड में एक खराबी डाली गई है (जैसे न्यूट्रल टूटा या स्विच टर्मिनल ढीला)। उसे क्रम से ढूँढें, ठीक करें और दोबारा जाँचें।",
+      "competency_id": "fault_diagnosis",
+      "lo_numbers": [5],
+      "weight": 1.5,
+      "steps": [
+        {"en": "Ask what the problem is and observe the symptom.", "hi": "समस्या पूछें और लक्षण देखें।"},
+        {"en": "Isolate the supply before opening any accessory.", "hi": "कोई भी एक्सेसरी खोलने से पहले सप्लाई बंद करें।"},
+        {"en": "Test section by section from supply to load.", "hi": "सप्लाई से लोड तक हिस्सा-हिस्सा जाँचें।"},
+        {"en": "Repair, re-test and explain the cause.", "hi": "ठीक करें, दोबारा जाँचें और कारण बताएं।"}
+      ],
+      "evidence_required": [
+        {"kind": "image", "what": "Fault location identified (before repair)", "criterion": "C06.2"},
+        {"kind": "image", "what": "Repaired point", "criterion": "C06.3"}
+      ],
+      "safety_requirements": ["Repair only with supply isolated", "Re-test before handing back"],
+      "source_ref": {"qualification_code": "DGT/1001", "lo_numbers": [5], "nos_codes": ["PSS/N6001"]},
+      "criteria": [
+        {
+          "criterion_id": "C06.1",
+          "text": "Follows a systematic diagnosis (symptom, supply to load, half-split)",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "strategy",
+          "qf_criterion_ref": "LO5: Test, locate the fault and repair a domestic wiring installation.",
+          "anchors": {"0": "Random replacement of parts", "1": "Needs assessor to direct each step", "2": "Some logic but skips sections", "3": "Systematic with one redundant step", "4": "Clear systematic sequence, explains reasoning"},
+          "evidence_hint": "Observation note"
+        },
+        {
+          "criterion_id": "C06.2",
+          "text": "Correctly locates the placed fault",
+          "weight": 1.5, "is_safety_critical": false, "qf_dimension": "knowledge",
+          "qf_criterion_ref": "LO5: Test, locate the fault and repair a domestic wiring installation.",
+          "anchors": {"0": "Fault not found", "1": "Found only with strong hints", "2": "Found the area, not the exact point", "3": "Found exact point after one wrong guess", "4": "Found exact point directly"},
+          "evidence_hint": "Photo of fault point"
+        },
+        {
+          "criterion_id": "C06.3",
+          "text": "Repairs the fault and re-tests before handing back",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "quality",
+          "qf_criterion_ref": "LO5: Test, locate the fault and repair a domestic wiring installation.",
+          "anchors": {"0": "Not repaired", "1": "Repaired with help; not re-tested", "2": "Repaired, functional test only", "3": "Repaired and re-tested; minor finish issue", "4": "Repaired neatly, re-tested, explains cause to customer"},
+          "evidence_hint": "Photo after repair"
+        },
+        {
+          "criterion_id": "C06.4",
+          "text": "Works with supply isolated while repairing",
+          "weight": 1.5, "is_safety_critical": true, "qf_dimension": "safety",
+          "qf_criterion_ref": "LO5: Comply with safety & IE rules when performing the wiring.",
+          "anchors": {"0": "Repairs live", "1": "Isolates only after warning", "2": "Isolates but does not prove dead", "3": "Isolates and proves dead after reminder", "4": "Isolates and proves dead unprompted"},
+          "evidence_hint": "Observation"
+        }
+      ]
+    },
+    {
+      "task_id": "T07",
+      "title": "Circuit protection: fuse, MCB and ELCB/RCCB",
+      "title_hi": "सर्किट सुरक्षा: फ्यूज़, MCB और ELCB/RCCB",
+      "description": "Choose the correct fuse/MCB rating for a given load, install an MCB in a distribution board, and check ELCB/RCCB operation.",
+      "description_hi": "दिए गए लोड के लिए सही फ्यूज़/MCB रेटिंग चुनें, डिस्ट्रीब्यूशन बोर्ड में MCB लगाएं, और ELCB/RCCB की जाँच करें।",
+      "competency_id": "protection",
+      "lo_numbers": [5, 27],
+      "weight": 1.0,
+      "steps": [
+        {"en": "Calculate current for the given load and choose the MCB rating.", "hi": "दिए गए लोड का करंट निकालें और MCB रेटिंग चुनें।"},
+        {"en": "Mount and connect the MCB in the board.", "hi": "बोर्ड में MCB लगाकर जोड़ें।"},
+        {"en": "Press the test button on the ELCB/RCCB and explain what it protects against.", "hi": "ELCB/RCCB का टेस्ट बटन दबाएं और बताएं कि यह किससे बचाता है।"}
+      ],
+      "evidence_required": [
+        {"kind": "image", "what": "Installed MCB in board", "criterion": "C07.2"},
+        {"kind": "document", "what": "Rating calculation", "criterion": "C07.1"}
+      ],
+      "safety_requirements": ["Board isolated while mounting MCB"],
+      "source_ref": {"qualification_code": "DGT/1001", "lo_numbers": [5, 27], "nos_codes": ["PSS/N6001", "PSS/N7001"]},
+      "criteria": [
+        {
+          "criterion_id": "C07.1",
+          "text": "Selects correct fuse/MCB rating for the given load",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "knowledge",
+          "qf_criterion_ref": "LO5: Identify the types of fuses their ratings and applications.",
+          "anchors": {"0": "Cannot select", "1": "Selects with heavy prompting", "2": "Rating off by one step without reason", "3": "Correct rating, calculation slightly wrong", "4": "Correct calculation and rating with justification"},
+          "evidence_hint": "Photo of calculation"
+        },
+        {
+          "criterion_id": "C07.2",
+          "text": "Installs MCB in the distribution board correctly",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "quality",
+          "qf_criterion_ref": "LO5: Identify the parts of a relay, MCB & ELCB and check its operation.",
+          "anchors": {"0": "Not installed", "1": "Installed with step-by-step help", "2": "Installed; loose terminal or wrong busbar side", "3": "Correct; minor finish issue", "4": "Correct, tight, labelled"},
+          "evidence_hint": "Photo of board"
+        },
+        {
+          "criterion_id": "C07.3",
+          "text": "Checks ELCB/RCCB operation and explains earth-leakage protection",
+          "weight": 1.0, "is_safety_critical": true, "qf_dimension": "safety",
+          "qf_criterion_ref": "LO27: Identify parts of circuit breaker and check its operation.",
+          "anchors": {"0": "Does not know purpose", "1": "Knows purpose only when told", "2": "Tests but explanation wrong", "3": "Tests and explains with minor gap", "4": "Tests, explains leakage protection and when to test"},
+          "evidence_hint": "Video/observation"
+        }
+      ]
+    },
+    {
+      "task_id": "T08",
+      "title": "Read a wiring diagram and derive materials",
+      "title_hi": "वायरिंग डायग्राम पढ़ना और सामान निकालना",
+      "description": "Given a domestic wiring diagram (consumer main board with ICDP switch and distribution board), identify the symbols, trace the circuit and list the material required. Short viva.",
+      "description_hi": "घरेलू वायरिंग डायग्राम (ICDP स्विच और डिस्ट्रीब्यूशन बोर्ड वाला मेन बोर्ड) देखकर चिन्ह पहचानें, सर्किट समझाएं और ज़रूरी सामान की सूची बनाएं। छोटा मौखिक प्रश्न।",
+      "competency_id": "drawing",
+      "lo_numbers": [12, 5],
+      "weight": 0.75,
+      "steps": [
+        {"en": "Name each symbol in the diagram.", "hi": "डायग्राम में हर चिन्ह का नाम बताएं।"},
+        {"en": "Trace the path from the meter to a light point.", "hi": "मीटर से लाइट पॉइंट तक का रास्ता बताएं।"},
+        {"en": "Make the material list from the diagram.", "hi": "डायग्राम से सामान की सूची बनाएं।"},
+        {"en": "Answer the assessor's questions about how the circuit works.", "hi": "सर्किट कैसे काम करता है, इस पर पूछे गए सवालों के जवाब दें।"}
+      ],
+      "evidence_required": [
+        {"kind": "document", "what": "Annotated diagram / material list", "criterion": "C08.3"}
+      ],
+      "safety_requirements": [],
+      "source_ref": {"qualification_code": "DGT/1001", "lo_numbers": [12, 5], "nos_codes": ["PSS/N9401", "PSS/N6001"]},
+      "criteria": [
+        {
+          "criterion_id": "C08.1",
+          "text": "Identifies standard electrical symbols in the diagram",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "knowledge",
+          "qf_criterion_ref": "LO12: Read & interpret the information on drawings and apply in executing practical work.",
+          "anchors": {"0": "None identified", "1": "Fewer than half", "2": "Most, confuses switchgear symbols", "3": "All but one", "4": "All symbols correct"},
+          "evidence_hint": "Annotated diagram"
+        },
+        {
+          "criterion_id": "C08.2",
+          "text": "Traces the circuit path and sequence of protective devices",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "strategy",
+          "qf_criterion_ref": "LO5: Draw and wire up the consumers main board with ICDP switch and distribution fuse box.",
+          "anchors": {"0": "Cannot trace", "1": "Traces with guidance", "2": "Traces path, wrong device order", "3": "Correct with hesitation", "4": "Correct path and device sequence, explains why"},
+          "evidence_hint": "Observation"
+        },
+        {
+          "criterion_id": "C08.3",
+          "text": "Derives material requirement from the drawing",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "materials",
+          "qf_criterion_ref": "LO12: Read &analyze the specification to ascertain the material requirement, tools and assembly/maintenance parameters.",
+          "anchors": {"0": "No list", "1": "List with major omissions, guided", "2": "List with 2+ omissions", "3": "List complete, one quantity off", "4": "Complete, correct list"},
+          "evidence_hint": "Photo of material list"
+        },
+        {
+          "criterion_id": "C08.4",
+          "text": "Viva: explains how the circuit works and why protection is placed where it is",
+          "weight": 1.0, "is_safety_critical": false, "qf_dimension": "viva",
+          "qf_criterion_ref": "QF §24 formative dimension: VIVA (15%)",
+          "anchors": {"0": "No answer", "1": "Answers only with leading questions", "2": "Partly correct", "3": "Correct, minor gaps", "4": "Correct and complete in own words"},
+          "evidence_hint": "Audio/notes (optional)"
+        }
+      ]
+    }
+  ]
+}

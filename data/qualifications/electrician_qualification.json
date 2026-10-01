@@ -1,0 +1,1305 @@
+{
+  "_label": "OFFICIAL SOURCE DATA — extracted from NQR Qualification File. Do not edit by hand; re-run scripts/ingest_official_qualifications.py.",
+  "trade_code": "ELECTRICIAN",
+  "is_assessable": true,
+  "title": "ELECTRICIAN",
+  "qualification_code": "DGT/1001",
+  "ncvet_code": "2022/POW/DGT/06309",
+  "nsqf_level": 4,
+  "nco_codes": [
+    {
+      "code": "7411.0100",
+      "title": "Electrician General"
+    },
+    {
+      "code": "7412.0200",
+      "title": "Electrical Fitter"
+    }
+  ],
+  "occupations": [
+    "Electrician General",
+    "Electrical Fitter"
+  ],
+  "nature": "Prepare skilled Technician to undertake the job roles of Electrician and will enable the trainee to install, maintain and repair electrical machineries, equipment and fittings in factories, workshops power houses, businesses and residential premises etc. It is a long term qualification.",
+  "job_description": "Electrician will be able to install, maintain and repair electrical machineries, equipment and fittings in factories, workshops, power houses, businesses and residential premises etc. and the technician generally fits and assembles electrical machineries and equipment such as motors, transformers, generators, switchgears, fans etc.",
+  "awarding_body": "Directorate General of Training (DGT)",
+  "notional_hours": {
+    "year_1": {
+      "professional_skill": 840,
+      "professional_knowledge": 240,
+      "employability_skills": 120,
+      "total": 1200,
+      "ojt_group_project": 150
+    },
+    "year_2": {
+      "professional_skill": 840,
+      "professional_knowledge": 300,
+      "employability_skills": 60,
+      "total": 1200,
+      "ojt_group_project": 150
+    },
+    "total": 2400,
+    "ojt_total": 300
+  },
+  "entry_requirements": "Passed 10th class examination with Science and Mathematics or its equivalent.",
+  "entry_education_rank": 4,
+  "entry_requires_science_maths": true,
+  "min_age_training": 14,
+  "progression": {
+    "professional": [
+      "Technician",
+      "Senior Technician",
+      "Supervisor",
+      "Manager",
+      "Entrepreneur"
+    ],
+    "technical_academic": [
+      "Diploma/ Advance Diploma (Vocational)",
+      "ATS",
+      "CITS"
+    ]
+  },
+  "rpl_available": true,
+  "rpl_notes": "Yes (For more details refer “Guidelines for Private candidate” in DGT website MIS portal).",
+  "rpl_eligibility": {
+    "category_iv_other_candidates": {
+      "min_entry_qualification": true,
+      "min_age": 21,
+      "min_experience_years": 3,
+      "experience_setting": "establishments implementing Apprenticeship Training Scheme (ATS)/ establishments registered under the Apprenticeship portal or registered MSMEs or Entities registered with any government/local authorities / shops covered under Factories Act 1948 and Shops and Establishments Act applicable for the concerned State",
+      "page": 8
+    },
+    "note": "Categories I-III (ITI ex-trainees, CoE trainees, SCVT trainees) also exist; see QF p.7-8. The prototype evaluates Category IV, the category applicable to informally trained workers."
+  },
+  "assessment_scheme": {
+    "assessing_body": "Controller of Examinations, DGT",
+    "marks_per_year": {
+      "practical": 250,
+      "trade_theory": 100,
+      "employability_skills": 50,
+      "formative": 200,
+      "total": 600
+    },
+    "min_pass_pct": {
+      "trade_practical": 60,
+      "formative": 60,
+      "other_subjects": 33
+    },
+    "page": 9
+  },
+  "formative_dimensions": [
+    {
+      "key": "safety",
+      "label": "Safety consciousness",
+      "weight_pct": 15
+    },
+    {
+      "key": "hygiene",
+      "label": "Workplace hygiene",
+      "weight_pct": 5
+    },
+    {
+      "key": "attendance",
+      "label": "Attendance/ Punctuality",
+      "weight_pct": 10
+    },
+    {
+      "key": "manuals",
+      "label": "Ability to follow Manuals/ Written instructions",
+      "weight_pct": 5
+    },
+    {
+      "key": "knowledge",
+      "label": "Application of Knowledge",
+      "weight_pct": 10
+    },
+    {
+      "key": "tools",
+      "label": "Skills to handle tools / equipment/ Instruments/ Devices",
+      "weight_pct": 10
+    },
+    {
+      "key": "materials",
+      "label": "Economical use of materials",
+      "weight_pct": 5
+    },
+    {
+      "key": "strategy",
+      "label": "Working Strategy",
+      "weight_pct": 10
+    },
+    {
+      "key": "quality",
+      "label": "Quality in workmanship/ Performance",
+      "weight_pct": 15
+    },
+    {
+      "key": "viva",
+      "label": "VIVA",
+      "weight_pct": 15
+    }
+  ],
+  "approval_note": "Approved in 22th NSQC Meeting-NCVET-25th August 2022",
+  "review_note": "3 Yrs. from the Date of Approval",
+  "licensing": "NOT REQUIRED",
+  "summary_pages": {
+    "title": 2,
+    "code": 2,
+    "ncvet_code": 1,
+    "nsqf_level": 2,
+    "hours": 3,
+    "entry": 3,
+    "rpl": 3,
+    "components": "4-6",
+    "rpl_eligibility": "7-8",
+    "assessment": "8-10",
+    "lo_table": "11-17",
+    "employability_lo": "18-20"
+  },
+  "not_in_source": [
+    "NOS titles/descriptions",
+    "International comparability",
+    "RPL-specific duration"
+  ],
+  "source": {
+    "source_name": "National Qualification Register (NQR) / NCVET — NSQF Qualification File submitted by DGT, MSDE",
+    "source_url": "https://www.nqr.gov.in/sites/default/files/QF_Electrician_CTS2.0_NSQF-4.pdf",
+    "file": "data/sources/QF_Electrician_CTS2.0_NSQF-4.pdf",
+    "sha256": "7ac84a9b967b710c42da0184afdc7c193fe050064a6648d7e0623b9634fd6db3",
+    "retrieved_at": "2026-10-01T17:35:26Z",
+    "source_type": "official"
+  },
+  "competencies": [
+    {
+      "category": "trade",
+      "lo_number": 1,
+      "year": 1,
+      "title": "Prepare profile with an appropriate accuracy as per drawing.",
+      "summary_title": "Prepare profile with an appropriate accuracy as per drawing following safety precautions.",
+      "assessment_criteria": [
+        "Identify the trade tools; demonstrate their uses with safety, care & maintenance.",
+        "Prepare a simple half lap joint using firmer chisel with safety.",
+        "Prepare tray using sheet metal with the safety.",
+        "Demonstrate fixing of surface mounting type of accessories.",
+        "Perform connections of electrical accessories.",
+        "Make and wire up of a test board and test it."
+      ],
+      "nos_codes_summary": [
+        "PSS/N2001"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N2001"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 40,
+      "knowledge_hours": 10,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 4,
+        "lo_table": 11
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 2,
+      "year": 1,
+      "title": "Prepare electrical wire joints, carry out soldering, crimping and measure insulation resistance of underground cable.",
+      "summary_title": "Prepare electrical wire joints; carry out soldering, crimping and measure insulation resistance of underground cable.",
+      "assessment_criteria": [
+        "Observe safety/ precaution during joints & soldering.",
+        "Make simple straight twist and rat-tail joints in single strand conductors.",
+        "Make married and 'T' (Tee) joint in stranded conductors.",
+        "Prepare a Britannia straight and 'T' (Tee) joint in bare conductors.",
+        "Prepare western union joint in bare conductor.",
+        "Solder the finished copper conductor joints with precaution.",
+        "Prepare termination of cable lugs by using crimping tool.",
+        "Make straight joint in different types of underground cables.",
+        "Measure insulation resistance of underground cable."
+      ],
+      "nos_codes_summary": [
+        "PSS/N0108"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N0108"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 95,
+      "knowledge_hours": 20,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 4,
+        "lo_table": 11
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 3,
+      "year": 1,
+      "title": "Verify characteristics of electrical and magnetic circuits.",
+      "summary_title": "Verify characteristics of electrical and magnetic circuits.",
+      "assessment_criteria": [
+        "Identify types of wires, cables and verify their specifications.",
+        "Verify the characteristics of series, parallel and its combination circuit.",
+        "Analyze the effect of the short and open in series and parallel circuits.",
+        "Verify the relation of voltage components of RLC series circuit in AC.",
+        "Determine the power factor by direct and indirect methods in an AC single phase RLC parallel circuit.",
+        "Identify the phase sequence of a 3 ø supply using a phase-sequence meter.",
+        "Prepare/ connect a lamp load in star and delta and determine relationship between line and phase values with precaution.",
+        "Connect balanced and unbalanced loads in 3 phase star system and measure the power of 3 phase loads.",
+        "Make the solenoid and determine its polarity for the given direction of current.",
+        "Group the given capacitors to get the required capacity and voltage rating.",
+        "Assemble a DC source 6V/500 mA using 1.5V cells."
+      ],
+      "nos_codes_summary": [
+        "PSS/N6001",
+        "PSS/N6003"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N6001",
+        "PSS/N6003"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 160,
+      "knowledge_hours": 36,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 4,
+        "lo_table": 11
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 4,
+      "year": 1,
+      "title": "Install, test and maintenance of batteries and solar cell.",
+      "summary_title": "Install, test and maintenance of batteries and solar cell.",
+      "assessment_criteria": [
+        "Determine the internal resistance of cell and make grouping of cells.",
+        "Explain charging of battery and test for its condition with safety/ precaution.",
+        "Carry out installation and maintenance of batteries.",
+        "Determine total number of cells required for a given power requirement."
+      ],
+      "nos_codes_summary": [
+        "PSS/N6001"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N6001"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 50,
+      "knowledge_hours": 10,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 4,
+        "lo_table": 12
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 5,
+      "year": 1,
+      "title": "Estimate, Assemble, install and test wiring system.",
+      "summary_title": "Estimate, Assemble, install and test wiring system.",
+      "assessment_criteria": [
+        "Comply with safety & IE rules when performing the wiring.",
+        "Prepare and mount the energy meter board.",
+        "Draw and wire up the consumers main board with ICDP switch and distribution fuse box.",
+        "Draw and wire up a bank/hostel/jail in PVC conduit.",
+        "Identify the types of fuses their ratings and applications.",
+        "Identify the parts of a relay, MCB & ELCB and check its operation.",
+        "Estimate the cost of material for wiring in PVC channel for an office room having 2 lamps, 1 Fan, one 6A socket outlet and wire up.",
+        "Estimate the requirement for conduit wiring (3 phase) and wire up.",
+        "Estimate the materials and wire up the lighting circuit for a godown.",
+        "Estimate the materials and wire up a lighting circuit for a corridor in conduit.",
+        "Test, locate the fault and repair a domestic wiring installation."
+      ],
+      "nos_codes_summary": [
+        "PSS/N6001"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N6001"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 200,
+      "knowledge_hours": 42,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 4,
+        "lo_table": 12
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 6,
+      "year": 1,
+      "title": "Plan and prepare Earthing installation.",
+      "summary_title": "Plan and prepare Earthing installation.",
+      "assessment_criteria": [
+        "Plan work in compliance with standard safety norms related with earthing installation.",
+        "Install the pipe earthing and test it.",
+        "Install the plate earthing and test it.",
+        "Measure the earth electrode resistance using earth tester.",
+        "Carry out earth resistance improvement."
+      ],
+      "nos_codes_summary": [
+        "PSS/N6002"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N6002"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 25,
+      "knowledge_hours": 7,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 4,
+        "lo_table": 12
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 7,
+      "year": 1,
+      "title": "Plan and execute electrical illumination system and test.",
+      "summary_title": "Plan and execute electrical illumination system and test.",
+      "assessment_criteria": [
+        "Plan work in compliance with standard safety norms related with electrical illumination system.",
+        "Install light fitting with reflectors for direct and indirect lighting.",
+        "Assemble and connect a single twin tube fluorescent light.",
+        "Connect, install and test the HPMV & HPSV lamp with accessories.",
+        "Prepare and test a decorative serial lamp set for 240 V using 6V bulb and flasher.",
+        "Install light fitting for show case window lighting."
+      ],
+      "nos_codes_summary": [
+        "PSS/N9403"
+      ],
+      "nos_codes_lo_table": [
+        "N/A"
+      ],
+      "nos_mismatch": true,
+      "skill_hours": 45,
+      "knowledge_hours": 10,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 4,
+        "lo_table": 12
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 8,
+      "year": 1,
+      "title": "Select and perform measurements using analog / digital instruments and install/ diagnose smart meters.",
+      "summary_title": "Select and perform measurements using analog / digital instruments and install/ diagnose smart meters.",
+      "assessment_criteria": [
+        "Identify the type of electrical instruments.",
+        "Extend the range of MC voltmeter and ammeter.",
+        "Measure the frequency by frequency meter.",
+        "Measure the power and energy in a single & three phase circuit using wattmeter and energy meter with CT and PT.",
+        "Measure the value of resistance, voltage and current using digital multimeter.",
+        "Measure the power factor in poly-phase circuit and verify the same with voltmeter, ammeter, watt-meter readings.",
+        "Identify components of smart meters.",
+        "Install and diagnose smart meters."
+      ],
+      "nos_codes_summary": [
+        "PSS/N1707"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N1707"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 50,
+      "knowledge_hours": 8,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 4,
+        "lo_table": 12
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 9,
+      "year": 1,
+      "title": "Perform testing, verify errors and calibrate instruments.",
+      "summary_title": "Perform testing, verify errors and calibrate instruments.",
+      "assessment_criteria": [
+        "Test single phase energy meter for its errors.",
+        "Determine the measurement errors while measuring resistance by voltage drop method.",
+        "Calibrate the analogmultimeter."
+      ],
+      "nos_codes_summary": [
+        "PSS/N9404"
+      ],
+      "nos_codes_lo_table": [
+        "N/A"
+      ],
+      "nos_mismatch": true,
+      "skill_hours": 25,
+      "knowledge_hours": 5,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 4,
+        "lo_table": 13
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 10,
+      "year": 1,
+      "title": "Plan and carry out installation, fault detection and repairing of domestic appliances.",
+      "summary_title": "Plan and carry out installation, fault detection and repairing of domestic appliances.",
+      "assessment_criteria": [
+        "Plan work in compliance with standard safety norms related with domestic appliances.",
+        "Service and Repair of calling bell/ buzzer/ Alarm.",
+        "Service and repair an automatic iron.",
+        "Repair and service of oven having multi-range heat control.",
+        "Replace the heating element in a kettle and test.",
+        "Service and repair an induction heater.",
+        "Service and repair a geyser.",
+        "Service and repair a mixer.",
+        "Service and repair of washing machine.",
+        "Install a pump set.",
+        "Service and repair of table fan.",
+        "Service, repair and install a ceiling fan."
+      ],
+      "nos_codes_summary": [
+        "PSS/N6003"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N6003"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 75,
+      "knowledge_hours": 10,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 4,
+        "lo_table": 13
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 11,
+      "year": 1,
+      "title": "Execute testing, evaluate performance and maintenance of transformer.",
+      "summary_title": "Execute testing, evaluate performance and maintenance of transformer.",
+      "assessment_criteria": [
+        "Plan work in compliance with standard safety norms related with transformer.",
+        "Identify the types of transformers and their specifications.",
+        "Identify the terminals; verify the transformation ratio of a single-phase transformer.",
+        "Connect and test a single-phase auto- transformer.",
+        "Determine the losses (iron loss and copper loss) and the regulation of a single-phase transformer at different loads.",
+        "Measure the current and voltage using CT and PT.",
+        "Carry out winding for small transformer of 1KVA rating.",
+        "Test the transformer oil with oil testing kit.",
+        "Connect 3 single phase transformers for 3 phase operation of delta- delta /delta-star /star-star /star-delta.",
+        "Connect the given two single phase transformers in parallel /series (secondary only) and measure voltage.",
+        "Connect & test 3 phase transformer in parallel."
+      ],
+      "nos_codes_summary": [
+        "PSS/N2406",
+        "PSS/N2407"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N2406",
+        "PSS/N2407"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 75,
+      "knowledge_hours": 12,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 13
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 12,
+      "year": 1,
+      "title": "Read and apply engineering drawing for different application in the field of work.",
+      "summary_title": "Read and apply engineering drawing for different application in the field of work.",
+      "assessment_criteria": [
+        "Read & interpret the information on drawings and apply in executing practical work.",
+        "Read &analyze the specification to ascertain the material requirement, tools and assembly/maintenance parameters.",
+        "Encounter drawings with missing/unspecified key information and make own calculations to fill in missing dimension/parameters to carry out the work."
+      ],
+      "nos_codes_summary": [
+        "PSS/N9401"
+      ],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": true,
+      "skill_hours": null,
+      "knowledge_hours": 40,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 14
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 13,
+      "year": 1,
+      "title": "Demonstrate basic mathematical concept and principles to perform practical operations. Understand and explain basic science in the field of study.",
+      "summary_title": "Demonstrate basic mathematical concept and principles to perform practical operations. Understand and explain basic science in the field of study.",
+      "assessment_criteria": [
+        "Solve different mathematical problems",
+        "Explain concept of basic science related to the field of study"
+      ],
+      "nos_codes_summary": [
+        "PSS/N9402"
+      ],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": true,
+      "skill_hours": null,
+      "knowledge_hours": 30,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 14
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 14,
+      "year": 2,
+      "title": "Plan, execute commissioning and evaluate performance of DC machines.",
+      "summary_title": "Plan, execute commissioning and evaluate performance of DC machines.",
+      "assessment_criteria": [
+        "Plan work in compliance with standard safety norms related with DC machines.",
+        "Determine the load performance of a different type of DC generator on load.",
+        "Connect, start, run and reverse direction of rotation of different types of DC motors.",
+        "Conduct the load performance tests on different type of DC motor.",
+        "Control the speed of a DC motor by different method.",
+        "Test a DC machine for continuity and insulation resistance."
+      ],
+      "nos_codes_summary": [
+        "PSS/N4402"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N4402"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 35,
+      "knowledge_hours": 9,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 14
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 15,
+      "year": 2,
+      "title": "Execute testing, and maintenance of DC machines and motor starters.",
+      "summary_title": "Execute testing, and maintenance of DC machines and motor starters.",
+      "assessment_criteria": [
+        "Maintenance, troubleshooting & servicing of DC machines.",
+        "Test armature by using growler.",
+        "Maintain, service and troubleshoot the DC motor starter."
+      ],
+      "nos_codes_summary": [
+        "PSS/N4402"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N4402"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 77,
+      "knowledge_hours": 24,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 14
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 16,
+      "year": 2,
+      "title": "Plan, execute commissioning and evaluate performance of AC motors.",
+      "summary_title": "Plan, execute commissioning and evaluate performance of AC motors.",
+      "assessment_criteria": [
+        "Plan work in compliance with standard safety norms related with AC motors.",
+        "Draw circuit diagram and connect forward & reverse a 3-phase squirrel cage induction motor.",
+        "Start, run and reverse an AC 3 phase squirrel cage induction motor by different type of starters.",
+        "Measure the slip of 3 phase squirrel cage induction motor by tachometer for different output. Draw slip/ load characteristics of the motor.",
+        "Determine the efficiency of 3 phase squirrel cage induction motor by no load test/ blocked rotor test and brake test.",
+        "Plot the speed torque (Slip/Torque) characteristics of slip ring induction motor.",
+        "Demonstrate speed control of 3 phase induction motor.",
+        "Connect, start and run a 3-phase synchronous motor.",
+        "Connect start, run, control speed and reverse the DOR of different type of single-phase motors.",
+        "Install a single-phase AC motor."
+      ],
+      "nos_codes_summary": [
+        "PSS/N1709"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N1709"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 35,
+      "knowledge_hours": 9,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 14
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 17,
+      "year": 2,
+      "title": "Execute testing, and maintenance of AC motors and starters.",
+      "summary_title": "Execute testing, and maintenance of AC motors and starters.",
+      "assessment_criteria": [
+        "Test continuity and insulation of various AC motors.",
+        "Maintain, service and troubleshoot of three phase AC motors.",
+        "Maintain, service and troubleshoot of different types of single-phase AC motors.",
+        "Maintain, service and troubleshoot the AC motor starter."
+      ],
+      "nos_codes_summary": [
+        "PSS/N1709"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N1709"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 80,
+      "knowledge_hours": 26,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 15
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 18,
+      "year": 2,
+      "title": "Plan, execute testing, evaluate performance and carry out maintenance of Alternator / MG set.",
+      "summary_title": "Plan, execute testing, evaluate performance and carry out maintenance of Alternator / MG set.",
+      "assessment_criteria": [
+        "Plan work in compliance with standard safety norms related with Alternator & MG set.",
+        "Connect start and run an alternator and build up the voltage.",
+        "Determine the load performance of a 3-phase alternator.",
+        "Start and load a MG set with 3 phase induction motor coupled to DC shunt generator and build up the voltage.",
+        "Perform/ Explain alignment of MG set.",
+        "Preventive and breakdown maintenance of alternator / MG set.",
+        "Explain the effect of excitation current in terms of V-curves of synchronous motor."
+      ],
+      "nos_codes_summary": [
+        "PSS/N9405"
+      ],
+      "nos_codes_lo_table": [
+        "N/A"
+      ],
+      "nos_mismatch": true,
+      "skill_hours": 23,
+      "knowledge_hours": 9,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 15
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 19,
+      "year": 2,
+      "title": "Execute parallel operation of alternators.",
+      "summary_title": "Execute parallel operation of alternators.",
+      "assessment_criteria": [
+        "Demonstrate parallel operation of an alternator Bright lamp method/ Dark lamp method/ Bright and dark lamp method.",
+        "Parallel operation of an alternator by using synchroscope."
+      ],
+      "nos_codes_summary": [
+        "PSS/N9405"
+      ],
+      "nos_codes_lo_table": [
+        "N/A"
+      ],
+      "nos_mismatch": true,
+      "skill_hours": 39,
+      "knowledge_hours": 12,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 15
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 20,
+      "year": 2,
+      "title": "Distinguish, organise and perform motor winding.",
+      "summary_title": "Distinguish, organise and perform motor winding.",
+      "assessment_criteria": [
+        "Rewind the field coil /armature winding/ table fan /ceiling fan.",
+        "Draw winding diagram & rewind a single-phase split type motor (Concentric coil winding).",
+        "Draw winding diagram & rewind a 3-phase squirrel cage induction motor (single layer distributed winding).",
+        "Draw winding diagram & rewind a 3-phase induction motor (single layer concentric type half coil connection).",
+        "Draw winding diagram & rewind a 3-phase squired cage induction motor. (Double layer distributed type winding)"
+      ],
+      "nos_codes_summary": [
+        "PSS/N4402"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N4402"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 50,
+      "knowledge_hours": 12,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 15
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 21,
+      "year": 2,
+      "title": "Assemble simple electronic circuits and test for functioning.",
+      "summary_title": "Assemble simple electronic circuits and test for functioning.",
+      "assessment_criteria": [
+        "Perform soldering on components/ lug / board with safety.",
+        "Identify the passive /active components by visual appearance, code number and test for their condition.",
+        "Identify the control and functional switches in CRO and measure the D.C. & A.C. voltage, frequency and time period.",
+        "Construct and test a half &full wave rectifier with and without filter circuits.",
+        "Construct circuit by using transistor as a switch.",
+        "Construct and test a UJT as relaxation oscillator & electronic timer.",
+        "Construct amplifier circuit using Transistor, FET and JFET and test.",
+        "Construct and test lamp dimmer using TRIAC/DIAC.",
+        "Test IGBT and use in circuit for suitable operation.",
+        "Construct and test the universal motor speed controller using SCR with safety.",
+        "Construct and test logic gate circuits."
+      ],
+      "nos_codes_summary": [
+        "PSS/N9406"
+      ],
+      "nos_codes_lo_table": [
+        "N/A"
+      ],
+      "nos_mismatch": true,
+      "skill_hours": 75,
+      "knowledge_hours": 22,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 15
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 22,
+      "year": 2,
+      "title": "Assemble accessories and carry out wiring of control cabinets and equipment.",
+      "summary_title": "Assemble accessories and carry out wiring of control cabinets and equipment.",
+      "assessment_criteria": [
+        "Draw the layout diagram of 3 phase AC motor control cabinet.",
+        "Mount the control elements & wiring accessories on the control panel.",
+        "Carry out wiring in control cabinet for local and remote control of induction motor.",
+        "Draw & wire up the control panel for forward/ reverse operation of induction motor.",
+        "Perform wiring for automatic start delta starter.",
+        "Draw & wire up control panel for sequential motor control for three motors.",
+        "Draw & wire up the control panel for a given circuit diagram and connect the motor.",
+        "Test the control panel for all the required logics."
+      ],
+      "nos_codes_summary": [
+        "PSS/N9407"
+      ],
+      "nos_codes_lo_table": [
+        "N/A"
+      ],
+      "nos_mismatch": true,
+      "skill_hours": 99,
+      "knowledge_hours": 31,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 16
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 23,
+      "year": 2,
+      "title": "Perform speed control of AC and DC motors by using solid state devices.",
+      "summary_title": "Perform speed control of AC and DC motors by using solid state devices.",
+      "assessment_criteria": [
+        "Control the speed of DC motor by using DC drive.",
+        "Speed control of universal motor by using SCR.",
+        "Control speed and reverse the direction of rotation of different type of three phase induction motors using VVVF control /AC drive"
+      ],
+      "nos_codes_summary": [
+        "PSS/N9408"
+      ],
+      "nos_codes_lo_table": [
+        "N/A"
+      ],
+      "nos_mismatch": true,
+      "skill_hours": 82,
+      "knowledge_hours": 24,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 16
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 24,
+      "year": 2,
+      "title": "Detect the faults and troubleshoot inverter, stabilizer, battery charger, emergency light and UPS etc.",
+      "summary_title": "Detect the faults and troubleshoot inverter, stabilizer, battery charger, emergency light and UPS etc.",
+      "assessment_criteria": [
+        "Operation and maintenance of inverter.",
+        "Troubleshoot and service a voltage stabilizer.",
+        "Identify the parts, trace the connection and test the DC regulated power supply with safety.",
+        "Troubleshoot and service a DC regulated power supply.",
+        "Test battery charger for its operation.",
+        "Prepare an emergency light.",
+        "Carryout maintenance of UPS."
+      ],
+      "nos_codes_summary": [
+        "PSS/N6002"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N6002"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 50,
+      "knowledge_hours": 11,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 16
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 25,
+      "year": 2,
+      "title": "Plan, assemble and install solar panel.",
+      "summary_title": "Plan, assemble and install solar panel.",
+      "assessment_criteria": [
+        "Plan work in compliance with solar panel installation norms.",
+        "Combination of solar cells for given power requirement.",
+        "Assemble and install solar panel.",
+        "Check the functionality of solar panel."
+      ],
+      "nos_codes_summary": [
+        "PSS/N9409"
+      ],
+      "nos_codes_lo_table": [
+        "N/A"
+      ],
+      "nos_mismatch": true,
+      "skill_hours": 50,
+      "knowledge_hours": 10,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 16
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 26,
+      "year": 2,
+      "title": "Erect overhead domestic service line and outline various power plant layout and explain smart distribution grid and its components.",
+      "summary_title": "Erect overhead domestic service line, outline various power plant layout and explain smart distribution grid and its components.",
+      "assessment_criteria": [
+        "Prepare single line diagram of thermal/ hydel/ Solar /Wind power plants.",
+        "Prepare layout plan and single line diagram of transmission line.",
+        "Draw an overhead and domestic service line.",
+        "Explain erection ofan overhead service line pole for single phase 240V distribution system.",
+        "Identify different type of insulator used in HT and LT line.",
+        "Fasten jumper in insulators.",
+        "Connect feeder cable with domestic service line.",
+        "Identify components and equipment of smart distribution grid.",
+        "Explain Smart Grid Communication infrastructure components."
+      ],
+      "nos_codes_summary": [
+        "PSS/N0106"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N0106"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 23,
+      "knowledge_hours": 4,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 17
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 27,
+      "year": 2,
+      "title": "Examine the faults and carry out repairing of circuit breakers.",
+      "summary_title": "Examine the faults and carry out repairing of circuit breakers.",
+      "assessment_criteria": [
+        "Prepare layout plan and single line diagram of Distribution substation",
+        "Illustrate application of relays in control circuits and examine its operation.",
+        "Identify parts of circuit breaker and check its operation."
+      ],
+      "nos_codes_summary": [
+        "PSS/N7001"
+      ],
+      "nos_codes_lo_table": [
+        "PSS/N7001"
+      ],
+      "nos_mismatch": false,
+      "skill_hours": 25,
+      "knowledge_hours": 7,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 5,
+        "lo_table": 17
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 28,
+      "year": 2,
+      "title": "Install and troubleshoot Electric Vehicle charging stations.",
+      "summary_title": "Install and troubleshoot Electric Vehicle charging stations.",
+      "assessment_criteria": [
+        "Explain charger specifications.",
+        "Demonstrate installation of EV charging Station for Public places/ Home."
+      ],
+      "nos_codes_summary": [
+        "PSS/N9410"
+      ],
+      "nos_codes_lo_table": [
+        "N/A"
+      ],
+      "nos_mismatch": true,
+      "skill_hours": 50,
+      "knowledge_hours": 10,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 6,
+        "lo_table": 17
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 29,
+      "year": 2,
+      "title": "Read and apply engineering drawing for different application in the field of work.",
+      "summary_title": "Read and apply engineering drawing for different application in the field of work.",
+      "assessment_criteria": [
+        "Read & interpret the information on drawings and apply in executing practical work.",
+        "Read &analyze the specification to ascertain the material requirement, tools and assembly/maintenance parameters.",
+        "Encounter drawings with missing/unspecified key information and make own calculations to fill in missing dimension/parameters to carry out the work."
+      ],
+      "nos_codes_summary": [
+        "PSS/N9401"
+      ],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": true,
+      "skill_hours": null,
+      "knowledge_hours": 40,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 6,
+        "lo_table": 17
+      }
+    },
+    {
+      "category": "trade",
+      "lo_number": 30,
+      "year": 2,
+      "title": "Demonstrate basic mathematical concept and principles to perform practical operations. Understand and explain basic science in the field of study.",
+      "summary_title": "Demonstrate basic mathematical concept and principles to perform practical operations. Understand and explain basic science in the field of study.",
+      "assessment_criteria": [
+        "Solve different mathematical problems",
+        "Explain concept of basic science related to the field of study"
+      ],
+      "nos_codes_summary": [
+        "PSS/N9402"
+      ],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": true,
+      "skill_hours": null,
+      "knowledge_hours": 32,
+      "nsqf_level": 4,
+      "source_pages": {
+        "summary": 6,
+        "lo_table": 17
+      }
+    },
+    {
+      "category": "employability",
+      "lo_number": 1,
+      "year": null,
+      "title": "Introduction to Employability Skills",
+      "summary_title": null,
+      "assessment_criteria": [
+        "Outline the importance of Employability Skills for the current job market and future of work",
+        "List different learning and employability related GOI and private portals and their usage",
+        "Research and prepare a note on different industries and the available opportunities"
+      ],
+      "nos_codes_summary": [],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": false,
+      "skill_hours": null,
+      "knowledge_hours": null,
+      "nsqf_level": null,
+      "source_pages": {
+        "lo_table": 18
+      }
+    },
+    {
+      "category": "employability",
+      "lo_number": 2,
+      "year": null,
+      "title": "Constitutional values - Citizenship",
+      "summary_title": null,
+      "assessment_criteria": [
+        "Explain the essential civic rights and duties required to be followed to become a responsible citizen",
+        "Discuss the role of personal values and ethics in personal and social development",
+        "Identify and practice different environmentally sustainable practices"
+      ],
+      "nos_codes_summary": [],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": false,
+      "skill_hours": null,
+      "knowledge_hours": null,
+      "nsqf_level": null,
+      "source_pages": {
+        "lo_table": 18
+      }
+    },
+    {
+      "category": "employability",
+      "lo_number": 3,
+      "year": null,
+      "title": "Becoming a Professional in the 21st Century",
+      "summary_title": null,
+      "assessment_criteria": [
+        "Discuss relevant 21st century skills required for employment",
+        "Highlight the importance of practicing 21st century skills like Self- Awareness, Behavior Skills, Positive attitude, self -motivation, problem solving, and time management skills in personal or professional life",
+        "Create a pathway for adopting a learning mindset for personal and professional development"
+      ],
+      "nos_codes_summary": [],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": false,
+      "skill_hours": null,
+      "knowledge_hours": null,
+      "nsqf_level": null,
+      "source_pages": {
+        "lo_table": 18
+      }
+    },
+    {
+      "category": "employability",
+      "lo_number": 4,
+      "year": null,
+      "title": "Basic English Skills",
+      "summary_title": null,
+      "assessment_criteria": [
+        "Use appropriate grammar and sentences while interacting with others",
+        "Read English text with appropriate articulation",
+        "Role play a situation on how to talk appropriately to a customer in English, over the phone or in person",
+        "Write a short note/paragraph / letter/e -mail using correct English"
+      ],
+      "nos_codes_summary": [],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": false,
+      "skill_hours": null,
+      "knowledge_hours": null,
+      "nsqf_level": null,
+      "source_pages": {
+        "lo_table": 18
+      }
+    },
+    {
+      "category": "employability",
+      "lo_number": 5,
+      "year": null,
+      "title": "Career Development & Goal Setting",
+      "summary_title": null,
+      "assessment_criteria": [
+        "Research and identify trends and different skills required to match the current market requirement for a job",
+        "Create a career development plan with well-defined short- and long-term goals"
+      ],
+      "nos_codes_summary": [],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": false,
+      "skill_hours": null,
+      "knowledge_hours": null,
+      "nsqf_level": null,
+      "source_pages": {
+        "lo_table": 19
+      }
+    },
+    {
+      "category": "employability",
+      "lo_number": 6,
+      "year": null,
+      "title": "Communication Skills",
+      "summary_title": null,
+      "assessment_criteria": [
+        "Demonstrate how to communicate effectively using verbal and nonverbal communication etiquette",
+        "Write a short note/paragraph on a familiar topic",
+        "Explain the importance of communication etiquette including active listening for effective communication",
+        "Role play a situation on how to work collaboratively with others in a team"
+      ],
+      "nos_codes_summary": [],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": false,
+      "skill_hours": null,
+      "knowledge_hours": null,
+      "nsqf_level": null,
+      "source_pages": {
+        "lo_table": 19
+      }
+    },
+    {
+      "category": "employability",
+      "lo_number": 7,
+      "year": null,
+      "title": "Diversity and Inclusion",
+      "summary_title": null,
+      "assessment_criteria": [
+        "Exhibit how to behave, communicate and conduct oneself appropriately with all genders and PwD",
+        "Discuss the POSH Act and its significance"
+      ],
+      "nos_codes_summary": [],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": false,
+      "skill_hours": null,
+      "knowledge_hours": null,
+      "nsqf_level": null,
+      "source_pages": {
+        "lo_table": 19
+      }
+    },
+    {
+      "category": "employability",
+      "lo_number": 8,
+      "year": null,
+      "title": "Financial and Legal Literacy",
+      "summary_title": null,
+      "assessment_criteria": [
+        "Discuss various financial institutions, products, and services",
+        "Demonstrate how to carry out offline and online financial transactions, safely and securely and check passbook/statement",
+        "Explain the common components of salary such as Basic, PF, Allowances (HRA, TA, DA, etc.), tax deductions",
+        "Calculate income and expenditure for budgeting",
+        "Discuss the legal rights, laws, and aids"
+      ],
+      "nos_codes_summary": [],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": false,
+      "skill_hours": null,
+      "knowledge_hours": null,
+      "nsqf_level": null,
+      "source_pages": {
+        "lo_table": 19
+      }
+    },
+    {
+      "category": "employability",
+      "lo_number": 9,
+      "year": null,
+      "title": "Essential Digital Skills",
+      "summary_title": null,
+      "assessment_criteria": [
+        "Describe the role of digital technology in day-to-day life and the workplace",
+        "Demonstrate how to operate digital devices and use the associated applications and features, safely and securely",
+        "Demonstrate how to connect devices securely to internet using different means",
+        "Follow the dos and don'ts of cyber security to protect against cyber crimes",
+        "Discuss the significance of displaying responsible online behaviour while using various social media platforms",
+        "Create an e-mail id and follow e- mail etiquette to exchange e - mails",
+        "Show how to create documents, spreadsheets and presentations using appropriate applications"
+      ],
+      "nos_codes_summary": [],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": false,
+      "skill_hours": null,
+      "knowledge_hours": null,
+      "nsqf_level": null,
+      "source_pages": {
+        "lo_table": 19
+      }
+    },
+    {
+      "category": "employability",
+      "lo_number": 10,
+      "year": null,
+      "title": "Entrepreneurship",
+      "summary_title": null,
+      "assessment_criteria": [
+        "Describe the types of entrepreneurship and enterprises",
+        "Discuss the process of identifying opportunities for potential business and relevant regulatory and statutory requirements",
+        "Describe the 4Ps of Marketing-Product, Price, Place and Promotion and apply them as per requirement",
+        "Create a sample business plan, for the selected business opportunity",
+        "Discuss various sources of funding and identify associated financial and legal risks with its mitigation plan"
+      ],
+      "nos_codes_summary": [],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": false,
+      "skill_hours": null,
+      "knowledge_hours": null,
+      "nsqf_level": null,
+      "source_pages": {
+        "lo_table": 19
+      }
+    },
+    {
+      "category": "employability",
+      "lo_number": 11,
+      "year": null,
+      "title": "Customer Service",
+      "summary_title": null,
+      "assessment_criteria": [
+        "Describe different types of customers",
+        "Role play a situation on how to identify customer needs and respond to them in a professional manner",
+        "Explain various tools used to collect customer feedback"
+      ],
+      "nos_codes_summary": [],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": false,
+      "skill_hours": null,
+      "knowledge_hours": null,
+      "nsqf_level": null,
+      "source_pages": {
+        "lo_table": 20
+      }
+    },
+    {
+      "category": "employability",
+      "lo_number": 12,
+      "year": null,
+      "title": "Getting ready for apprenticeship & Jobs",
+      "summary_title": null,
+      "assessment_criteria": [
+        "Draft a professional Curriculum Vitae (CV)",
+        "Use various offline and online job search sources such as employment exchanges, recruitment agencies, and job portals respectively",
+        "Demonstrate how to apply to identified job openings using offline /online methods as per requirement",
+        "Discuss the significance of maintaining hygiene and dressing appropriately",
+        "Discuss how to prepare for an interview",
+        "Role play a mock interview",
+        "List the steps for searching and registering for apprenticeship opportunities"
+      ],
+      "nos_codes_summary": [],
+      "nos_codes_lo_table": [],
+      "nos_mismatch": false,
+      "skill_hours": null,
+      "knowledge_hours": null,
+      "nsqf_level": null,
+      "source_pages": {
+        "lo_table": 20
+      }
+    }
+  ],
+  "_parse_review": []
+}

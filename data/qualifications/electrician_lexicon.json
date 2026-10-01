@@ -1,0 +1,62 @@
+{
+  "_label": "PROJECT-AUTHORED REFERENCE DATA — normalisation lexicon for worker language (English, Hinglish, Hindi). Maps how workers describe their work to technical phrases. Not official data. Matching to learning outcomes is done against official LO text, not against this file.",
+  "version": "prototype-v1",
+  "occupations": [
+    {"canonical": "Electrician", "terms": ["electrician", "bijli mistri", "bijli wala", "electric mistri", "बिजली मिस्त्री", "इलेक्ट्रीशियन", "electrical fitter", "house wiring electrician", "wiring mistri", "industrial electrician", "maintenance electrician"]},
+    {"canonical": "Wireman", "terms": ["wireman", "wire man", "वायरमैन", "lineman helper"]},
+    {"canonical": "Electrician Helper", "terms": ["helper", "electrician helper", "mistri ka helper", "हेल्पर"]}
+  ],
+  "skills": [
+    {"canonical": "House wiring installation", "kind": "skill", "terms": ["house wiring", "domestic wiring", "ghar ki wiring", "wiring karna", "wiring", "घर की वायरिंग", "वायरिंग", "concealed wiring", "conduit wiring", "pvc channel wiring", "casing capping"], "expand": "wire up domestic wiring installation conduit PVC channel"},
+    {"canonical": "Switch and socket installation", "kind": "skill", "terms": ["switch", "socket", "switch board", "switchboard", "board banana", "switch lagana", "स्विच", "सॉकेट", "plug point"], "expand": "fixing surface mounting accessories switch socket outlet connections electrical accessories test board"},
+    {"canonical": "Fan installation and repair", "kind": "skill", "terms": ["fan", "ceiling fan", "pankha", "pankha lagana", "पंखा", "table fan", "fan repair", "fan winding"], "expand": "install service repair ceiling fan table fan"},
+    {"canonical": "Light fitting installation", "kind": "skill", "terms": ["light", "tube light", "bulb", "led light", "light fitting", "batti", "लाइट", "ट्यूबलाइट"], "expand": "install light fitting fluorescent lamp illumination"},
+    {"canonical": "MCB / circuit breaker installation", "kind": "skill", "terms": ["mcb", "mcb lagana", "circuit breaker", "breaker", "एमसीबी", "elcb", "rccb", "db box", "distribution board"], "expand": "identify parts MCB ELCB circuit breaker check operation distribution fuse box"},
+    {"canonical": "Fuse selection and replacement", "kind": "skill", "terms": ["fuse", "fuse badalna", "फ्यूज़", "kit kat fuse"], "expand": "identify types fuses ratings applications"},
+    {"canonical": "Electrical fault diagnosis", "kind": "skill", "terms": ["fault", "fault finding", "troubleshoot", "troubleshooting", "kharabi", "khrabi dhoondhna", "short circuit", "repair wiring", "खराबी", "शॉर्ट सर्किट", "fault dhundna"], "expand": "test locate fault repair domestic wiring installation troubleshoot"},
+    {"canonical": "Energy meter board installation", "kind": "skill", "terms": ["meter", "meter board", "energy meter", "मीटर", "bijli meter"], "expand": "prepare mount energy meter board"},
+    {"canonical": "Earthing installation", "kind": "skill", "terms": ["earthing", "earth", "arthing", "अर्थिंग", "pipe earthing", "plate earthing"], "expand": "install pipe earthing plate earthing earth electrode resistance"},
+    {"canonical": "Wire joints and termination", "kind": "skill", "terms": ["joint", "wire joint", "jod", "taar jodna", "तार जोड़ना", "crimping", "lug", "soldering", "tanka"], "expand": "electrical wire joints soldering crimping termination cable lugs"},
+    {"canonical": "Measurement with multimeter", "kind": "skill", "terms": ["multimeter", "voltage check", "measure voltage", "continuity", "meter se check", "मल्टीमीटर", "testing"], "expand": "measure resistance voltage current digital multimeter continuity"},
+    {"canonical": "Insulation resistance testing", "kind": "skill", "terms": ["megger", "insulation test", "insulation resistance", "मेगर"], "expand": "measure insulation resistance cable"},
+    {"canonical": "Motor wiring and maintenance", "kind": "skill", "terms": ["motor", "motor wiring", "motor repair", "motor starter", "dol starter", "star delta", "मोटर", "submersible", "pump motor"], "expand": "connect start run AC motor starter maintain service troubleshoot induction motor"},
+    {"canonical": "Motor rewinding", "kind": "skill", "terms": ["rewinding", "winding", "motor winding", "वाइंडिंग"], "expand": "rewind winding motor fan coil"},
+    {"canonical": "Pump set installation", "kind": "skill", "terms": ["pump", "water pump", "motor pump", "पंप", "monoblock"], "expand": "install pump set"},
+    {"canonical": "Domestic appliance repair", "kind": "skill", "terms": ["iron", "geyser", "mixer", "kettle", "washing machine", "induction", "cooler", "appliance repair", "गीज़र", "मिक्सी"], "expand": "service repair domestic appliances automatic iron geyser mixer kettle washing machine"},
+    {"canonical": "Inverter / UPS / stabilizer servicing", "kind": "skill", "terms": ["inverter", "ups", "stabilizer", "battery charger", "इन्वर्टर", "battery"], "expand": "troubleshoot inverter stabilizer battery charger UPS maintenance batteries"},
+    {"canonical": "Solar panel installation", "kind": "skill", "terms": ["solar", "solar panel", "सोलर"], "expand": "assemble install solar panel solar cell"},
+    {"canonical": "Control panel wiring", "kind": "skill", "terms": ["panel", "control panel", "panel wiring", "contactor", "पैनल"], "expand": "wiring control cabinet panel accessories contactor"},
+    {"canonical": "Transformer maintenance", "kind": "skill", "terms": ["transformer", "ट्रांसफार्मर"], "expand": "testing maintenance transformer"},
+    {"canonical": "Wiring diagram reading", "kind": "skill", "terms": ["diagram", "drawing", "circuit diagram", "naksha", "नक्शा", "layout"], "expand": "read interpret drawings circuit diagram layout"},
+    {"canonical": "Material estimation", "kind": "skill", "terms": ["estimate", "estimation", "material list", "kharcha nikalna", "सामान का हिसाब", "costing"], "expand": "estimate cost material wiring"},
+    {"canonical": "Overhead service line", "kind": "skill", "terms": ["service line", "pole", "overhead line", "khamba", "खंभा"], "expand": "erect overhead domestic service line pole insulator"},
+    {"canonical": "EV charger installation", "kind": "skill", "terms": ["ev charger", "charging station"], "expand": "install electric vehicle charging station"}
+  ],
+  "tools": [
+    {"canonical": "Line tester", "terms": ["tester", "line tester", "neon tester", "टेस्टर"]},
+    {"canonical": "Digital multimeter", "terms": ["multimeter", "मल्टीमीटर", "dmm"]},
+    {"canonical": "Insulation tester (megger)", "terms": ["megger", "मेगर"]},
+    {"canonical": "Combination plier", "terms": ["plier", "pliers", "plas", "प्लास", "प्लायर"]},
+    {"canonical": "Screwdriver", "terms": ["screwdriver", "pechkas", "पेचकस"]},
+    {"canonical": "Wire stripper", "terms": ["stripper", "wire stripper"]},
+    {"canonical": "Crimping tool", "terms": ["crimping tool", "crimper"]},
+    {"canonical": "Soldering iron", "terms": ["soldering iron", "tanka machine"]},
+    {"canonical": "Drill machine", "terms": ["drill", "drill machine", "ड्रिल"]},
+    {"canonical": "Clamp meter", "terms": ["clamp meter", "tong tester"]},
+    {"canonical": "Earth tester", "terms": ["earth tester"]},
+    {"canonical": "Hacksaw", "terms": ["hacksaw", "aari"]}
+  ],
+  "safety": [
+    {"canonical": "Switches off supply before work", "terms": ["switch off", "main off", "supply band", "mcb off karke", "power off", "मेन बंद", "isolate"]},
+    {"canonical": "Uses insulated gloves", "terms": ["gloves", "dastane", "दस्ताने"]},
+    {"canonical": "Wears safety shoes", "terms": ["safety shoes", "rubber chappal", "jute"]},
+    {"canonical": "Checks with tester before touching", "terms": ["tester se check", "check with tester", "test before"]},
+    {"canonical": "Uses ladder safely", "terms": ["ladder", "seedhi", "सीढ़ी"]}
+  ],
+  "learning_modes": [
+    {"canonical": "Informal apprenticeship", "terms": ["uncle", "chacha", "mama", "father", "papa", "ustad", "ustaad", "guru", "under a mistri", "mistri ke saath", "seekha", "सीखा", "learned from"]},
+    {"canonical": "On-the-job learning", "terms": ["on the job", "while working", "kaam karte karte", "kaam karke", "काम करते"]},
+    {"canonical": "Formal training (ITI/course)", "terms": ["iti", "course", "training centre", "pmkvy", "diploma"]}
+  ],
+  "stopwords": ["i", "me", "my", "have", "has", "am", "is", "are", "was", "the", "a", "an", "and", "or", "of", "in", "on", "for", "to", "with", "as", "at", "by", "from", "it", "this", "that", "do", "did", "work", "worked", "working", "also", "all", "some", "etc", "years", "year", "given", "using", "different", "type", "types", "various", "carry", "out", "its", "their", "his", "her", "be", "can", "will", "per", "such", "like", "mein", "aur", "ka", "ki", "ke", "hai", "hoon", "main"]
+}
