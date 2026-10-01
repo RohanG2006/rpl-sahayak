@@ -1,0 +1,1137 @@
+=====PAGE 1=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+CONTACT DETAILS OF THE BODY SUBMITTING THE QUALIFICATION FILE
+Directorate General of Training (DGT)
+Government of India, Ministry of Skill Development and Entrepreneurship,
+1st and 2nd Floor, CIRTES Building
+Next to Pusa ITI, Pusa Campus
+NCVET Code
+New Delhi – 110012.
+2022/POW/DGT/06310
+Name and address of submitting body:
+Directorate General of Training (DGT)
+Government of India, Ministry of Skill Development and Entrepreneurship,
+1st and 2nd Floor, CIRTES Building
+Next to Pusa ITI, Pusa Campus
+New Delhi – 110012.
+Name and contact details of individual dealing with the submission
+Name: Mrs. Sandhya Salwan
+Position in the organisation: Deputy Director General
+Address if different from above:
+Tel number(s): 011-25802140
+E-mail address: sandhya.salwan@nic.in
+List of documents submitted in support of the Qualifications File
+1. Competency-based curriculum with following details:
+Model Curriculum to be added which will include the following:
+a) Indicative list of tools/equipment to conduct the training: Enclosed with curriculum
+b) Trainers qualification: Indicated in the curriculum
+c) Lesson Plan: All DGT curricula are designed indicating specific practical to be
+carried out during training along with details of trade theory. Based on this the concerned
+instructor prepares the Lesson Plan and demonstration plan with support of IMPs
+developed by NIMI,DGT.
+d) Distribution of training duration into theory/practical/OJT component: Indicated in
+the curriculum.
+2. Curriculum for Core Skills (Employability Skills).
+1
+NSQC Approved
+=====PAGE 2=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+● SUMMARY
+1 Qualification Title ‘WIREMAN’
+2 Qualification Code, if any DGT/1009
+3 NCO code and occupation 7411.0301 – Wireman, Light and Power
+4 Nature and purpose of the Prepare skilled Technician to undertake the job
+qualification (Please specify roles of Wireman and will enable the trainee to
+whether qualification is short plan, install and repair electrical wiring such as
+term or long term) cleat, conduit, casing, concealed etc in
+factories, workshops, business and residential
+premises etc.
+It is a long term qualification.
+5 Body/bodies which will award Directorate General of Training (DGT).
+the qualification
+6 Body which will accredit Directorate General of Training (DGT) accredits
+providers to offer courses the Training providers (ITIs/ NSTIs/ MSTIs/
+leading to the qualification BTCs/ BTPs / Industries / Establishments).
+7 Whether accreditation/affiliation Yes.
+norms are already in place or The accreditation/ affiliation norms and any
+not, if applicable (if yes, attach a amendments made from time to time are
+copy) available on DGT web portal.
+8 Occupation(s) to which the ● Wireman, Light and Power
+qualification gives access
+9 Job description of the Wireman will be able to plan, install and repair
+occupation electrical wiring, erect switch boards and fix
+switch box casings cleats, conduits, meters etc.
+in factories, workshops, business and
+residential premises etc. and the technician
+generally fixes fuses, covers as per diagram
+and eliminates chances of short circuit and
+earthing.
+10 Licensing requirements NOT REQUIRED
+11 Statutory and Regulatory NOT APPLICABLE
+requirement of the relevant
+sector (documentary evidence to
+be provided)
+12 Level of the qualification in the Level 4
+NSQF
+2
+NSQC Approved
+=====PAGE 3=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+13 Anticipated volume of
+training/learning required to Notional
+complete the qualification S Training Hours
+No Course Element
+.
+1st 2nd
+Year Year
+1 Professional Skill 840 840
+(Trade Practical)
+2 Professional 240 300
+Knowledge
+(Trade Theory)
+3 Employability 120 60
+Skills
+Total 1200 1200
+On the Job Training 150 150
+(OJT)/ Group Project
+14 Indicative list of training tools As per Annexure-I of curriculum.
+required to deliver this
+qualification
+15 Entry requirements and/or Passed 8th Class.
+recommendations and minimum
+age Minimum age 14 years as on first day of
+academic session.
+16 Progression from the An Individual can proceed for:
+qualification (Please show
+Professional and academic Professional Technical / Academic
+progression) ● Wireman
+● Senior
+Wireman
+10th/ Diploma/
+● Supervisor ATS
+Advance
+● Manager CITS
+Diploma
+● Entrepreneur
+(Vocational)
+3
+NSQC Approved
+=====PAGE 4=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+17 Arrangements for the ● Yes (For more details refer “Guidelines
+Recognition of Prior learning for Private candidate” in DGT website MIS
+(RPL) portal).
+18 International comparability -----
+where known (research evidence
+to be provided)
+19 Date of planned review of the 3 Yrs from the Date of Approval
+qualification.
+20 Formal structure of the qualification
+Mandatory components
+Estimated size (learning
+Title of component and identification hours)
+Level
+code/NOSs/ Learning Outcomes
+Skills Knowledge
+TRADE SPECIFIC
+(i) Apply safety precautions and prepare profile 110 20 4
+with an appropriate accuracy as per drawing
+using basic jobs of marking components,
+filing, drilling, riveting, fitting, joining etc.
+(NOS: PSS/N1707)
+(ii) Prepare terminations, make good quality of 4
+electrical wire joints for single and multi
+60 10
+strand conductors and carry out crimping,
+soldering and brazing. (NOS:
+PSS/N2512,PSS/N1331)
+(iii) Draw and set up DC and AC circuits, 4
+involving R-L-C components, perform
+measurement of various electrical
+130 30
+parameters with due care and safety. Carry
+out Sealing of energy meters and Monitor
+meter readings using MRI.
+(NOS:PSS/N1707)
+(iv) Explain basic concepts of generation, 4
+transmission and distribution of electrical 50 10
+power including renewable energy. (NOS:
+PSS/N7001)
+4
+NSQC Approved
+=====PAGE 5=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+(v) Plan and prepare Plate and Pipe earthing 4
+40 7
+installations and ensure safe and effective
+earthing. (NOS: PSS/N6002)
+(vi) Carry out wiring, testing, and maintenance of 4
+50 10
+DC machines including DC motor starters.
+(NOS: PSS/N9411)
+(vii) Carry out wiring, testing, and maintenance of 4
+small transformers, 1φ& 3φ AC motors and 60 10
+Alternators including AC motor starters.
+(NOS: PSS/N9412)
+(viii) Read, understand and draw electrical 4
+Schematic drawings of power and control 50 10
+circuits using industry standard symbols.
+(NOS: PSS/N9413)
+(ix) Plan, draw, assemble and perform various 4
+domestic wiring. Carry out Testing, 175 35
+maintenance and repair/ replacement of
+domestic wiring. (NOS: PSS/N9414)
+(x) Carry out wiring of control panels, assemble 4
+80 18
+accessories and equipment. (NOS:
+PSS/N1709)
+(xi) Install, test and carry out maintenance of 4
+35 10
+batteries and solar cell with due care and
+safety. (NOS: PSS/N6003)
+(xii) Read and apply engineering drawing for 4
+- 40
+different application in the field of work.
+(NOS: PSS/N9401)
+(xiii) Demonstrate basic mathematical concept 4
+and principles to perform practical
+- 30
+operations. Understand and explain basic
+science in the field of study. (NOS:
+PSS/N9402)
+(xiv) Plan, draw, install and test different types of 4
+Commercial wiring including advanced 115 30
+systems. Install temporary electrical wiring at
+construction site. (NOS: PSS/N1707)
+(xv) Plan, draw, estimate material/ cost, install 4
+and test different types of industrial wiring
+110 28
+system as per IE rules. Layout cables for
+various purposes including cable
+management. (NOS: PSS/N1707)
+5
+NSQC Approved
+=====PAGE 6=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+(xvi) Plan, install and test illumination system 4
+including domestic, commercial and
+60 20
+industrial requirements. Connect, program
+and operate PAR light on DMX controller
+(Stage light control). (NOS: PSS/N1707)
+(xvii) Assemble simple electronic circuits, repair 4
+65 20
+CFL, LED lamps and DC regulated power
+supply. (NOS: PSS/N6002)
+(xviii) Assist in Installation and commissioning of 4
+80 20
+small solar plant, solar pumps and construct
+Solar DC appliances. (NOS: PSS/N6003)
+(xix) Plan, prepare and carry out jointing of LT/HT 4
+85 20
+underground cables with due care and
+safety. (NOS: PSS/N2512)
+(xx) Install Electric Vehicle charging stations and 4
+20 5
+carry out preventive/breakdown
+maintenance. (NOS: PSS/N9410)
+(xxi) Install and repair domestic appliances viz., 4
+electric kettle, food processor, fan, washing
+machine, geyser, water pump etc. including 135 40
+repair of electrical faults in refrigerator,
+window and split AC. (NOS: PSS/N6003,
+PSS/N4402, PSS/N1711)
+(xxii) Perform winding of small transformers and 4
+motors viz., ceiling fan, table fan, 130 35
+mixer/grinder, submersible pump, etc.
+(NOS:PSS/N4402)
+(xxiii) Carry out Estimation & costing for different 40 10 4
+wiring systems and ready to adopt structured
+/ smart wiring concept for automation and IoT
+applications. (NOS: PSS/N9413)
+(xxiv) Read and apply engineering drawing for - 40 4
+different application in the field of work.
+(NOS: PSS/N9401)
+(xxv) Demonstrate basic mathematical concept - 32 4
+and principles to perform practical
+operations. Understand and explain basic
+science in the field of study. (NOS:
+PSS/N9402)
+CORE SKILL
+6
+NSQC Approved
+=====PAGE 7=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+EMPLOYABILITY SKILLS
+(i) - -
+Introduction to Employability Skills
+(ii) - -
+Constitutional values - Citizenship
+(iii) - -
+Becoming a Professional in the 21st Century
+(iv) - -
+Basic English Skills
+(v) - -
+Career Development & Goal Setting
+(vi) - -
+Communication Skills
+180
+(vii) - -
+Diversity & Inclusion
+(viii) - -
+Financial and Legal Literacy
+(ix) - -
+Essential Digital Skills
+(x) - -
+Entrepreneurship
+(xi) - -
+Customer Service
+(xii) -
+Getting Ready for Apprenticeship & Jobs
+2400
+On the Job Training (OJT)/ Group Project 300
+7
+NSQC Approved
+=====PAGE 8=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+SECTION 1
+ASSESSMENT
+21 Body/Bodies which will carry out assessment:
+Controller of Examinations, DGT
+22 How will RPL assessment be managed and who will carry it out?
+DGT will carry out the RPL assessment following the below mentioned
+eligibility criteria for Trainee:
+Applicants aspiring to appear as Private Candidates in the AITT under CTS
+for award of NTC, have been categorized based on their educational
+background and experience. Subsequently ‘Private Candidates’ may be
+admitted under one of the following categories. Category wise ‘eligibility
+criteria’ for appearing as ‘Private Candidate’ in AITT under CTS has been
+listed below:
+Category I: Ex-trainees (successful pass-outs) of ITI
+A. Ex-trainees of ITI who already possess NTC in one of the trades under
+CTS, are eligible for applying as Private candidate for an allied trade,
+provided he/ she fulfils all the conditions regarding educational qualification
+etc. prescribed for that allied trade.
+B. In addition, the applicant should possess minimum of 1 year experience
+(as on date of submission of application) post the date of AITT result
+declaration in the desired allied trade in establishments implementing
+Apprenticeship Training Scheme (ATS)/ establishments registered under
+the Apprenticeship portal or registered MSMEs or Entities registered with
+any government/local authorities / shops covered under Factories Act 1948
+and Shops and Establishments Act applicable for the concerned State.
+Category II: ‘Ex-trainees (successful pass-outs) and current trainees under
+CoE scheme
+A. The applicant should have the minimum prescribed entry qualification
+and should fulfil eligibility criteria for the desired trade under CTS, in which
+he/she intends to appear for AITT as Private Candidate. CoE candidates
+must register as ‘Private Candidate’ under CTS in the relevant/mapped
+CTS trade only.
+B. There should be a minimum gap of 1 year between successful
+completions of CoE training i.e. from the date of result declaration to the
+date of submission of application for ‘Private Candidate’ certification.
+C. During this gap of 1 year, the candidate must have undergone Industry
+training or gained experience in desired trade in establishments
+implementing Apprenticeship Training Scheme (ATS)/ establishments
+registered under the Apprenticeship portal or registered MSMEs or Entities
+8
+NSQC Approved
+=====PAGE 9=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+registered with any government/local authorities / shops covered under
+Factories Act 1948 and Shops and Establishments Act applicable for the
+concerned State.
+Category III: SCVT Candidates (admitted till August 2018 session)
+A. No special provisions have been made for SCVT Trainees to enrol as
+‘Private Candidate’. Going forward, SCVT trainees have been granted
+equivalence vide G.S.R 186(E) dated 2nd March 2017 for undergoing
+apprenticeship training under the Apprentices Act 1961 to obtain ‘NAC’.
+B. Only for SCVT trainees admitted till August 2018 batch, provision has
+been made for obtaining NTC by appearing in AITT under ‘Private
+Candidate’. Such trainees will continue to be governed by old guidelines for
+‘Private Candidate’.
+Category IV: Other Candidates (candidate not falling in any of the above 3
+categories, including SCVT trainees enrolled from admission session 2019
+onwards)
+A. The applicant should have the minimum prescribed entry qualification
+and should fulfil eligibility criteria for the relevant trade under CTS, in which
+he/she desires to appear for AITT as Private Candidate.
+B. Applicant should be minimum 21 years of age on the date of submission
+of application. There is no upper age limit.
+C. The applicant should possess minimum of 3 years’ experience (on the
+date of submission of application) in the relevant trade in establishments
+implementing Apprenticeship Training Scheme (ATS)/ establishments
+registered under the Apprenticeship portal or registered MSMEs or Entities
+registered with any government/local authorities / shops covered under
+Factories Act 1948 and Shops and Establishments Act applicable for the
+concerned State.
+(For detail and updated information please refer to DGT web portal.)
+23 Describe the overall assessment strategy and specific arrangements
+which have been put in place to ensure that assessment is always
+valid, reliable and fair and show that these are in line with the
+requirements of the NSQF.
+(1) Assessment process:
+The assessment for the qualification is carried out by conducting formative
+assessments, and end of year examinations (Summative). The formative
+assessments in respect of each Learning Outcome for practical and related
+theory are conducted by the concerned instructors for evaluating the
+knowledge and skill acquired by trainees and the behavioural transformation
+9
+NSQC Approved
+=====PAGE 10=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+of the trainees. This formative assessment is primarily carried out by
+collecting evidence of competence gained by the trainees by evaluating them
+at work based on assessment criteria, asking questions and initiating
+formative discussions to assess understanding and by evaluating records
+and reports. Summative assessment is carried out by All India Trade Test on
+Trade Theory, Trade practical and Employability Skills. The question papers
+for the theory Examinations contain objective type questions.
+The marking pattern and distribution of marks for the qualification are as
+under:
+Marking Pattern
+Sl. Type of Subject for the trade Marks for Marks for the
+No. assessment test the 2nd Year
+1st Year
+1 Practical 250 250
+2 Trade Theory 100 100
+Summative
+Assessment
+3 Employability Skills 50 50
+4 Formative assessment based on 200 200
+Learning Outcomes
+TOTAL: 6 0 0 6 0 0
+(2) Minimum pass marks:
+The minimum pass percent for Trade Practical and Formative assessment
+is 60% & for all other subjects is33%. There will be no Grace marks.
+Testing and certifications for the course:
+Controller of examinations, DGT carries out the assessment and issues
+National Trade Certificate (NTC) following the norms and guidelines issued
+by the Directorate from time to time.
+Overall assessment strategy:
+10
+NSQC Approved
+=====PAGE 11=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+Assessment of the qualification evaluates trainees to show that they can
+integrate knowledge, skills and values for carrying out relevant tasks as per
+the defined learning outcomes and assessment criteria. The trainees may
+choose the preferred language for assessment. The underlying principle of
+assessment is fairness and transparency. While assessing the trainee,
+assessor is directed to assess as per the defined assessment criteria
+against the learning outcomes. The evidence of the competence acquired
+by the trainees can be obtained by conducting theory and practical
+examinations, observing the trainees at work, asking questions and
+initiating discussions to assess, understand and evaluate records and
+reports. The ultimate objective of the assessment is to assess the
+candidates as per the defined assessment criteria for the learning
+outcomes.
+Specific Arrangements for assessment:
+• Assessment is outcome-based.
+• There are formative and summative assessments in Theory and
+Practical.
+• Assessment is carried out in Trade theory, Trade Practical, Workshop
+Calculation and Science, Engineering Drawing and Employability
+Skills.
+• While Trade Theory and Trade Practical are used for assessing Trade-
+related jobs, Workshop Calculation and Science is used to test trainee’s
+numerical and logical skills, Drawing is used to test the ability of the trainee
+to draw and read sketches and Employability skills is used to test the
+communication, professional language, leadership, entrepreneurship and
+team-work abilities of the trainee.
+• In addition to demonstration of theory and practical knowledge,
+trainees get a chance to present total personality.
+Quality assurance activities:
+Question papers are set by external paper setters/ software generated.
+Evaluation of Theory Examinations in Trade and Employability Skill is done
+by third-party agency.
+Trade Practical is examined by External Examiner.
+24. Assessment evidences
+Title of Component: Formative Assessment Breakup
+(on half yearly average of the learning assessment covered)
+11
+NSQC Approved
+=====PAGE 12=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+Means of assessment
+Assessment will be evidence based comprising the following for each Learning Outcome:
+Seria Terminal Competency Maximum
+l No. Weightage
+(%)
+1 Safety consciousness 15
+2 Workplace hygiene 5
+3 Attendance/ Punctuality 10
+4 Ability to follow Manuals/ Written instructions 5
+5 Application of Knowledge 10
+6 Skills to handle tools / equipment/ Instruments/ Devices 10
+7 Economical use of materials 5
+8 Working Strategy 10
+9 Quality in workmanship/ Performance 15
+10 VIVA 15
+Total Maximum Weightage (%) 100
+Pass/Fail
+The minimum pass percentage is 60% marks for formative assessment.
+LEARNING OUTCOME WITH ASSESSMENT CRITERIA:
+LEARNING OUTCOME (TRADE SPECIFIC)
+LEARNING OUTCOMES ASSESSMENT CRITERIA
+First Year
+1. Apply safety precautions Identify trade tools and equipment; demonstrate their
+and prepare profile with an uses with safety, care & maintenance.
+appropriate accuracy as per Identify safety symbols and hazards.
+drawing using basic jobs of Procedure of fire fighting in case of electrical fire.
+marking components, filing, Make a wooden switchboard.
+drilling, riveting, fitting, joining Prepare a closed cabinet from metal sheet with holes for
+etc. (NOS: PSS/N1707) cables and various fittings.
+2. Prepare terminations, Identify types of wires, cables and their specifications.
+make good quality of electrical Measure size of the wire using SWG /micrometer.
+12
+NSQC Approved
+=====PAGE 13=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+wire joints for single and multi Make married and ‘T’ (Tee) joint in stranded conductors.
+strand conductors and carry Prepare a Britannia straight and ‘T’ (Tee) joint in bare
+out crimping, soldering and conductors.
+brazing. (NOS: PSS/N2512, Prepare western union joint in bare conductor.
+PSS/N1331) Prepare Rat tail/ Duplex cross/ Knotted type/ fixture Joints
+in bare conductor.
+Solder the finished copper conductor joints with
+precaution.
+Prepare termination of cable lugs by using crimping tool.
+Demonstrate joining of metals by brazing.
+3. Draw and set up DC Measure resistance using voltage drop/Wheatstone
+and AC circuits, involving R-L- bridge method.
+C components, perform Measure current and voltage in electrical circuits and
+measurement of various verify Kirchhoff’s Law.
+electrical parameters with due Verify the characteristics of series-parallel combination of
+care and safety. Carry out resistors.
+Sealing of energy meters and Wind a solenoid, determine the poles and plot the field of
+Monitor meter readings using a magnet bar.
+MRI. (NOS:PSS/N1707) Demonstrate generation of mutually induced emf.
+Measure current, voltage, power factor and determine the
+characteristics of RL/ RC / RLC in AC series / parallel
+circuits.
+Measure power, energy for lagging / leading power
+factors in single phase / three phase circuits.
+Demonstrate improvement of PF by use of capacitors in
+AC three phase circuits.
+Find the phase sequence of 3-phase supply using phase
+sequence meter.
+Measure the Power of three phase circuit for balanced
+and unbalanced loads
+Measure Power/ Energy/ Frequency/Current using
+Wattmeter/ Energy meter / Frequency/ Tong tester meter
+in single and three phase circuits.
+Use analog /digital multi-meter for measurement of
+different electrical parameters.
+Explain installation and sealing of energy meters and
+readings using MRI.
+4. Explain basic concepts Make a block diagram of Thermal /Solar/ wind/ small, mini
+of generation, transmission & micro hydro power plants/ Nuclear power plants.
+13
+NSQC Approved
+=====PAGE 14=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+and distribution of electrical Make line diagram of transmission and distribution
+power including renewable systems.
+energy. Identify major equipment used in different substations viz.,
+(NOS: PSS/N7001) outdoor, indoor, pole mounted, etc.
+Prepare a line diagram of the institute/ ITI supply system.
+5. Plan and prepare Plate Identify various components of different earthing system.
+and Pipe earthing installations Measure earth resistance by earth tester/ megger.
+and ensure safe and effective Perform grounding of equipment and systems.
+earthing. (NOS: PSS/N6002) Test earth leakage by ELCB and relay.
+6. Carry out wiring, testing, Identify parts of DC machines/ DC motor starters and their
+and maintenance of DC terminals.
+machines including DC motor Carry out wiring of given DC motor / generator.
+starters. (NOS: N/A) Explain Service and repair of three point / four-point DC
+motor starters.
+Perform maintenance of carbon brushes, brush holders,
+Commutator and slip-rings.
+Perform speed control of DC motors - field / armature
+control method.
+Demonstrate overhauling/ routine maintenance of DC
+machines.
+7. Carry out wiring, testing, Identify terminals, components of single phase / three
+and maintenance of small phase transformers and carry out wiring.
+transformers, 1φ& 3φ AC Carry out polarity/ insulation/ open circuit/ short circuit test
+motors and Alternators /voltage regulation of a transformer.
+including AC motor starters. Identify parts and terminals of single phase / three phase
+(NOS: N/A) AC motors, test for continuity / insulation resistance.
+Identify parts and terminals of MG set and make
+connections.
+Identify parts and service of AC motor starters DOL/ star-
+delta/ auto-transformer /rotor resistance starter.
+8. Read, understand and Draw symbols used in the electrical circuit drawings.
+draw electrical Schematic Interpret control and power circuits of given wiring
+drawings of power and control drawings.
+circuits using industry standard Draw circuit for control of lamps/ tube lights/ fans / single
+symbols. (NOS: N/A) phase motors.
+Draw a circuit of fully automatic star-delta starter for
+starting a 3-φ induction motor.
+14
+NSQC Approved
+=====PAGE 15=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+9. Plan, draw, assemble Calculate maximum connected load in a section of the
+and perform various domestic institute.
+wiring. Carry out Testing, Draw electrical supply system from pole to main switch
+maintenance and repair/ board.
+replacement of domestic Wire up PVC Casing-capping wiring to control one lamp
+wiring. (NOS: N/A) from two different places (Staircase wiring).
+Wire up PVC conduit wiring to control one lamp from
+three different places.
+Prepare main distribution board, mount the energy meter
+board.
+Wire up the consumers main board with ICDP switch and
+distribution fuse box.
+Carry out earth continuity test.
+Check line-earth and neutral-earth loop impedance.
+Tracing of simulated faults in given circuit.
+10. Carry out wiring of Carry out wiring of Electrical panel, mount various control
+control panels, assemble elements and secure the cables properly.
+accessories and equipment. Explain electro-magnetic interference and electro-
+(NOS: N/A) magnetic compatibility.
+Perform wiring of control panel for different
+operations/controls of motor using various accessories
+and test for its performance.
+11. Install, test and carry out Carry out charging of a Lead acid cell/ filling of
+maintenance of batteries and electrolytes, testing of charging/ checking of discharged
+solar cell with due care and and fully charged battery.
+safety. (NOS: PSS/N6003) Explain routine, care/ maintenance and testing of
+batteries.
+Identify different types of solar cell viz., a-Si, CdTe, c-Si,
+CI(G)S, CVP and HCVP, etc.
+Determine the number of solar cells in series/ parallel for
+given power requirement.
+12. Read and apply Read & interpret the information on drawings and apply in
+engineering drawing for executing practical work.
+different application in the field Read &analyze the specification to ascertain the material
+of work. requirement, tools and assembly/maintenance
+parameters.
+15
+NSQC Approved
+=====PAGE 16=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+Encounter drawings with missing/unspecified key
+information and make own calculations to fill in missing
+dimension/parameters to carry out the work.
+13. Demonstrate basic Solve different mathematical problems
+mathematical concept and Explain concept of basic science related to the field of
+principles to perform practical study
+operations. Understand and
+explain basic science in the
+field of study.
+SECOND YEAR
+14. Plan, draw, install and Carry out wiring for communication circuits and computer
+test different types of networks using UTP, STP, Co-axial and optical fibre
+Commercial wiring including cables.
+advanced systems. Install Wire-up lighting system for control using motion detector.
+temporary electrical wiring at Wire-up panel board for control of lights and fans from
+construction site. (NOS: wireless remote.
+PSS/N1707) Install 1 φ / 3 φ online/ offline UPS wiring and test.
+Install and wire up CCTV camera.
+Install inverter and carry out wiring.
+Explain wiring planfor bathing area.
+Explain multi-storeyed building wiring.
+Install temporary LV electrical panels and lighting
+arrangements for construction site.
+15. Plan, draw, estimate Identify accessories and tools required for industrial
+material/ cost, install and test wiring.
+different types of industrial Determine minimum ampacity and size of conductors for
+wiring system as per IE rules. continuous and non-continuous loads.
+Layout cables for various Demonstrate cutting, threading and bending of metallic
+purposes including cable conduit.
+management. (NOS: Identify different bus bars, joining and installation
+PSS/N1707) including overhead bus bar system as per IE rules.
+Prepare bill of material, plan and practice wiring of an
+institute and workshop as per IE rules.
+Demonstrate split cable entry for multiple pre-terminated
+cables, up to IP 65 rated protection.
+Perform bonding and grounding of raceways, cable
+assembly and panels.
+16
+NSQC Approved
+=====PAGE 17=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+Demonstrate use of earth rods. Explain testing of
+underground cables for faults and removing of the fault.
+16. Plan, install and test Install fluorescent tube/ LED linear display lighting/ LED
+illumination system including exhibition lighting / Pendant lighting.
+domestic, commercial and Prepare decorative lamp circuit to produce rotating/
+industrial requirements. running light effect.
+Connect, program and operate Install display spotlights and LED downlights.
+PAR light on DMX controller Explain/Demonstrate kitchen under-cabinet lighting, shelf
+(Stage light control). (NOS: lighting, closet lighting and cove lighting.
+PSS/N1707) Install lamps; HP mercury vapour / LP mercury vapour/
+HP sodium vapour/ LP sodium vapour/ metal halide.
+Assemble and program DMX controller for operation of
+PAR lights.
+17. Assemble simple Determine the value of resistance by colour code and
+electronic circuits, repair CFL, identify types.
+LED lamps and DC regulated Determine V-I characteristics of semiconductor diode.
+power supply. (NOS: Identify circuit components and their terminals viz, diode,
+PSS/N6002) transistor, capacitors, regulator etc.
+Construct half wave/ full wave / bridge rectifier.
+Troubleshoot defects in simple power supplies.
+Identify different components and explain circuits of CFL
+& LED lamps.
+Perform repairing of LED / CFL.
+18. Assist in Installation and Construct a solar lantern using Solar PV panel.
+commissioning of small solar Construct a Solar Day lighting using manual charge
+plant, solar pumps and controller.
+construct Solar DC appliances. Construct a Solar Street light using dusk to dawn charge
+(NOS: PSS/N6003) controller.
+Construct a Solar water pump.
+Connect a Solar panel, Solar charge controller, Solar
+battery and a normal inverter and convert to a solar
+inverter.
+Prepare bill of material for a 1 KW solar PV installation.
+Explain synchronization between Solar Panel & AC grid
+supply.
+19. Plan, prepare and carry Identify different parts of various underground cables.
+out jointing of LT/HT Prepare cable for termination and joining.
+17
+NSQC Approved
+=====PAGE 18=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+underground cables with due Explain discharging procedure of underground cables.
+care and safety. (NOS: Make straight joint of underground cable.
+PSS/N2512) Explain testing of underground cables.
+20. Install Electric Vehicle Explain charger specifications.
+charging stations and carry out Install EV charging Station for public place.
+preventive/breakdown Install EV charging Station for home.
+maintenance. (NOS: N/A)
+21. Install and repair Service and repair of bell/ buzzer/electric iron/ electric
+domestic appliances viz., kettle.
+electric kettle, food processor, Service and repair of cooking range / geyser/
+fan, washing machine, geyser, mixer/grinder / food processor
+water pump etc. including Service and repair of induction heater/ fan/ blower/ cooler.
+repair of electrical faults in Service and repair of semi-automatic washing machine.
+refrigerator, window and split Service and repair of refrigerator.
+AC. (NOS: PSS/N6003, Explain installation and repair of pump set and
+PSS/N4402, PSS/N1711) submersible pump.
+Carry out repair of electrical circuit of window and split
+AC.
+22. Perform winding of Perform winding of single-phase transformer.
+small transformers and motors Perform winding of ceiling fan / table fan motor.
+viz., ceiling fan, table fan, Carry out maintenance, service and repair of single-phase
+mixer/grinder, submersible AC motors; mixer/grinder, table fan pumps etc.
+pump, etc. (NOS: PSS/N4402) Carry out maintenance and servicing of universal motor.
+Carry out winding of submersible pump.
+Carry out winding of 3-φ AC motor.
+23. Carry out Estimation & Perform estimation and costing for different types/scheme
+costing for different wiring of wiring for labour, materials and accessories for a given
+systems and ready to adopt wiring layout.
+structured / smart wiring
+concept for automation and IoT
+applications. (NOS: N/A)
+24. Read and apply Read & interpret the information on drawings and apply in
+engineering drawing for executing practical work.
+different application in the field Read & analyze the specification to ascertain the material
+of work. requirement, tools and assembly/maintenance
+parameters.
+18
+NSQC Approved
+=====PAGE 19=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+Encounter drawings with missing/unspecified key
+information and make own calculations to fill in missing
+dimension/parameters to carry out the work.
+25. Demonstrate basic Solve different mathematical problems.
+mathematical concept and Explain concept of basic science related to the field of
+principles to perform practical study
+operations. Understand and
+explain basic science in the
+field of study.
+EMPLOYABILITY SKILLS (CORE SKILL)
+LEARNING OUTCOME ASSESSMENT CRITERIA
+1. Introduction to Employability Outline the importance of Employability Skills for the current
+Skills job market and future of work.
+List different learning and employability related GOI and
+private portals and their usage.
+Research and prepare a note on different industries and the
+available opportunities.
+19
+NSQC Approved
+=====PAGE 20=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+2. Constitutional values - Explain the essential civic rights and duties required to be
+Citizenship followed to become a responsible citizen.
+Discuss the role of personal values and ethics in personal
+and social development.
+Identify and practice different environmentally sustainable
+practices.
+3 Becoming a Professional in Discuss relevant 21st century skills required for employment
+the 21st Century Highlight the importance of practicing 21st century skills like
+Self-Awareness, Behavior Skills, Positive attitude, self -
+motivation, problem solving, and time management skills in
+personal or professional life
+Create a pathway for adopting a learning mindset for personal
+and professional development
+4. Basic English Skills Use appropriate grammar and sentences while interacting
+with others
+Read English text with appropriate articulation
+Role play a situation on how to talk appropriately to a
+customer in English, over the phone or in person
+Write a short note/paragraph / letter/e -mail using correct
+English
+5. Career Development & Goal Research and identify trends and different skills required to
+Setting match the current market requirement for a job
+Create a career development plan with well-defined short-
+and long-term goals
+6. Communication Skills Demonstrate how to communicate effectively using verbal
+and nonverbal communication etiquette
+Write a short note/paragraph on a familiar topic
+Explain the importance of communication etiquette including
+active listening for effective communication
+Role play a situation on how to work collaboratively with
+others in a team
+7. Diversity and Inclusion Exhibit how to behave, communicate and conduct oneself
+appropriately with all genders and PwD
+Discuss the POSH Act and its significance
+8. Financial and Legal Literacy Discuss various financial institutions, products, and services
+20
+NSQC Approved
+=====PAGE 21=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+Demonstrate how to carry out offline and online financial
+transactions, safely and securely and check
+passbook/statement
+Explain the common components of salary such as Basic,
+PF, Allowances (HRA, TA, DA, etc.), tax deductions
+Calculate income and expenditure for budgeting
+Discuss the legal rights, laws, and aids
+9. Essential Digital Skills Describe the role of digital technology in day-to-day life and
+the workplace
+Demonstrate how to operate digital devices and use the
+associated applications and features, safely and securely
+Demonstrate how to connect devices securely to internet
+using different means
+Follow the dos and don’ts of cyber security to protect against
+cyber crimes
+Discuss the significance of displaying responsible online
+behaviour while using various social media platforms
+Create an e-mail id and follow e- mail etiquette to exchange
+e -mails
+Show how to create documents, spreadsheets and
+presentations using appropriate applications
+10. Entrepreneurship Describe the types of entrepreneurship and enterprises
+Discuss the process of identifying opportunities for potential
+business and relevant regulatory and statutory requirements
+Describe the 4Ps of Marketing-Product, Price, Place and
+Promotion and apply them as per requirement
+Create a sample business plan, for the selected business
+opportunity
+Discuss various sources of funding and identify associated
+financial and legal risks with its mitigation plan
+11. Customer Service Describe different types of customers
+Role play a situation on how to identify customer needs and
+respond to them in a professional manner
+Explain various tools used to collect customer feedback
+Draft a professional Curriculum Vitae (CV)
+21
+NSQC Approved
+=====PAGE 22=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+12. Getting ready for Use various offline and online job search sources such as
+apprenticeship & Jobs employment exchanges, recruitment agencies, and job
+portals respectively
+Demonstrate how to apply to identified job openings using
+offline /online methods as per requirement
+Discuss the significance of maintaining hygiene and
+dressing appropriately
+Discuss how to prepare for an interview
+Role play a mock interview
+List the steps for searching and registering for
+apprenticeship opportunities
+22
+NSQC Approved
+=====PAGE 23=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+SECTION 2
+25. EVIDENCE OF LEVEL
+OPTION A
+Title/Name of qualification/component: WIREMAN Level:
+4
+NSQF Outcomes of the Qualification/Component How the outcomes relates to the NSQF level NSQF
+Domain descriptors Level
+Process Work in familiar, predictable, routine, The learner requires to work in familiar and 4
+situation predictable work for example ‘Plan, draw,
+of clear choice estimate material, wire up and test different type
+● Make good quality electrical wire joints for of domestic wiring circuits as per Indian Electricity
+rules and taking care of quality. Construction and
+single and multi strand conductors suitable for
+working of MCB & ELCB. Test a domestic wiring
+applications with soldering following safety
+installation using Megger’. One needs to perform
+precautions.
+routine set of activities in a situation of clear
+● Plan, draw, estimate material, wire up and choice.
+test different type of domestic wiring circuits as
+per Indian Electricity rules and taking care of The learner requires to ‘Make choices to carry out
+quality. Construction and working of MCB & basic jobs of marking out the components for
+filing, drilling, and riveting, fitting and assembled
+ELCB. Test a domestic wiring installation using
+using different components independently' and
+Megger.
+‘Plan and install Pipe & Plate earthing’. In all these
+● Make choices to carry out basic jobs of
+learning outcomes the learner has to apply one's
+marking out the components for filing, drilling, knowledge to meet the client's requirement in
+and riveting, fitting and assembled using familiar, predictable and routine situation with
+different components independently. clear choice of procedures.
+23
+NSQC Approved
+=====PAGE 24=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+Title/Name of qualification/component: WIREMAN Level:
+4
+NSQF Outcomes of the Qualification/Component How the outcomes relates to the NSQF level NSQF
+Domain descriptors Level
+● Plan and install Pipe & Plate earthing. Hence NSQF Level is 4 for this descriptor.
+Measure earth resistance by earth tester.
+Professional Factual knowledge of field of knowledge or The learner requires demonstrating factual 4
+knowledge study knowledge of work or study. He applies the
+● Introduction and explanation of electrical processes and general concepts, in the field of
+wiring systems, cleat wiring, casing & Capping, work or study related to Wireman Trade like
+Electrical wiring, branching of circuits, conduit
+CTS, Conduit and concealed etc.
+pipe wiring materials etc.
+● Branching of circuits with respect to loads
+such as lighting and power.
+Hence NSQF Level is 4 for this descriptor.
+● Conduit pipe wiring materials and
+accessories, types and sizes of conduit.
+● Construction, working & applications of –
+Incandescent lamp, Fluorescent tube, CFL,
+Neon sign, Halogen, Mercury vapour and types,
+sodium vapour etc.
+● Wiring in commercial building- their special
+precautions as per I.E. rules.
+● General idea of fixing meter boards &
+taking service connection.
+24
+NSQC Approved
+=====PAGE 25=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+Title/Name of qualification/component: WIREMAN Level:
+4
+NSQF Outcomes of the Qualification/Component How the outcomes relates to the NSQF level NSQF
+Domain descriptors Level
+Professional ● Plan, draw, estimate material, wire up and As per the learning outcomes indicated in the 4
+skill test different type of industrial wiring circuits as adjacent cell the learner recalls and demonstrates
+practical skill such as ‘Plan, draw, estimate
+per Indian Electricity rules and taking care of
+material, wire up and test different type of
+quality.
+industrial wiring circuits as per Indian Electricity
+● Construct and test Half–wave, full-wave,
+rules and taking care of quality’ and ‘Select and
+and bridge rectifiers with filter & without filter.
+perform electrical/ electronic measurements with
+Troubleshoot and service of DC regulated appropriate instrument’ applying basic methods,
+power supply. tools, materials and information.
+● Select and perform electrical/ electronic
+Hence NSQF Level is 4 for this descriptor.
+measurements with appropriate instrument.
+Core skill Basic Mathematical and Algebraic The learning outcomes for example ‘Demonstrate 4
+principles basic mathematical concept and principles to
+perform practical operations' and ‘Understand
+● Demonstrate basic mathematical concept
+and explain basic science in the field of study
+and principles to perform practical operations.
+including simple machine ' display the learning
+● Understand and explain basic science in
+outcomes where the learner needs to display
+the field of study including simple machine.
+basic mathematical and algebraic principles;
+● Read and apply engineering drawing for understanding of social, political; and some skill
+different application in the field of work. of collecting and organising information,
+Basic understanding of social political and communication.
+natural environment
+Hence NSQF Level is 4 for this descriptor.
+● Explain energy conservation, global
+warming and pollution and contribute in day to
+25
+NSQC Approved
+=====PAGE 26=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+Title/Name of qualification/component: WIREMAN Level:
+4
+NSQF Outcomes of the Qualification/Component How the outcomes relates to the NSQF level NSQF
+Domain descriptors Level
+day work by optimally using available
+resources.
+● Explain personnel finance,
+entrepreneurship and manage/organize related
+task in day to day work for personal & societal
+growth.
+Language to communicate written or oral,
+with required clarity
+● Interpret & use formal and technical
+communication.
+● List and interpret various acts of labour
+welfare legislation.
+Responsibility ● Interpret the types, constructional features, The role of Wireman is independently responsible 4
+working principles of transformer (single & three to perform the work as per specifications and their
+own analysis of what needs to be done based on
+phase) Connect and test Transformer.
+their understanding of electrical processes,
+● Prepare single line diagram and layout
+principles and standards. Learning outcomes like
+plan of electrical transmission & distribution
+“Select, assemble, test and wire-up control
+systems and power plants with knowledge of
+panel”, “Plan, estimate and costing of different
+principle applied. Make and test power types of wiring system as per Indian Electricity
+connection to substation equipments with care rule” etc. reveal the same.
+and safety.
+26
+NSQC Approved
+=====PAGE 27=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+Title/Name of qualification/component: WIREMAN Level:
+4
+NSQF Outcomes of the Qualification/Component How the outcomes relates to the NSQF level NSQF
+Domain descriptors Level
+● Select, assemble, test and wire-up control Hence NSQF Level is 4 for this descriptor.
+panel.
+● Plan, estimate and costing of different
+types of wiring system as per Indian Electricity
+rule.
+27
+NSQC Approved
+=====PAGE 28=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+SECTION 3
+EVIDENCE OF NEED
+26 What evidence is there that the qualification is needed? What is the
+estimated uptake of this qualification and what is the basis of this
+estimate?
+In case of other Awarding Bodies (Institutes
+Basis under Central Ministries and states
+departments)
+Need of the Power Sector has a significant presence of
+qualification organized as well as unorganized skilled manpower
+requirement. This sector is poised to grow
+exponentially in the years to come and is highly
+labour intensive and there are many emerging
+trends in this sector.
+Hence the qualification has been designed keeping
+in view to cater to the ever-increasing demand of
+skilled manpower in consultation with stakeholders.
+Industry The job role defined for the qualification is as per the
+Relevance National Classification of Occupations 2015 which
+is developed by Employment Directorate under the
+ministry of Labour and Employment in collaboration
+with different industry partners and as per ILO
+guidelines. Moreover, the training is imparted in
+ITIs/NSTIs/MSTIs/BTC/ BTPs/ Industries /
+Establishments etc. where such requirement is
+available. This justifies the qualification is very much
+relevant for industry.
+Usage of the The Proposed qualification will create skilled
+qualification Technician for various establishments in different
+Sectors.
+Estimated uptake The present seating capacity is 62118.
+27 Recommendation from the concerned Line Ministry of the
+Government/Regulatory Body. To be supported by documentary
+evidences.
+28
+NSQC Approved
+=====PAGE 29=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+The qualification originally designed for Craftsman Training Scheme is in
+existence for many years and approved by DGT (Regulatory Body) under
+Ministry of Skill Development and Entrepreneurship, Govt. of India.
+28 What steps were taken to ensure that the qualification(s) does (do)
+not duplicate already existing or planned qualifications in the NSQF?
+Give justification for presenting a duplicate qualification
+The qualification is originally designed and approved by DGT for the
+Craftsman Training Scheme and is in existence for many years. No such
+duplicate qualification of same duration and competencies exists.
+29 What arrangements are in place to monitor and review the
+qualification(s)? What data will be used and at what point will the
+qualification(s) be revised or updated? Specify the review process
+here
+● The research wing of CSTARI & DGT reviews and updates the
+qualification, in consultation with industries and other stakeholders, on a
+regular basis by conducting trade committee meetings.
+● DGT will monitor any duplicity by comparing existing qualifications
+with upcoming ones in the National Qualifications Register (NQR) and
+relevant sectors.
+SECTION 4
+EVIDENCE OF PROGRESSION
+29
+NSQC Approved
+=====PAGE 30=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Wireman
+30 What steps have been taken in the design of this or other qualifications to
+ensure that there is a clear path to other qualifications in this sector?
+Show the career map here to reflect the clear progression
+On completion of the training the trainee will have an opportunity to move in
+vertical/horizontal pathways to promote to higher designations. The learner can
+further undergo other specialised courses to excel in the relevant field.
+Wireman Senior Wireman Supervisor Manager
+Entrepreneur
+30
+NSQC Approved

@@ -1,0 +1,1544 @@
+=====PAGE 1=====
+
+=====PAGE 2=====
+Draft Guidelines for Recognition of
+Prior Learning (RPL)
+27th Jan 2023 (Version- 10.2)
+National Council for Vocational Education and Training (NCVET)
+=====PAGE 3=====
+CONTENTS
+1. INTRODUCTION ........................................................................................................ 4
+1.1 Overview, understanding, and importance of Recognition of Prior Learning (RPL) in
+the Ecosystem ................................................................................................................... 4
+1.2 Current Scenario and Challenges ........................................................................... 5
+1.3 Need for Rationalising the RPL Policy..................................................................... 5
+1.4 Mapping of RPL practices ....................................................................................... 6
+1.5 Definitions ............................................................................................................... 7
+1.5.1 Formal Learning ............................................................................................... 7
+1.5.2 Non-Formal Learning ....................................................................................... 7
+1.5.3 Informal Learning ............................................................................................. 7
+1.5.4 Recognition of Prior Learning (RPL) ................................................................ 8
+2. Scope and the Objectives of the Guidelines ............................................................... 8
+2.1 Scope ..................................................................................................................... 8
+2.2 Objectives ............................................................................................................... 8
+3. Stakeholders of Recognition of Prior Learning (RPL).................................................. 9
+3.1 Applicants/ Candidates/ Workers/ Beneficiaries/ Employees ................................... 9
+3.2 Employers, Industry, Industrial bodies, and Community .......................................... 9
+3.3 Implementing bodies (ABs and AAs) ..................................................................... 10
+3.4 Sponsoring/ Funding Bodies ................................................................................. 10
+3.5 Government and Regulatory Body (NCVET) ......................................................... 10
+4. The Process and Implementation Mechanism .......................................................... 11
+5. Role of Awarding body (AB) ..................................................................................... 22
+5.1 Critical Primary Functions with regard to RPL Assessment ................................... 22
+6. Role of Assessment Agency (AA) ............................................................................. 22
+6.1 Recognition of various types of Assessors for RPL ............................................... 23
+6.1.1 Certified Master Assessors, and Assessors of Assessment Agencies ........... 23
+6.1.2 Industry Experts formally recognised by the Industry ..................................... 23
+6.1.3 Assessor in Dual role (‘Trainer as Assessor’ or ‘Assessor as Trainer’) ........... 23
+6.2 Role of Assessors in Recognition of Prior Learning (RPL) of different types ......... 23
+7. Types of Assessments of Knowledge, Skills and Competency ................................. 24
+8. Delivery Channels and recommended Centres/ Venues for RPL assessments ........ 26
+8.1 Awarding Bodies (AB)/ AB’s Affiliated Training Provider/ Centre ........................... 26
+8.2 Workplace or workshop (for traditional/ indigenous `skills) .................................... 26
+8.3 RPL at Colleges/ HEIs/ Universities having vocational education/ skilling labs/
+workshops facilities.......................................................................................................... 26
+8.4 Industrial Clusters for conducting assessment / examination / test ........................ 26
+8.5 RPL at Centre of Excellence (COEs) .................................................................... 27
+8.6 Place of employment/ on-site ................................................................................ 27
+8.7 On demand Assessment through Aggregators (online/ offline) ............................. 27
+Page 2 of 41
+=====PAGE 4=====
+8.8 RPL at Schools/ Skill Hubs having vocational education/ skilling labs (for the local
+workforce) ....................................................................................................................... 27
+9. Provision of RPL for Person with Disability (PwD)/ Divyangjan ................................. 27
+10. Integrating RPL with NCrF ........................................................................................ 27
+10.1 Assignment of credits as per National Credit Framework (NCrF) levels based on
+the Learning Outcomes (LOs) ......................................................................................... 28
+10.2 Credit accumulation in Accredited Bank of Credits (ABC) .................................. 28
+10.3 Redemption / Transfer of Credits ....................................................................... 29
+11. Quality Assurance and Quality Control (QA/QC) ...................................................... 29
+11.1 Steps to ensure Quality Assurance .................................................................... 29
+12. Monitoring and Evaluation (through online/ portal) .................................................... 30
+12.1 Process of Monitoring ........................................................................................ 30
+12.2 Reporting Mechanism........................................................................................ 30
+13. Creating a dedicated RPL Digital portal in due course to support ............................. 30
+14. Process for Modification/ up-dation of Guidelines from time to time .......................... 31
+14.1 Guidelines issued with the approval of the Council after following due process of
+public consultations ......................................................................................................... 31
+14.2 Removal of Difficulties in implementation with the approval of the Chairperson,
+NCVET 31
+Annexure – 1: RPL PROCESS FLOWCHART .................................................................... 32
+Annexure – 2: THE VARIOUS USE-CASE ON THE DUAL ROLE OF ASSESSOR ............ 36
+Annexure – 3: HACKATHON BASED ASSESSMENTS ...................................................... 37
+Annexure - 4: TRADITIONAL (INDIGENOUS) SKILLS/ OCCUPATIONS AND ITS
+ASSESSMENT PROCESS ................................................................................................. 38
+Page 3 of 41
+=====PAGE 5=====
+RECOGNITION OF PRIOR LEARNING (RPL)
+File No: 22003/05/2023/NCVET
+National Council for Vocational Education and Training
+Ministry of Skill Development and Entrepreneurship
+Government of India
+Guidelines for Recognition of Prior Learning (RPL)
+1. INTRODUCTION
+1.1 Overview, understanding, and importance of Recognition of Prior Learning
+(RPL) in the Ecosystem
+Recognition of Prior Learning (RPL) was promoted as a social policy tool in 1972 to create
+“learning opportunities for the underprivileged” (UNESCO, 1972, p. 41). In 1995 the European
+Commission (EC) portrayed RPL as an economic policy tool for promoting employability for
+all (EC, 1995). Several countries have adopted RPL since it is regarded as a win-win policy
+for all stakeholders: adults seeking RPL, providers offering RPL, employers needing certified
+human resources, unions aligned with the interests of any of these stakeholders, and the state,
+which is responsible for citizen welfare and the economy.
+In September 2012, the Ministry of HRD, Government of India initiated a pilot project on RPL
+as a part of the National Vocational Education and Qualification Framework (NVEQF).
+Subsequently, under the flagship scheme of Pradhan Mantri Kaushal Vikas Yojana (PMKVY
+2016-2020), RPL was introduced by the Government of India as a tailor-made program, for
+assessing and certifying the competencies of the existing skilled workforce.
+Presently, the Vocational Education and Training/ Skilling ecosystem in India lacks a
+standardized policy on recognition of Prior Learning, leading to variations in the assessment
+standards, certification authority and credibility resulting in limited mobility for the candidate
+and ambiguity in the industry while comparing certificates from various types of awarding
+bodies.
+The National Education Policy (NEP) 2020 emphasizes on ensuring lifelong learning for
+everyone. As per the NEP, 2020, “The opportunity to attain foundational literacy, obtain
+education and pursue a livelihood must be viewed as basic rights of every citizen”.
+Page 4 of 41
+=====PAGE 6=====
+1.2 Current Scenario and Challenges
+Recognition of Prior Learning is a method to assess the previous learning, functional
+competencies/ skills of a student/learner acquired through formal, non-formal and informal
+modes of learning, and is systematically evaluated against the learning outcomes and
+assessment criteria of a NSQF aligned and approved qualification (leading to the award of
+credit).
+The RPL therefore, is also a method to assess whether a Learners can demonstrate to meet
+the assessment requirements on a job-role/qualification through knowledge, understanding of
+skills, they already possess and they may or may not require to undergo a defined course of
+learning.
+It enables the recognition of achievement from a range of activities using an appropriate
+assessment methodology. The knowledge, understanding and/or skills in question may have
+been acquired in any area of life, for example, domestic/family life, education and training,
+work related activities, community or voluntary activities.
+Currently, In India RPL is predominantly driven through signature schemes like PMKVY etc.
+These schemes are implemented through Public- Private and Public-Public partnerships.
+Additionally, RPL is normally limited to lower NSQF level skills, not giving opportunities for
+higher level skills acquired on the job or otherwise, to get recognised. Following are the
+challenges in the effective implementation of the RPL:
+a) Conceptual scepticism about the definition of RPL, the purposes it serves, and lack of
+clarity about different RPL models and how to implement them.
+b) All the Employers may not be aware about provision of RPL or may not recognize
+qualifications/ certificates achieved through RPL.
+c) Language barrier (multi lingual support)
+d) Insufficient infrastructure and tools for effective assessment of the RPL.
+e) Lack of qualified counsellors, assessors, and competent staff for the conduct of RPL.
+f) Challenges in RPL assessment for Indigenous/heritage/traditional skills.
+1.3 Need for Rationalising the RPL Policy
+With redefining of the RPL processes, the landscape of education, training and certification
+will receive a fresh impetus. Recognizing all non-formal learning outcomes honours and
+makes visible the whole range of competencies that people have acquired over the course of
+their lives in diverse fields and through various means. RPL serves as a motivation for
+honouring the lifelong learning.
+RPL is needed by following target groups:
+Target Groups Needs
+Craftsperson (such as  They acquire competencies informally during
+electrician, mason, cook, etc.) their jobs, but do not hold any formal qualification/
+certificate to prove their competencies to the
+employer. Thus, they get less opportunity and low
+wages.
+ Sometimes, they hold a formal qualification for
+the lower skill level to their actual core
+competencies.
+ They may not be aware of some of the
+prevalent/latest techniques which they can learn
+Page 5 of 41
+=====PAGE 7=====
+Any worker in the informal  Need RPL to move to the formal economy
+economy
+An unemployed worker  RPL provide formal certification that could help in
+getting employment / self-entrepreneurship (by
+taking loan on basis of certificate)
+An economically inactive person  RPL certification can support the individual who
+used to work in an occupation without certification
+and excited about the labour market, and now
+wants to go back and find formal employment
+A caretaker or a person  RPL can help the individual to get a job in the
+employed in an occupation at labour market by providing formal certification
+home (mostly by women and commensurate to their competencies.
+often underpaid)
+An employed person in any job  RPL helps such person to remain competitive in
+where qualification the global labour market
+requirements have changed
+over the years or where
+qualification requirements differ
+across countries (such as caring
+for the elderly, kindergarten
+worker, physiotherapist, etc.)
+A student, researcher, etc.  Need RPL to get recognition for the knowledge
+and skills obtained during job, workshop,
+projects, etc. It also helps to earn credits for
+accumulation in Academic Bank of Credits.
+A worker who wishes to  Need RPL to get recognition for their
+continue working after competencies qualifications to continue working,
+retirement. even as self-employed.
+A migrant worker or a returning  Need RPL to get formal recognition for their skills
+migrant worker in the recipient country
+An industry worker who has  Certification can open further career doors/
+learned areas on the job windows
+An Athlete/ Sportsperson  Need RPL to get recognition for their
+competencies/ skills obtained while playing
+games/ sports/doing handicraft work etc.
+ RPL would also help them to earn academic
+equivalence certificates at different NCrF levels.
+1.4 Mapping of RPL practices
+Criteria Type
+Aim  Employability
+ Social equality
+ Social upliftment
+ Economic development
+ Career Progression
+ Entrepreneurship/Self-employment
+Database
+Methods  Written tests
+ Viva voce
+ Portfolio review
+ Interviews
+Page 6 of 41
+=====PAGE 8=====
+ Projects/output oriented assignments /
+tangible Jobs
+ Case Studies
+ Competitions
+ Blended assessments
+Outcomes  Recognition
+ Full qualification certification
+ Partial qualification/NOS certification
+ Scope of Upskilling/Reskilling
+ Credits towards a qualification/ work
+ Exemption from admission prerequisites
+for formal education
+ Certification
+1.5 Definitions
+1.5.1 Formal Learning
+Formal learning is that which takes place as intended within formally constituted educational
+institutions such as schools, colleges, universities, training centres and so on. Typically, it
+follows a prescribed framework whether or not actual attendance at the institution is
+necessary. (Sometimes there are quite specific outcomes. On other occasions there is more
+of a kind of broad direction or aim). Formal learning either is with providing specific outcomes
+or enables setting up a broad direction or aim for learning outcomes The concept of formal
+learning usually includes following three necessary features that, taken together, constitute
+the formality of the learning situation:
+a) A specified curriculum that details out what needs to be learned and expected learning
+outcome.
+b) Designated teacher or group of teachers for imparting training.
+c) Certification after attaining the learning outcomes which can be provided post formal
+assessment.
+1.5.2 Non-Formal Learning
+As seen, formal learning has a well-defined set of features. Whenever one or more of these is
+absent, we may safely state that the learning process has acquired non-formal structure.
+Therefore, if a given learning system uses non-contiguous communication, we may say that it
+has non-formal learning features. Likewise, non-formal characteristics are found when the
+adopted strategy does not require individual attendance, reducing the need of the contact
+between teacher and student and most activities take place outside the institution, as for
+instance, home reading and paperwork or in community work.
+1.5.3 Informal Learning
+Informal learning is the term assigned to learning that’s unstructured and takes place away
+from traditional, formal learning settings, like a classroom. It has no clear goals or objectives
+as it’s often unplanned and self-directed by the learner and is not a planned way of learning.
+It generally happens naturally and inadvertently or during the course of job with the learner
+stumbling into a learning situation. It is learner driven and Informal learning comes in many
+forms, including viewing videos, self-study, reading articles, participating in forums and
+chat rooms, performance support, coaching sessions, and games. Informal learning is a
+style of learning in which the learner sets their own pace of learning, goals and objectives.
+Page 7 of 41
+=====PAGE 9=====
+1.5.4 Recognition of Prior Learning (RPL)
+RPL is an assessment process that assesses the individual’s formal, non-formal and informal
+learning/talent to measure the individual’ learning outcomes, competency outcomes, or
+standards for entry to the formal ecosystem, and partial or total completion of a qualification.
+It aims to:
+a) Align the competencies of the unregulated workforce and informal way of skilling to
+the standardized National Skills Qualification Framework (NSQF).
+b) Enhance the employability opportunities of an individual as well as provide
+alternative pathways to higher education.
+c) Provide opportunities for bridging the inequalities based on privileging certain forms
+of knowledge over others.
+d) Provides way for formally recognising lifelong informal learning
+2. SCOPE AND THE OBJECTIVES OF THE GUIDELINES
+2.1 Scope
+These guidelines promote the recognition of prior/ previously acquired skills in the work skills
+ecosystem and also provide for planning and implementing RPL in an efficient and effective
+manner while ensuring the quality of enablement and outcomes. This guideline lays down the
+minimum standards & process to be followed for the Awarding Bodies and Assessment
+Agencies recognized by NCVET with regard to assessment of RPL.
+These guidelines aim to facilitate NCVET recognized bodies to reach out to individuals,
+through proposed mechanisms for effectively assessing their skills, making it easier for
+learners/ individuals to integrate into the formal learning system in order to be employed
+(wage/self). These guidelines also provide a significant approach in strengthening the
+vocational and educational training system and in establishing a robust skill recognition
+system.
+The RPL guidelines will apply to all NSQF aligned & approved qualifications and will also form
+an integral component of National Credit Framework. Thus, RPL (with or without upskilling)
+would enable student/learner to acquire and accumulate the credits for the qualifications for
+which they are assessed subject to successful clearing of the assessment. The guidelines
+outline a well-defined mechanism through which recognised awarding bodies would be able
+to:
+a) Identify the commensurate /appropriate level of skills of individuals.
+b) Map the skills acquired through experiential learning including work experience and
+professional levels, achieved with an existing NSQF aligned and approved
+Qualification.
+c) Assess the individual on the basis of individual’ learning and performance outcomes.
+d) Recognition of the certificate obtained by an employer/education provider and to
+provide access to the labour market and/or formal education on the basis of that
+certificate.
+2.2 Objectives
+The objective of the RPL Guidelines is to provide a dynamic/robust document to support the
+individuals in acquiring the formal qualification(s) that matches their knowledge and skills, and
+thereby contributing in improving their employability, mobility, lifelong learning, social inclusion
+and self-esteem.
+Page 8 of 41
+=====PAGE 10=====
+The detailed objectives of the RPL guidelines are:
+1. To align the prior competencies of the existing manpower/workforce with the
+National Skills Qualification Framework (NSQF)
+2. To formalize learning by providing progression avenues to the Kamgars/ learner,
+both in terms of employment and academic attainment, if so desired, as applicable.
+3. To enhance the employability of individuals and/or increase their ability to avail
+entrepreneurial opportunities
+4. To provide opportunities for reducing inequalities.
+5. To provide best practices among AB and AA for RPL
+6. To enable & facilitate industrial bodies for conduct of RPL for their workforce
+7. Bring in traditional/indigenous skills in the recognised formal learning.
+8. Provision of earning credits and accumulation of credits in Accredited bank of Credits
+(ABC).
+9. To develop the potential to improve employability, mobility, lifelong learning,
+social inclusion and self-esteem through:
+a. Promoting social inclusion and equity for marginalised/disadvantaged groups
+including early school leavers, retrenched Kamgars, ethnic minorities – by
+valuing experiential learning and providing them with opportunities to obtain
+qualifications.
+b. Encouraging lifelong learning in order to create a competent and adaptable
+workforce that can meet the challenges of a fast-changing environment,
+address skills gaps and allow holistic development.
+c. Providing access and opportunity for further education.
+d. Improving efficiency and flexibility in education and in the skilling ecosystem by
+allowing alternative learning pathways which can enable formal, non-formal,
+and informal learning and fast tracking the acquisition of qualifications.
+e. Fostering employability, and thus better, jobs with better pay.
+f. Contributing to the transition from the informal to the formal economy.
+3. STAKEHOLDERS OF RECOGNITION OF PRIOR LEARNING (RPL)
+3.1 Applicants/ Candidates/ Workers/ Beneficiaries/ Employees
+A nationally recognised and credible qualification brings numerous benefits for an
+applicant/candidates/ workers/ beneficiaries/ employees, including:
+a) Access to formal education, training programmes and promoting lifelong learning.
+b) Opportunity in getting better jobs, move into the formal economy, or qualify to function
+as a professional.
+c) Eligibility or access to apply for Government Bids/tenders and financial services for
+businesses, thus improving business potential.
+d) Improved self-esteem and respect in society with the associated process of
+certification
+e) Improvement in skills and the requisite knowledge as many individuals may require
+upgrading of their skills and the knowledge thereof in order to meet the competency
+standards.
+3.2 Employers, Industry, Industrial bodies, and Community
+Having a qualified and certified human resource in any requisite skill is generally an
+organizational requirement that helps the organization to acquire quality assurance
+certifications. A workforce with upgraded skills and knowledge would be more productive and
+will contribute to innovation and Return on Investment (ROI). Besides, it improves the morale
+of Kamgars/employees and promotes a positive learning culture.
+Page 9 of 41
+=====PAGE 11=====
+3.3 Implementing bodies (ABs and AAs)
+All NCVET recognised Awarding Bodies and assessment Agencies shall have the mandate
+for the effective implementation of the RPL assessment and subsequent certification as per
+this Guideline.
+3.4 Sponsoring/ Funding Bodies
+Central Ministries/Other Govt. Departments/States/Public & Private Sector Companies
+through CSR projects, NGOs others). Another similar bodies may facilitate conduct of RPL
+assessment through recognised entities as per para 3.3 above.
+3.5 Government and Regulatory Body (NCVET)
+ NCVET may amend/add the various regulating parameters for RPL as per the
+advisories from MSDE and other inputs received from various potential stakeholders
+in the skill ecosystem.
+ Establish a National advisory committee for RPL
+ Mobilise resources for RPL implementation
+ To develop the Process and Implementation Mechanism to ensure quality and
+relevance of the RPL process.
+ To monitor and evaluate the implementation of RPL in the ecosystem.
+Page 10 of 41
+=====PAGE 12=====
+4. THE PROCESS AND IMPLEMENTATION MECHANISM
+The RPL mechanism is designed keeping in mind the NCrF/ NSQF; the process encompasses different NCrF/ NSQF levels and approach to be
+adopted by the Awarding Bodies. For the purpose of clarity in processes required for implementation, the RPL process is divided in four major
+categories, the table specifies the various steps and involved process. The process at different NCrF/ NSQF levels is proposed in the table below:
+NCrF/ NSQF Level 4-6 (12th with
+Level 4-6 (without formal
+Level Level 1-3.5 experience, UG-PG Level 6.5-8 (PG and PhD)
+education)
+Stages Pursuing)
+1. Assessors/Proctors 1. Master of trade 1. Master of trade 1. Technical Review
+[Certified by Training of 2. Master Assessors 2. Master Craftsman Committee (formed by the
+Assessors (ToA) 3. Industrial Experts 3. Master of Traditional / Awarding
+programs] 4. Assessor/Proctors Heritage Skill Bodies/Institutions)
+Stage 0
+[Certified by Training of 4. Skill Gurus
+Assessors (ToA) 5. Ustads
+Choosing
+programs] 6. Master Assessors
+Type of
+[Certified by Training of
+Assessors
+Master Assessors (ToMA)
+programs]
+1. Hands on skill 1. Hands on skill assessment 1. Hands on skill assessment 1. Review of prior work
+assessment to be done can be done in the can be done in the achievements
+only in the physical mode physical mode/ blended physical mode/ blended 2. Letter of recommendations
+2. Objective type Question mode mode by state or central govt. or
+for theory assessment 2. Subjective type questions 2. Online/blended institute of repute
+3. Blended methods of for theory assessment assessment 3. Practical/ hand-on skill
+Planning evaluation 3. Objective type Question for 3. Objective type Question for Assessment
+Methods of (Note: The objective theory assessment theory assessment
+Evaluation/ questions may be asked as 4. Viva voce 4. Viva voce/Interview
+Assessment viva voce in the local 5. Projects/ Skill
+language of the individual/ demonstration
+candidates) 6. Hackathon
+Page 11 of 41
+=====PAGE 13=====
+NCrF/ NSQF Level 4-6 (12th with
+Level 4-6 (without formal
+Level Level 1-3.5 experience, UG-PG Level 6.5-8 (PG and PhD)
+education)
+Stages Pursuing)
+Awareness and Awareness and Information Awareness and Information Awareness and Application
+Mobilization
+ Campaigns shall be  The potential candidates  The potential candidates  Awareness campaigned
+designed to create shall be made aware about shall be made aware about shall be undertaken to
+awareness about RPL RPL as an opportunity. RPL as an opportunity. inform about RPL program
+program and its need and  ABs/ AAs shall use various  ABs/ AAs shall use various for level 6.5 to 8, and to
+benefits marketing strategies to marketing strategies to make reach among the
+ These campaigns shall create a pull force in the create a pull force in the potential candidate
+catalyse the mobilization market resulting in higher market resulting in higher  The campaign shall create
+of the candidates for RPL. enrolments for the RPL enrolments for the RPL awareness about the
+program. program. application process for the
+RPL program.
+Stage 1 Strategy:
+Awareness Strategy: Strategy: Strategy:
+ Identification of target
+group  Identification of target  Identification of target  Advertising
+ Public notice / group group  Word of mouth (online &
+advertisement at  Publicity / Advertising to the  Advertising as per the offline)
+National/ State/ Regional/ reach of target group reach of target group  Social Media
+Local level through  Viral marketing through  Viral marketing through
+various means of mass successful stories successful stories
+awareness such as:  Word of mouth (online &  Word of mouth (online &
+Print Media, Electronic offline) offline)
+media, outdoor  Social Media  Social Media
+advertising, Direct
+Interaction with
+prospective candidates,
+Page 12 of 41
+=====PAGE 14=====
+NCrF/ NSQF Level 4-6 (12th with
+Level 4-6 (without formal
+Level Level 1-3.5 experience, UG-PG Level 6.5-8 (PG and PhD)
+education)
+Stages Pursuing)
+Community advertising
+(in Panchayats or
+workplace)
+Pre-screening and Self-enrolment and Enrolment and verification Pre-screening and applicant
+counselling verification profile evaluation
+ In this step, the mobilized  The candidates shall be  The candidates shall be  Pre-screening of the
+candidates shall be allowed/ encouraged to get guided for the enrolment/ candidate’s profile shall be
+enrolled and briefed self-enrolled/ registered registered for the RPL done to ascertain the
+about RPL processes, for the RPL program. program. suitability of the candidate
+entry criteria, benefits of  All documents submitted by  All documents submitted by as per the NSQF level and
+RPL, career progression, the candidates during the candidates during work experience.
+employability, opportunity enrolments shall be verified enrolments shall be verified  The suitable candidate is
+to enter into formal by AA for authenticity. by AA for authenticity. further evaluated and
+education, etc. All  All enrolled candidate shall  All enrolled candidate shall directed either to
+candidates must undergo be provided with 4 to 15 be provided with 4 to 15 “Technical Review
+Stage 2 12-15 hrs of orientation. hrs. of mandatory hrs. of mandatory Committee” or to
+Enrolment  Further, candidates shall orientation. orientation. “upskilling/ orientation
+be pre-screened to  An approximate NSQF  An approximate NSQF program followed by RPL
+determine their tentative level of the candidate shall level of the candidate shall assessment”.
+NSQF level and then be estimated (either by be determined by an
+method of assessment self-assessment or by assessor.
+i.e. either by “Direct assessor)  During enrolment if the
+assessment” or  During enrolment if the candidate is found
+“Upskilling followed by candidate is found unsuitable, then they may
+Assessment”. unsuitable, then they may take an upskilling
+take related upskilling module/course and
+module/course(s) and thereafter they may appear
+thereafter they may appear for RPL assessment
+for RPL assessment
+Page 13 of 41
+=====PAGE 15=====
+NCrF/ NSQF Level 4-6 (12th with
+Level 4-6 (without formal
+Level Level 1-3.5 experience, UG-PG Level 6.5-8 (PG and PhD)
+education)
+Stages Pursuing)
+Process of assessment Assessment (Theory + Assessment (Theory + Process of assessment
+Practical + Viva-voce) Practical + Viva-Voce)
+ Direct assessment:  Assessment of Theoretical  Assessment of practical  Technical review
+The mapping of Knowledge through online skills based on work committee evaluates the
+candidate’s experiential mode/ platform: weightage experience in physical candidates with significant
+learning outcomes is may vary from 30% to 50% mode: (weightage may vary and long lasting
+equal or more than 70% (based on sector/ job role/ from 80% to 100%. contribution to the sector,
+of qualification learning qualification).  The weightage for the industry, country, or to the
+outcomes. (Note:  Assessment of practical assessment through Viva- individual’s discipline or
+Guidelines for Direct skills based on work voce may vary from 0% to profession.
+assessment are provided experience in physical 20%
+Stage 3 in the AA guidelines.) mode (online mode can be  Upskilling/ orientation
+Assessment adopted for certain suitable Note: The question framed for with assessment are
+ Upskilling followed by job roles): weightage may the practical/ Viva-voce shall recommended for the
+assessment: vary from 50% to 70%. be based on the prior job/ candidates with
+If, the mapping of  The weightage for the project work experience in outstanding work profile
+candidate’s experiential assessment through Viva- accordance with PCs of the and field experience in
+learning outcomes is less voce may vary from 0% to qualifications/ NOSs. their professional
+than 70% of qualification 10%. discipline.
+learning outcomes, then The provision for theoretical
+candidate shall require assessment can be provided
+taking up an upskilling for certain qualifications with
+module or earning a NOS/ weightage varying from 0 to
+Micro credential before 10%.
+the assessment.
+Upskilling prior to the
+assessment shall also be
+Page 14 of 41
+=====PAGE 16=====
+NCrF/ NSQF Level 4-6 (12th with
+Level 4-6 (without formal
+Level Level 1-3.5 experience, UG-PG Level 6.5-8 (PG and PhD)
+education)
+Stages Pursuing)
+allowed where there is an
+obvious skill gap due to
+the change in technology,
+futuristic skills and
+advancement of work
+place/ methods.
+ The questions framed for  The questions framed for  The questions framed for For Technical Review
+the assessment (by any the assessment (by any the assessment (by any Committee
+mode) should be based mode) should be based on mode) should be based on
+on prior job/ project work prior job/ project work prior job/ project work  The Technical Review
+experience in accordance experience in accordance experience in accordance Committee shall consist of
+with the performance with the performance with the performance at least 7 members. It shall
+criteria’s (PCs) of the criteria’s (PCs) of the criteria’s (PCs) of the comprise the CEO/ Head of
+National Occupational National Occupational National Occupational the AB, standards head of
+Standards (NOSs). Standards (NOSs). Standards (NOSs). the AB, sectoral/ industrial
+Governance
+ Each RPL batch strength  Each RPL batch strength  Each RPL batch strength expert, academicians, and
+Process to be
+shall be of maximum 20 shall be of maximum 20 shall be of maximum 20 a member from regulating
+used for
+candidates. candidates. candidates. bodies. The committee
+Assessment
+ The assessment may be  The assessment may be  The assessment may be shall be headed by a
+performed in a group or performed in a group or performed in a group or chairperson.
+individually, but every individually, but every individually, but every  A record of the data
+candidate must be candidate must be candidate must be obtained from the
+assessed for the practical assessed for the practical assessed for the practical candidate should be stored
+skills. skills. skills. both in online and offline
+ Every assessment shall  Every assessment shall be  Every assessment shall be mode.
+be proctored and proctored and supported proctored and supported
+supported with digital and with digital and video with digital and video
+video evidences with evidences with geotagging. evidences with geotagging. For Upskilling with
+geotagging. Assessment
+Page 15 of 41
+=====PAGE 17=====
+NCrF/ NSQF Level 4-6 (12th with
+Level 4-6 (without formal
+Level Level 1-3.5 experience, UG-PG Level 6.5-8 (PG and PhD)
+education)
+Stages Pursuing)
+ The Assessment  The Assessment Agencies  The Assessment Agencies
+Agencies will develop and will develop and operate an will develop and operate an  The questions framed for
+operate an online portal/ online portal/ platform to online portal/ platform to the assessment (by any
+platform to conduct conduct practical conduct practical mode) should be based on
+practical assessments assessments and record assessments and record prior job/ project work
+and record evidence of evidence of the evidence of the experience in accordance
+the assessment. assessment. assessment. with the performance
+criteria’s (PCs) of the
+National Occupational
+Standards (NOSs).
+ Every assessment shall be
+proctored and supported
+with digital and video
+evidences with geotagging.
+ The Awarding Bodies shall
+develop SOPS to conduct
+assessments and record
+evidence of the
+assessment.
+Page 16 of 41
+=====PAGE 18=====
+NCrF/ NSQF Level 4-6 (12th with
+Level 4-6 (without formal
+Level Level 1-3.5 experience, UG-PG Level 6.5-8 (PG and PhD)
+education)
+Stages Pursuing)
+ Assessor shall analyse all  Assessor shall analyse all  Assessor shall analyse all  The successful candidates
+the evidences and the evidences and answer the evidences and answer shall be awarded with
+answer sheets to prepare sheets to prepare the result sheets to prepare the result certificates, qualifications,
+the result of the of the candidates. of the candidates. credits, etc.
+candidates.
+ The successful  The successful candidates  The successful candidates  The unsuccessful
+candidates shall be shall be awarded with shall be awarded with candidates shall be guided
+awarded with certificates, certificates, qualifications, certificates, qualifications, for proper training
+qualifications, credits, etc. credits, etc. credits, etc. programs
+ The unsuccessful
+candidates shall be  The unsuccessful  The unsuccessful  Every candidate shall be
+Stage 4 guided for proper training candidates shall be guided candidates shall be guided requested for feedback
+Certification programs for proper training for proper training about the RPL program.
+and Feedback  Every candidate shall be programs programs
+requested for feedback  Every candidate shall be  Every candidate shall be
+about the RPL program. requested for feedback requested for feedback
+about the RPL program. about the RPL program.
+Page 17 of 41
+=====PAGE 19=====
+NCrF/ NSQF Level 4-6 (12th with
+Level 4-6 (without formal
+Level Level 1-3.5 experience, UG-PG Level 6.5-8 (PG and PhD)
+education)
+Stages Pursuing)
+Candidate Persona Candidate Persona Candidate Persona Candidate Persona
+Name: A Name: B Name: C Name: D
+Job Designation: Helper at Job Designation: IT Executive Job Designation: Assistant to Job Designation: Freelancer
+construction site (Hardware) head Mechanic (Software Developer)
+Job role under RPL Job role under RPL Program: Job role under RPL Program: Job role under RPL
+Program: Assistant Advance Diploma in Hardware, Automobile repairing Mechanic Program: PG-Diploma in
+Scaffolder (level 2, 2.5, 3), Networking and Information (level 4, 5) Advanced Computing (Level 7)
+Sector Construction Security (level 5)
+Age: 22 Age: 24 Age: 25 Age: 35
+Used Cases/ Education: Ability to read Education: 12th Grade pass Education: 5th Grade pass Education: BCA
+illustration for and write
+RPL
+Experience: 4 years Experience: 4 years Experience: 6 years Experience: 10 years
+‘A’ saw a poster at his ‘B’ saw a Public notice / ‘C’ saw a public notice / Public Outstanding work
+construction site and came to advertisement in on a social notice / advertisement in a local achievement:
+know about RPL program at media platform and came to newspaper and came to know ‘D’ has successfully delivered
+one of the nearest skilling know about RPL program at about RPL program at one of multiple projects for MNCs.
+centre. He got to know that one of the nearest IT skilling the nearest skilling centre. ‘D’ came to know about the
+RPL can provide a certificate centre. went to the skill centre and got RPL program from one of his
+for his skills gained from work He went to the skill centre and enrolled for the RPL program close friend. He applied for the
+experience of 4 years in enrolled himself for the RPL with the help of officer at skill RPL program by submitting
+scaffolding occupation. program. He assessed himself centre. He got assessed by the every relevant details/
+visited the skilling centre and to determine his approximate assessor to determine his documents of his achievement.
+got enrolled in the RPL NSQF level. approximate NSQF level. The AB/ AA accepted the
+program. After enrolment, he went After enrolment, he went application of ‘D’ and his
+through the RPL assessment through the RPL assessment application were sent to the
+Page 18 of 41
+=====PAGE 20=====
+NCrF/ NSQF Level 4-6 (12th with
+Level 4-6 (without formal
+Level Level 1-3.5 experience, UG-PG Level 6.5-8 (PG and PhD)
+education)
+Stages Pursuing)
+After enrolment, he went process as described above. process as described above. Technical Review Committee
+through the RPL assessment He was declared successful in He was declared successful in of the IT-ITeS Awarding Body.
+process as described above. the assessment and awarded the assessment and awarded After assessing the profile of
+He was declared successful with the RPL certificate of with the RPL certificate of ‘D’, the committee found him
+in the assessment and “Advance Diploma in Automobile Repairing suitable for the RPL
+awarded with the RPL Hardware, Networking and Mechanic (level 4) along with assessment subject to
+certificate of NCrF/ NSQF Information Security (level 5)” the credits. completion of an upskilling
+level 2.5 along with credits. along with the credits. course on emerging
+technologies.
+Subsequently, ‘D’ undertook an
+upskilling course on DevOps.
+Then his updated profile was
+presented before the
+committee for the final review/
+assessment. ‘D’ was declared
+successful and awarded with
+the RPL certificate and relevant
+credits.
+Benefits achieved: Benefits achieved: Benefits achieved: Benefits achieved:
+1. Now, ‘A’ can show-case 1. Now, ‘B’ can show-case his 1. Now, ‘C’ can show-case his 1. Now, ‘D’ can show-case his
+his skills in form of a skills in form of a certificate skills in form of a certificate higher skills in form of a
+certificate provided by provided by Government of provided by Government of certificate provided by
+Government of India. This India. This also provides India. This also clarified his Government of India.
+also clarified his further roadmap for his further further career progression.
+career progression. career progression. 2. ‘C’ went to his employer 2. ‘D’ applied for the post of
+2. ‘A’ went to his employer 2. ‘B’ went to his employer where he was appointed as senior developer (IT) in one
+where he was appointed where he was appointed as “Assistant to head of the MNC for which he
+as “Helper” and shown his “IT Executive (Hardware)” Mechanic” and shown his has earlier completed a
+RPL certificate of and shown his RPL RPL certificate of project. He was appointed
+Page 19 of 41
+=====PAGE 21=====
+NCrF/ NSQF Level 4-6 (12th with
+Level 4-6 (without formal
+Level Level 1-3.5 experience, UG-PG Level 6.5-8 (PG and PhD)
+education)
+Stages Pursuing)
+Assistant Scaffolder certificate of “Advance Automobile repairing as “senior developer (IT)”
+(NCrF/ NSQF level 2.5). Diploma in Hardware, Mechanic (level 4). The with good salary package.
+The employer realised his Networking and Information employer realised his
+actual skills and promoted Security (level 5)”. The actual skill and upgraded
+him to Assistant employer realised his him to Automobile repairing
+Scaffolder. This also actual skills and upgraded Mechanic.
+increased his salary. him to Network This also increased his
+Thus, the RPL certificate Administrator. salary. Thus, the RPL
+upgraded the social and This also increased his certificate upgraded the
+financial status of ‘A’. salary. Thus, the RPL social and financial status
+certificate upgraded the of ‘C’.
+social and financial status
+of ‘B’.
+Refer Annexure 1 Refer Annexure 1 Refer Annexure 1 Refer Annexure 1
+Flowchart
+Flowchart no: 1 Flowchart no: 2 Flowchart no: 3 Flowchart no: 4
+Important points to be Noted:
+1. The application/ enrolment detail shall include a brief statement of the following information for each candidate:
+i. Name and pertinent personal information
+ii. Rationale for RPL certification
+iii. Supporting letters/ letter of recommendation.
+iv. Experience letter
+v. Outstanding service to the sector, industry, and/ or community if any
+2. In case of the unavailability of the supporting documents such as experience certificate, the Awarding Body/ Assessment Agency may ask the
+candidate to self-declare Individual work experience in the form of an affidavit and conduct an aptitude test before allowing the candidate to
+appear for the RPL assessment.
+3. The orientation program/ course shall include sensitization sessions on employability skills, career progression, domain skills, and familiarization
+with RPL program, assessment processes and methods. During this session, the candidates must be explained about the learning outcomes
+of the qualifications.
+Page 20 of 41
+=====PAGE 22=====
+NCrF/ NSQF Level 4-6 (12th with
+Level 4-6 (without formal
+Level Level 1-3.5 experience, UG-PG Level 6.5-8 (PG and PhD)
+education)
+Stages Pursuing)
+4. The Awarding body/ Assessment Agency shall provide guidelines/ SOPs and support to promote self-assessment among the candidates.
+5. The assessment shall be conducted in a transparent and fair way ensuring that all the candidates get equal opportunities.
+6. The Awarding Bodies may identify qualifications/ job roles on which online practical assessment could be possible and provide guidelines for
+conduct of the same in online mode.
+Page 21 of 41
+=====PAGE 23=====
+5. ROLE OF AWARDING BODY (AB)
+5.1 Critical Primary Functions with regard to RPL Assessment
+An awarding body (AB) is an entity, recognized by the NCVET to award certification to
+trainees/ learners for NSQF Aligned and Approved qualification by ensuring quality training
+and reliable assessments. The AB has an important role with regard to conduct of RPL
+Assessment and Certification which are enumerated below:
+a) Identifying and Listing of relevant Learning Outcomes of the qualification for the RPL
+assessments to be carried out
+b) Defining roles of accredited RPL advisor/counsellor
+c) Enlistment of State/GOI/ Industry recognised/ decorated Master Craftsmen, Masters
+of Trade, Heritage/ Tradition Skill Masters, Skill Gurus, Ustads for specific skills
+d) Identification of various RPL delivery channels and establishing their credibility.
+e) On-boarding of NCVET recognised assessment agencies to ensure fair and reliable
+assessments through pre-defined norms and processes.
+f) Development of norms for training of specialized assessors for RPL programs as per
+the sector specifications.
+g) Empanelment of subject Matter Experts (SMEs), Industrial Experts, Master of trades,
+and Master Assessors, which shall be used for RPL qualification/ curriculum validation
+and assessment processes.
+h) Affiliation and accreditation of training partners for the implementation of RPL.
+i) Monitoring of RPL processes.
+j) Award RPL certification to the learners in NSQF aligned and approved qualification.
+k) Set up a system of redressing grievances.
+l) Progressively develop and enhance capacity to implement RPL in accordance with
+this policy and any specific requirements by NCVET
+m) Ensure that they have the necessary staff capacity to deliver quality RPL services and
+programmes
+n) Ensure effective planning and funding for RPL administrative and logistical systems to
+support all programmes and services
+o) Put systems and procedures in place to incentivise and support the registration and
+continuing professional development of RPL assessors
+6. ROLE OF ASSESSMENT AGENCY (AA)
+Assessment Agency is defined as an agency which tests or conducts examinations to assess
+whether a learner has met the requirements necessary to be competent and qualified with
+respect to a skill or qualification. Functions of an AA with respect to RPL assessment are as
+mentioned below:
+a) Develop RPL assessment strategy, Standard Operating Procedures (SOPs)/
+checklists for question bank development, assessment analytics, roles and
+responsibilities of the assessors, proctors and SMEs, etc.
+b) Ensure availability of accessible standardized assessment tools across languages and
+learner groups.
+c) Ensure availability of Industrial Experts, Master of trade, Master Assessors, Assessors
+and proctors who are trained in delivering of RPL.
+d) Allocate appropriate Assessors (Industrial Experts/ Master of trade/ Master Assessors/
+certified Assessors and proctors) to the RPL assessment batch.
+e) Conduct quality assured standardized RPL assessment and upload/ record the
+evidence and results.
+Page 22 of 41
+=====PAGE 24=====
+6.1 Recognition of various types of Assessors for RPL
+6.1.1 Certified Master Assessors, and Assessors of Assessment Agencies
+Master Assessors, Assessors and proctors are the skilled professionals who are trained
+to assess RPL learners/ batches on the NSQF aligned and approved qualifications. They
+are recognized and certified by Awarding Bodies on the basis of pre-defined parameters
+by NCVET. Further details may be available in the ToA guidelines prepared by NCVET.
+6.1.2 Industry Experts formally recognised by the Industry
+An industry expert preferably is from within a particular industry, who possesses
+invaluable insight, expertise, and valuable information in his domain. They can be directly
+empanelled by the ABs/ AAs for the assessment of RPL batches. The services of these
+experts can be availed by paying them remuneration on either hourly basis or batch wise
+at the discretion of AB/ AA and as mutually agreed upon.
+6.1.3 Assessor in Dual role (‘Trainer as Assessor’ or ‘Assessor as Trainer’)
+Trainer as Assessor: In case of Awarding Bodies (dual categories) which can perform
+both training and assessments within their campus/ institution, the trainers/ instructors can
+also act as an assessor.
+Assessor as Trainer: In some cases, an assessor can act as a Trainer also. The
+assessor may not provide training on the full qualification, but they can provide training
+for orientation programs or for some NOS/ micro-credential based training.
+Note: the various use-cases on the dual role of assessor are attached at Annexure-
+2.
+6.2 Role of Assessors in Recognition of Prior Learning (RPL) of different
+types
+a) Assesses and evaluate Applicants/individual’s RPL against the learning outcomes as
+defined.
+b) Ensures evidence with respect to authenticity, credibility, reliability and integrity.
+c) Ensures that applicant has met more than 70% of all the declared learning outcomes
+for direct RPL assessments
+d) Ensures that applicant presented has met the knowledge, skills and competency
+elements of the qualification.
+e) The assessor will score and grade the evidence in accordance with the scoring and
+grading mechanisms established for the qualification. If a qualification is described in
+unit standards and their specific outcomes, then the assessment criterion for those
+outcomes must be satisfied.
+Page 23 of 41
+=====PAGE 25=====
+7. TYPES OF ASSESSMENTS OF KNOWLEDGE, SKILLS AND COMPETENCY
+Method Description
+Testing of Theoretical knowledge through The purpose of assessment of theoretical
+online/offline/ Blended mode (oral/ written knowledge is to evaluate cognitive skills or
+tests, Multiple choice, subjective measure achievement of learning outcomes
+Qualifications, examination) and competence outcomes, and provide
+information for more effective evaluation.
+A number of methods can be used to assess
+the retention of theoretical knowledge
+following training. These can be paper based
+or part of the e-Learning programme.
+Testing of Practical/ hands on skills/ Skill The described methods evaluate the
+Demonstration candidates for their motor skills learnt from
+experiential learnings.
+Job work, projects, assignments, role play, The methods assess the candidates for the
+practical examinations effective application of theoretical and
+practical skills in the actual working
+conditions as Apprentice, On-Job Training,
+projects, etc.
+Skill demonstrations, product assessments Simulation provides a virtual environment
+and/ or simulations analogous to the actual environment to
+demonstrate the necessary skills.
+This method can be useful for highlighting
+areas of relative strength and weakness and
+may be used to improve the curriculum to
+address missing components.
+Group practical tests This would test the teamwork ability of the
+candidate. This would evaluate the
+candidates on the various parameters of the
+group dynamics.
+Oral viva-voce on Practical/ hands on skills Oral viva-voce is an assessment conducted,
+in which a candidate provides their response
+to the given task in verbal mode (instead of
+writing).
+Under this method, the candidates can be
+asked to explain the concepts, methods,
+process, etc. associated to their practical/
+hand on skills.
+RPL in Higher Level Skills: 360-degree 360-degree assessment is a performance
+assessments management tool intended for employees to
+get multisource feedback about work
+performance and improvement areas. In a
+360-degree evaluation, the person being
+reviewed receives feedback from people
+with whom he/she works. These reviews
+may come from peers, subordinates, direct
+reports, teammates, and even external
+parties, such as vendors and clients, called
+Raters in the process.
+Blended Assessment methods This type of assessments is based on
+various learning patterns, which could be
+vocational, class room based, collaborative
+learning methods (online or offline). Various
+Page 24 of 41
+=====PAGE 26=====
+Assessments can be combined as needed to
+get a final outcome result. For example, LMS
+based Proctored content delivery tool with in-
+built continuous/ formative/summative
+assessment to check learning outcomes.
+These types of assessments rely on
+technological advances, which can include
+virtual labs etc.
+Achievements/Awards based evaluation In this type of assessment, an
+individual/candidate/learner is evaluated
+based on the long lasting / established
+contribution to the society, sector and
+industry etc.
+For example: An individual who has
+represented India at the International level
+competition and achieved Gold /Silver/
+Bronze medal then the individual may be
+considered and evaluated for certain type of
+RPL assessment and certification in the
+same domain.
+Hackathon Based Assessments Hackathons are intense, time-bound events
+wherein people collaborate in groups to
+solve significant challenges. Through the
+process, participants will generate innovative
+and practice-oriented ideas for authentic,
+sustainable assessment approaches to add
+to their Knowledge.
+Kindly refer to Annexure-3 for detailed
+methodology
+Page 25 of 41
+=====PAGE 27=====
+8. DELIVERY CHANNELS AND RECOMMENDED CENTRES/ VENUES FOR RPL
+ASSESSMENTS
+8.1 Awarding Bodies (AB)/ AB’s Affiliated Training Provider/ Centre
+An individual can go to the Awarding Bodies/ Training centres (recognised by ABs) and can
+request for RPL assessments available at the centres.
+8.2 Workplace or workshop (for traditional/ indigenous `skills)
+NEP 2020 emphasizes rich heritage of ancient and Indian eternal knowledge and promotes
+the nurturing of heritage skills and furthermore emphasizes on researching, enhancing and
+putting new uses through our education system. Recognition of Prior Learning (RPL) for
+various traditional (indigenous) skills/occupation is an integral approach to acknowledge and
+recognise the potential of artisans and craft persons paving the way for upskilling and
+mainstreaming them in formal sectors. RPL on demand for various traditional (indigenous)
+skills/ occupation can be very effective especially for those skills which are on the verge of
+extinction.
+RPL for these traditional (indigenous) skills/ occupations need special consideration due to
+their peculiar nature. The following points may be considered:
+a) These skills use traditional hand tools.
+b) These skills usually take a long period to produce a product or complete a job as per
+the required quality.
+c) These skills are practiced only by few people (indigenous people)/ families.
+d) Typically, there is no formal learning pathway for these skills. These are passed on
+from one generation to another.
+e) Industrialization/ scaling of these skills are generally not possible.
+Most of these skills require a special delivery channel for RPL assessment in which the RPL
+can take place at the residence of the worker/ worker’s workshop.
+The detailed information regarding traditional (indigenous) skills/ occupations and its
+assessment process is attached at Annexure 4.
+8.3 RPL at Colleges/ HEIs/ Universities having vocational education/
+skilling labs/ workshops facilities
+Colleges/ universities form one of the most important delivery channels which can conduct/
+operate the RPL scheme to recognise prior learning for admission and/ or credit equivalence.
+There may be some prospective students who would not be able to provide the necessary
+evidence to meet the school/ college/ university’s entry requirement (as per admission notice
+publication) for the particular course/ qualification, but they are able to provide substantial and
+relevant alternative evidence for their potential/competency to succeed in the course/
+qualification. In these circumstances, the RPL can be used to provide the relevant alternative
+evidence. Furthermore, RPL provision can be used by the colleges/ universities to determine
+the potential of the students.
+RPL also allows transition from training centres to education institutions and vice-versa, and
+increase educational choices and career opportunities.
+8.4 Industrial Clusters for conducting assessment / examination / test
+It is recommended that assessments be conducted on-site at the location where
+kamgars/employees are available/already working in large numbers in any specific sector,
+Page 26 of 41
+=====PAGE 28=====
+industry or traditional skills concerned. RPL in ‘Skill Hub’ initiatives can be considered under
+this delivery channel.
+8.5 RPL at Centre of Excellence (COEs)
+Centre of excellence for conducting RPL based assessments may be developed or identified
+and assessment to those may be provided by the NCVET recognised AB/AAs. The AB shall
+identify or develop COEs with Industry/HEIs, Industry bodies etc.
+8.6 Place of employment/ on-site
+This type of RPL evaluation is recommended to be carried out on site at the premises of the
+employers. One of the major challenges in this delivery channel modus operandi is that most
+of the kamgars in many sectors may work as a daily wage worker. Employers have obvious
+constraints and are reluctant to allow their kamgars to go for RPL assessment/ upskilling
+training as it causes a financial loss to them. Therefore, for such cases, a provision of ‘Wage
+Compensation’ to the employers/ workers (kamgars) may be considered to motivate both
+kamgars and employers. E.g., NHAI. Alternatively, in the larger interest of Learners as also
+the Employers a suitable/appropriate via media like time sharing/off office hours etc. may be
+worked out by ABs, AAs and the other stakeholders.
+8.7 On demand Assessment through Aggregators (online/ offline)
+This delivery channel provides opportunities to all those skill seekers who wish to take an
+online/ offline exam and get certified. This may also be offered as a fee-based program if the
+learners wish to be assessed and certified. This ideally should be offered from
+accredited/designated centres as per the NCVET guidelines
+8.8 RPL at Schools/ Skill Hubs having vocational education/ skilling labs
+(for the local workforce)
+The concept of RPL may also be extended to the general education domain to create options
+for individuals to get assessed for a subject/ qualification at same or at a higher level, subject
+to meeting the competency levels and concerned regulatory compliances and clearing the
+requisite assessment. This shall effectively provide learner with options of Exam/ Assessment
+on Demand. NIOS is an example which offers option of ‘Exam on Demand’ to learners who
+have completed requisite no of years of self-study/ learning for assessment for a particular
+educational grade. Similar models can be developed and adopted by other state school boards
+and CBSE etc. to provide RPL option in school education as well.
+9. PROVISION OF RPL FOR PERSON WITH DISABILITY (PWD)/ DIVYANGJAN
+The Rights of Persons with Disabilities Act, 2016 emphasizes for the inclusion of person with
+disability in all mainstream formal and non-formal vocational and skilling programmes. The
+concerned awarding bodies such as SCPwD, may create SOPs for carrying out the RPL
+assessment programs for the PwD Candidates.
+10. INTEGRATING RPL WITH NCRF
+Under the National Credit Framework (NCrF) every learning can be creditised subject to its
+successful assessment. The National Credit Framework (NCrF) also enables creditisation of
+experiential learning, based on the weightage for relevant experience and proficiency levels
+achieved, subject to successful assessment.
+Page 27 of 41
+=====PAGE 29=====
+Each level of NCrF corresponds to certain credits and credit points that can be further utilized
+by the candidate as per the requirements of learner. Under the “Provision of the NCrF”, the
+assignment of credits and the credit levels are done on the basis of learning outcomes rather
+than on learning hours. The same principle may be applied to the RPL as under it the learners
+are assessed for their experiential learning outcomes against the standards (NOS) of the
+qualification. Thus, the assignment of credits and the credit levels under the RPL shall be
+similar to the those of the concerned qualification.
+10.1 Assignment of credits as per National Credit Framework (NCrF) levels
+based on the Learning Outcomes (LOs)
+Keeping in view the credit accumulation policy as per National Credit Framework (NCrF)
+Following principles underpin the creditisation of assessment related to RPL:
+a) RPL credit may be awarded for knowledge and skills acquired through experience. The
+length of time and years of experience are not calculated and assessed but it is the
+learning outcomes of the specific skills, competencies and knowledge acquired, that is
+assessed and credit bearing.
+b) RPL credits should only be awarded where the applicant/individual can demonstrate
+his/her ability to apply foundational (theoretical) and practical competence in various
+contexts.
+c) Credits are awarded only for demonstrated competence, and not for exclusive work
+experience.
+d) Credits must be awarded only for learning that is relevant to the content and learning
+outcomes of the learning programme for which the credit is applied subject to assessment.
+e) Credit should be awarded only for relevant levels of learning as determined in the
+qualification and by the relevant assessment and quality assurance process
+f) Appropriate subject matter/academic experts and assessors must make the determination
+of competence levels and of credit awards, when decisions are made regarding RPL
+assessment and certification.
+g) After successful assessment of the candidate through RPL, the credits accumulated by
+the learner will be the same as applicable for the total number of Notional Hours and NSQF
+Level for the particular job role/Qualification in which the learner has undergone RPL
+assessment.
+10.2 Credit accumulation in Accredited Bank of Credits (ABC)
+The NEP 2020 proposes to establish an ‘Academic Bank of Credit’ (ABC) which could digitally
+store the academic credits earned from recognized institutions so that the degrees can be
+awarded taking into account credits earned.
+The NCrF encapsulates provision of award of Credits of all learning, assignment,
+accumulation, storage, transfer & redemption of credits subject to assessment and
+removes distinction and establishes academic equivalence between vocational & general
+education; enables mobility within & between them, and its operationalising through the
+Academic Bank of Credits (ABC).
+The Academic Bank of Credit shall be a repository of all credits earned by the Individual. These
+credits shall be accumulated and redeemable provided the credits accumulated are within the
+same assessment band. The credits accumulated shall have a defined validity/ expiry which
+will be defined w.r.t. RPL
+Page 28 of 41
+=====PAGE 30=====
+10.3 Redemption / Transfer of Credits
+The credits earned as part of RPL assessment will be deposited to student’s ABC account.
+After the accumulation of credits, a student can redeem these in order to get any academic
+degree based on the norms set by the regulatory body/ institution where the individual is
+planning to get a degree. It works on the principle of Multiple Entry-Multiple Exit as well as
+“anytime learning, anywhere learning, and any level learning’ as is emphasized in NEP 2020.
+For credit redemption, the process to be followed will be as per the Academic Bank Guidelines
+notified by UGC.
+11. QUALITY ASSURANCE AND QUALITY CONTROL (QA/QC)
+11.1 Steps to ensure Quality Assurance
+The Awarding Bodies/ Assessment Agencies are encouraged to adopt “Plan-do-check-act
+(PDCA) cycle” for the implementation of RPL assessment. A PDCA cycle is a four-step
+continuous looping process of planning, doing, checking (or studying), and acting. It is a
+framework that helps organisations to change and improve their processes. This method
+provides a simple and effective approach for solving problems and managing change. The
+model is useful for testing, enabling improvement measures on a small/ large scale before
+updating procedures and working practices.
+This would assist the ABs/ AAs to frame an effective Standard Operating Procedure (SOP) for
+the implementation of RPL/ any other program. The model can be illustrated as below
+mentioned figure:
+The RPL guidelines also prescribe recommendations for partner agencies/ entities working
+under their fold, to ensure quality in their operations too. NCVET will not directly control and
+monitor the partner agencies/ entities working with the AB. It will be the responsibility of the
+AB to ensure that the partner agencies/ entities adhere to the recommendations of the RPL
+guidelines. Such delegated regulations empower an AB to take punitive/ corrective action
+against partner agencies/ entities in cases of non-adherence to the RPL guidelines.
+The AB/AA are to encourage teaching practices and approaches to RPL assessment that
+incorporates RPL as a component of flexible student-centred learning, and that staff
+Page 29 of 41
+=====PAGE 31=====
+development be made available to assist teaching staff in developing these practices and
+approaches.
+There should be transparency in the payment system among various stakeholders (Training
+Partners/ Centres, Assessment Agencies, Awarding Bodies, Scheme sponsoring bodies/
+agencies). The payment system should be automated based on online and/ or offline evidence
+submission, and the turnaround time (TAT) should be fixed for every milestone.
+Awarding Bodies/ Assessment Agencies should formalise a QA/ QC committee department
+within their organisation to monitor the quality of delivery of RPL assessment
+12. MONITORING AND EVALUATION (THROUGH ONLINE/ PORTAL)
+12.1 Process of Monitoring
+NCVET shall monitor the RPL assessments as per the monitoring norms prescribed under the
+Guidelines for recognition of Awarding Bodies and Assessment Agency.
+NCVET shall undertake quarterly/annual performance reviews of RPL assessment
+methodologies adopted by Awarding Bodies/Assessment Agencies. The quality checks will be
+carried out for each Awarding Bodies/Assessment Agencies. NCVET may also opt for a site
+visit as part of review process. The council may also ask for any information pertaining to RPL.
+The Governance Process, including providing of video recordings of the assessments may be
+included in the process of monitoring which may further strengthen it.
+12.2 Reporting Mechanism
+The AB must maintain a documented policy containing a set of procedures, templates and
+checklists which are in consonance with the NCVET guidelines and such policy should be
+updated time to time. Recognized AB shall submit data on the Key Performance Indicators
+(KPIs) in a timely and accurate manner and any other data which may be asked from time to
+time, by the NCVET. The AB must establish and maintain a system of monitoring its third-
+party agencies and compliance reports must be submitted to NCVET as required by it.
+13. CREATING A DEDICATED RPL DIGITAL PORTAL IN DUE COURSE TO
+SUPPORT
+Today's education and learning scenario is rapidly innovating. To provide access to
+information specific to RPL programs, a dedicated RPL Digital portal may be set up by
+concerned stakeholders as a way of providing users (i.e. Students/leaners/applicants, trainers,
+assessors, proctors, facilitator) with information about the online/on demand RPL facilities and
+features. Generally, in RPL assessments, things are done manually such as enrolment,
+mapping of Learning outcomes, certification etc. so to automate such practices NCVET will
+be designing a web portal for RPL assessments, which will be helpful in following features like
+time saving, easy access and user friendly, etc. This portal shall provide useful facilities for
+Students/leaners/applicants, trainers, assessors, proctors, facilitators who wish to access the
+portal at one click sitting anywhere and give or access RPL assessment dashboard.
+The core objective is to design, develop and maintain the RPL Portal that will enable seamless
+experience for learners of RPL Digital Platform to complete the entire assessment and
+certification process.
+The scope may include:
+Page 30 of 41
+=====PAGE 32=====
+a. Option to appear for an assessment by self-enrolment.
+b. Functions to enable learners/applicant to select nearest test centres to give RPL
+assessment
+c. Functionality to choose a date and time for Pre-screening and orientation of their
+convenience and then to appear for the assessment.
+d. Listing of Learning Outcomes of the qualification for RPL assessments
+e. Assigning of assessors/proctors to learners/applicants based on the pre-defined
+criteria outlined by NCVET
+f. Various types of assessment facilities
+g. Real time assessment results and issuance of certificates
+h. Report generation and insightful analytics
+i. Feedback mechanism and grievance redressal
+14. PROCESS FOR MODIFICATION/ UP-DATION OF GUIDELINES FROM TIME TO
+TIME
+14.1 Guidelines issued with the approval of the Council after following due
+process of public consultations
+The RPL guidelines has been prepared by NCVET in consultation with all the stakeholders
+and then released for public consultation for the 21 days. After, the 21 days of public
+consultation, all the comments/ suggestions have been evaluated and incorporated as per the
+relevance/ requirement. Then the draft guidelines are approved by the NCVET council
+committee and released for the implementation.no need to mention in the Guidelines
+14.2 Removal of Difficulties in implementation with the approval of the
+Chairperson, NCVET
+NCVET shall designate ownership of the guidelines to a consultant/ official/ team/ committee.
+The owner of the guidelines shall be given responsibility to make a record of all the challenges/
+difficulties which would be faced during the implementation of the policy. Subsequently, these
+challenges/ difficulties shall be evaluated and a possible solution shall be provided with the
+approval of the Chairperson, NCVET.
+All notifications required to be issued under the Guidelines to be issued with the approval of
+the Chairperson, NCVET. Urgent/ Minor modification required to be issued with the approval
+of the Chairperson, NCVET and to be got approved post facto by the Council. Interpretation
+of the Council regarding any of the provisions of the guidelines shall be final.
+Page 31 of 41
+=====PAGE 33=====
+ANNEXURE – 1: RPL PROCESS FLOWCHART
+Flowchart 1: RPL Process for NCrF/ NSQF level 1 to level 3.5
+Awareness and
+Mobilization
+Pre-Screening and
+Mapping exofpiaerientl Counselling Mapping exofpiaerientl
+glea nin 7r>0 % of glea nin 7r<0 % of
+qualification leagnin r qualification leagnin r
+outcomes outcomes
+&
+Direct Assessment itab
+No
+Sule
+t
+g n Upskilling
+i n t n
+ie
+am
+r
+Ts
+p
+s
+e
+as
+Gs
+A
+l
+l
+i
+k
+S Not
+Assessment
+itabSule
+itabSule
+itabSule itabSule
+Certification and Feedback
+Page 32 of 41
+=====PAGE 34=====
+Flowchart 2: RPL Process for NCrF/ NSQF level 4 to level 6 (12th With Exp, UG, PG
+pursuing)
+Awareness and Information
+aitbNot Sule
+Self-Enrolment and verification
+g
+itabSule n
+i
+n
+i a r T k c a
+Orientation
+p
+b
+d
+a e
+G e
+F
+l
+l
+i
+k
+S
+Noat Suitble
+Self-Assessment for level determination
+itabSule
+Assessment Noat Suitble
+itabSule
+Certification & Feedback
+Page 33 of 41
+=====PAGE 35=====
+Flowchart 3: RPL Process for NCrF/ NSQF level 4, 4.5, 5, 5.5, 6 (Without Formal
+education)
+Awareness and Information (Target
+audience: Candidates without formal
+education)
+Not Suitable
+Enrolment
+Suitable
+g
+n
+i
+n
+i a k
+r c
+T a
+Orientation b
+p d
+a e
+G e
+F
+l
+l
+i
+k
+S
+Assignment of RPL Specialized Assessor
+(Master Assessors)
+Suitable
+Not Suitable
+Assessment (Practical Skills)
+Suitable
+Certification & Feedback
+Page 34 of 41
+=====PAGE 36=====
+Flowchart 4: RPL Process for NCrF/ NSQF level 6.5 to 8 (at PG and PHD level)
+Awareness and Application
+Candidates with
+significant and long- Candidates with
+lasting contribution to outstanding work
+Pre-Screening and
+the sector, industry,
+Applicant Profile Evaluation
+profile and field
+country, or to the experience in their
+individual’s discipline professional discipline
+or profession.
+Not
+&
+Technical committee Suitable
+g
+Rev
+R
+ie
+P
+w
+L
+f
+C
+or
+e
+t
+r
+h
+ti
+e
+fi c
+A
+a
+w
+tio
+a
+n
+rd of n
+in
+ia
+tn
+e m
+Upskilling/ orientation
+rTs
+p
+a
+s
+e
+s
+Gs Not
+Suitable llik
+A
+Suitable
+S Assessment
+Suitable Suitable
+Certification and Feedback
+Page 35 of 41
+=====PAGE 37=====
+ANNEXURE – 2: THE VARIOUS USE-CASE ON THE DUAL ROLE OF ASSESSOR
+Sl. No. Use-Case/ illustration (Trainers as Assessors)
+1. Trainers* at ITI can assess the candidates.
+2. Trainers* at Training centres operated by defence forces
+3. Trainers* at Training centres operated by Skill Universities
+4. Trainers/ expert/ practitioner imparting traditional skills may also conduct
+assessment.
+5. Teachers*/ Trainers* can conduct both training and assessment
+6. Master of trade/ Master craftsmen can conduct both training and assessment
+7. Industrial Experts can conduct both training and assessment
+8. ‘Professor of Practice’ can conduct both training and assessment
+9.
+(*subject to the availability of NSQF certification on both trainer and assessor qualifications.)
+Sl. No. Use-Case (Assessors as Trainers)
+1. Assessor performing RPL assessment may act as a trainer and provide
+training on orientation course, NOS or micro-credential based course, etc.
+2.
+Page 36 of 41
+=====PAGE 38=====
+ANNEXURE – 3: HACKATHON BASED ASSESSMENTS
+Hackathon Based Assessments
+Hackathon provides a platform and encourages students to brainstorm, pitch concepts, form
+teams, plan projects and develop prototypes. The creativity, teamwork and problem solving
+unleashed in a short period of time through collaborative projects at hackathons often
+stimulates participants to engage more deeply in their professions and academic interests.
+While hackathons have gained popularity outside of classroom learning environments, they
+can also add rich layers of interactions to existing class activities. Below mentioned is the
+process flow for conducting Hackathon based assessments.
+a. In this type of RPL the Organization will register for Hackathon based RPL (to be
+conducted either internally or externally).
+b. Submission of a Problem statement that may have cross sectoral and/or multi sectoral
+NOSs/Skills
+c. Hackathon to be aligned with standards (QP/NOS) created by AB, AB needs to be
+informed and approval needs to be taken.
+d. AB to validate the alignment of problem statement with QP/NOS
+e. Selection of Online or Offline mode by Delivery Partners (Academic
+Institutes/Organizations/ Training Partners etc.)
+f. Awareness and Mobilization of the Hackathon though suitable channels by Delivery
+partners (Project Implementation Agencies/organizations/institutes etc.)
+g. Hackathon Enrolment – To be reported to AB if Hackathon is approved by AB
+h. Hackathon Execution as per organization’s process and requirement.
+i. Final result/score card of all participants to be shared with AB, only applicable if
+hackathon is approved by AB.
+j. Joint Certification, if organization/institutes desire so, only for Hackathons that are
+approved by AB
+Page 37 of 41
+=====PAGE 39=====
+ANNEXURE - 4: TRADITIONAL (INDIGENOUS) SKILLS/ OCCUPATIONS AND ITS
+ASSESSMENT PROCESS
+I. List of Indian Traditional Crafts/ Skills:
+Sl. Indian Traditional Crafts/ Examples
+No. Skills
+1. Wooden work  walnut wood carving, Pinjrakari &
+Khatumband in Kashmir
+ woodwork of Dharamshala
+ Kasta Kari of Goa
+ Lacquered wooden toys
+2. Stone Masonry  Renowned craftsmanship of the Silavat
+communities of mason near Thar district.
+ Rubble masonry work
+3. Traditional Painting  Warli paintings of Maharashtra
+ Rajasthani wall painting
+ wall and floor painters of Madhubani in Bihar
+ Pichhwai temple hangings
+ paintings in the Mithila region of Bihar
+ cloth paintings of Rajasthan
+ Mandala art
+ Chitrakathi & Ganjifa painting
+4. Metal Work  traditional copperware of Kashmir
+ indigenous metalwork of Ladakh
+ Tibetan metalwork
+ Thattar ka Kaam- sheet metal work of Kullu
+ brassware of Moradabad
+ silver wares, damascening and metal engraving
+of Udaipur
+ Combination of ubharnaqqashi or repoussé with
+jaal ka kaam or openwork of Lucknow
+5. Textile  Kashmir – Pashmina
+ HP – Kullu Shawls
+ UK- Panchachuli weave
+ Punjab/ Haryana – Phulkari, Panja Weave
+ Rajasthan – Shisha
+ Gujrat – Bandhani
+ Maharashtra – Paithani
+ Goa – Kunbi
+ Karnataka – Mysore Silk
+ Kerala – Kasavu
+ Tamil Nadu – Kanjeevaram Silk
+ Bihar – Bhagalpuri Silk
+ Orissa – Sambalpuri Saree
+ Nagaland – Naga Shawls
+6. Pottery  Handmade pottery – bowls, jars, vessels – in
+various colours.
+ Khurja pottery, UP – Also known as ceramic city
+ Black Clay pottery - UP
+ Rajasthan’s Molela - murthikala
+Page 38 of 41
+=====PAGE 40=====
+ West Bengal – Terracotta Pottery
+ Gujarat – Khavda pottery
+ Karnataka – Bidriware
+7. Papier-Mache (Paper  craft of shaping and molding products from
+Pulp) paper pulp
+ highly sophisticated papier-mâché tradition of
+the Kashmir Valley
+
+8. Carpet Weaving  The main carpet-producing areas of India
+are Srinagar in Kashmir, Jaipur in Rajasthan,
+Amritsar in Punjab, Mirzapur, and Agra in Uttar
+Pradesh.
+ Kashmir is most famous for hand-knotted and
+wool silk rugs
+ Nakaash is the person who designs the carper, a
+kalimba is a weaver and the ranger is the person
+who dyes the carpet.
+9. Traditional Dance  Bharatanatyam is a classical dance from the
+South Indian state of Tamil Nadu
+ Kathakali is a highly stylized classical dance-
+drama form, which originated from Kerala.
+ Kathak (Northern India)
+ Kuchipudi (Andhra Pradesh)
+ Odissi (Odisha)
+ Sattriya (Assam)
+ Manipuri (Manipur)
+ Mohiniyattam (Kerala)
+ Folk and tribal dance forms (Garba, Bhangra &
+Giddha, Lavani, Ghoomar, etc.)
+10. Forest produce harvesting
+&value addition
+11. Bamboo crafts
+12. Culinary
+13. Food processing
+II. Some of the Government Schemes for empowering Indian traditional
+handicrafts and artisans
+Sl. Name of Scheme/ Description
+No. program
+1. Ambedkar Hastshilp Vikas  the program enables community empowerment
+Yojna to mobilise artisans into self-help groups.
+ Under the design and technology upgradation
+subsection, a 25-day workshop is conducted to
+develop new prototypes to suit the tastes and
+preferences of contemporary markets, using the
+traditional skill of artisans, and introduce new
+techniques and technologies for enhanced
+production.
+ It provides support in the form of an integrated
+design and technology development project,
+assistance to exporters and entrepreneurs for
+design prototypes, and commercial market
+intelligence.
+Page 39 of 41
+=====PAGE 41=====
+ Also provides support in human resource
+development, infrastructure and technology
+support, healthcare, and more.
+2. Mega cluster scheme  The program follows a mega cluster-based
+approach in scaling up infrastructural and
+production chains at handicraft centers that have
+remained unorganized and have not kept up
+with modernization and other developments.
+ The objectives include generating employment
+and improving living standards for existing
+artisans.
+3. Marketing support and  Conduct craft awareness and demonstration
+services scheme programmes
+ provides interventions for domestic marketing
+events to artisans.
+ Assistance is also provided for hiring built-up
+space for events organised by other institutions.
+ Also assistance provided for compliance, social,
+and welfare needs for artisans
+ Assistance in publicity and brand promotion
+4. Research and  To generate feedback on economic, social,
+development scheme aesthetic, and promotional aspects of various
+crafts and artisans in the sector.
+ Surveys and studies are conducted on specific
+crafts on which enough information is not easily
+available
+5. USTTAD (Upgrading the  To build the capacity of master
+Skills and Training in craftsmen/artisans and train the young
+Traditional Arts/ Crafts for generation through master craftsmen/artisans for
+Development) traditional arts/crafts.
+ Set up standards of identified arts/crafts and their
+documentation.
+ To showcase traditional arts & crafts skills
+including culinary skills through exhibitions under
+the banner of Hunar Haat, which will also provide
+a platform for business opportunities and market
+linkages.
+ To preserve the rich heritage of the traditional arts
+and crafts of minorities.
+ To establish linkages of traditional skills with the
+global market.
+ To improve the employability of existing workers,
+school dropouts, etc.
+ To generate means of better livelihood for
+marginalized minorities and bring them in the
+mainstream.
+ To enable minorities to avail opportunities in the
+growing market.
+ To ensure the dignity of labor.
+ Design development and Research in traditional
+arts/crafts.
+6.
+Page 40 of 41
+=====PAGE 42=====
+III. Overall Challenges
+a. Limited Awareness about Current Market Trends
+b. No systematic Research and Development for New Product Development
+c. lacking global appeal
+d. Unprofessional Image - leads to inability to attract Corporate Finance
+e. Irregular and volatile nature of demand for the products
+f. Lack of infrastructural facilities
+g. Limited use of machines & technology increases lead time, reduces quantity of
+production and increases prices
+h. Lack of key information inputs like distribution network, market potential, competitive
+landscape etc.
+i. Lack of continuous source of good quality raw materials
+j. Family run units without professional management
+k. Low education and poor economic background of the artisans
+l. Complacent & egoistic attitude of the craftsmen prohibits them from accepting
+feedback & developing new products
+m. Lack of Branding leads to Poor Product Image and thereby reduces scope of
+charging premium prices
+IV. Challenges in skilling/ training/ assessment for the traditional skills/
+occupations
+a. Identification of job roles/ occupation as most of them are from unorganized sector.
+b. Estimation of number of workforce involved in the particular traditional job role/
+occupation.
+c. Non-availability of qualifications/ courses for the traditional skills in the formal
+education system.
+d. Mobilization of candidate for the training, as most of traditional skills/ occupations is
+non-aspirational.
+e. Lack of infrastructure for the skilling activities (training and assessments)
+f. Lack of trainers/ assessors for the traditional skills.
+V. Strategy for imparting skill training/ assessment for traditional skills
+a. Identification of traditional skilled-based clusters.
+b. Occupational and functional analysis for the identification of the job roles and
+development of the NOSs/ qualifications. The NOS/ qualifications shall be designed in
+a manner to preserve traditional arts/ crafts by mixing the traditional with modern ideas/
+technologies/ methods and making the artisan more employment ready under the
+same traditional craft.
+c. Development of upskilling/ reskilling NOSs to make artisans understand about
+customer demand, and development of customer/market for their product.
+d. Identification and mobilization of potential candidates for skilling/ assessment.
+e. Sensitizing the artisans/ candidates on the history, ideology and relevance of a craft.
+f. Mapping the learning outcomes of the NOS/ qualification with the competencies of the
+candidates/ artisans, and determining their NCrF/ NSQC level. Based on the tentative
+NCrF/ NSQC level, the RPL assessment of the candidate/ artisan shall be conducted
+(refer RPL guidelines, section 4, for detailed process).
+VI. Assessor engaged for the assessment for traditional skills
+The Master Trainers/ Master Assessors who are well known Master Craftsmen/ Artisans in
+the selected field of traditional art/ craft shall be engaged for the assessment of traditional
+skills. The National/ State Awardee Master Craftsmen/ Artisans, and National Merit Certificate
+Holders are to be given preference as assessors.
+Page 41 of 41

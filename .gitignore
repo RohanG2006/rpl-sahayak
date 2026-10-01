@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+node_modules/
+.next/
+out/
+*.log
+backend/.pgdata/
+backend/storage/
+backend/*.db
+.pytest_cache/
+coverage/
+backend-dev.log
+docker/pg-embedded/node_modules/

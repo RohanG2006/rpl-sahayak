@@ -1,0 +1,1074 @@
+=====PAGE 1=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+CONTACT DETAILS OF THE BODY SUBMITTING THE QUALIFICATION FILE
+Directorate General of Training (DGT)
+Government of India, Ministry of Skill Development and Entrepreneurship,
+1st and 2nd Floor, CIRTES Building
+Next to Pusa ITI, Pusa Campus NCVET Code
+New Delhi – 110012.
+2022/POW/DGT/06309
+Name and address of submitting body:
+Directorate General of Training (DGT)
+Government of India, Ministry of Skill Development and Entrepreneurship,
+1st and 2nd Floor, CIRTES Building
+Next to Pusa ITI, Pusa Campus
+New Delhi – 110012.
+Name and contact details of individual dealing with the submission
+Name: Mrs. Sandhya Salwan
+Position in the organisation: Deputy Director General
+Address if different from above:
+Tel number(s): 011-25802140
+E-mail address: sandhya.salwan@nic.in
+List of documents submitted in support of the Qualifications File
+1. Competency-based curriculum with following details:
+Model Curriculum to be added which will include the following:
+a. Indicative list of tools/equipment to conduct the training: Enclosed with curriculum
+b. Trainers qualification: Indicated in the curriculum
+c. Lesson Plan: All DGT curricula are designed indicating specific practical to be
+carried out during training along with details of trade theory. Based on this the concerned
+instructor prepares the Lesson Plan and demonstration plan with support of IMPs
+developed by NIMI,DGT.
+d. Distribution of training duration into theory/practical/OJT component: Indicated in
+the curriculum.
+2. Curriculum for Core Skills (Employability Skills).
+1
+NSQC Approved
+=====PAGE 2=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+e. SUMMARY
+1 Qualification Title ‘ELECTRICIAN’
+2 Qualification Code, if any DGT/1001
+3 NCO code and occupation 7411.0100 - Electrician General
+7412.0200 - Electrical Fitter
+4 Nature and purpose of the Prepare skilled Technician to undertake the job
+qualification (Please specify roles of Electrician and will enable the trainee to
+install, maintain and repair electrical machineries,
+whether qualification is short
+equipment and fittings in factories, workshops
+term or long term)
+power houses, businesses and residential
+premises etc.
+It is a long term qualification.
+5 Body/bodies which will award Directorate General of Training (DGT).
+the qualification
+6 Body which will accredit Directorate General of Training (DGT) accredits
+providers to offer courses the Training providers (ITIs/ NSTIs/ MSTIs/ BTCs/
+leading to the qualification BTPs / Industries / Establishments).
+7 Whether Yes.
+accreditation/affiliation norms The accreditation/ affiliation norms and any
+amendments made from time to time are
+are already in place or not, if
+available on DGT web portal.
+applicable (if yes, attach a
+copy)
+8 Occupation(s) to which the ● Electrician General
+qualification gives access ● Electrical Fitter
+9 Job description of the Electrician will be able to install, maintain and
+occupation repair electrical machineries, equipment and
+fittings in factories, workshops, power houses,
+businesses and residential premises etc. and the
+technician generally fits and assembles electrical
+machineries and equipment such as motors,
+transformers, generators, switchgears, fans etc.
+10 Licensing requirements NOT REQUIRED
+11 Statutory and Regulatory NOT APPLICABLE
+requirement of the relevant
+sector (documentary evidence
+to be provided)
+12 Level of the qualification in the Level 4
+NSQF
+2
+NSQC Approved
+=====PAGE 3=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+13 Anticipated volume of
+training/learning required to Notional Training
+complete the qualification Hours
+S
+Course Element
+No.
+2nd
+1st Year
+Year
+1 Professional Skill 840 840
+(Trade Practical)
+2 Professional 240 300
+Knowledge (Trade
+Theory)
+3 Employability Skills 120 60
+Total 1200 1200
+On the Job Training (OJT)/ 150 150
+Group Project
+14 Indicative list of training tools As per Annexure-I of curriculum.
+required to deliver this
+qualification
+15 Entry requirements and/or Passed 10th class examination with Science and
+recommendations and Mathematics or its equivalent.
+minimum age Minimum age 14 years as on first day of academic
+session.
+16 Progression from the An Individual can proceed for:
+qualification (Please show
+Professional Technical / Academic
+Professional and academic
+● Technician
+progression)
+● Senior
+Technician
+Diploma/
+● Supervisor ATS
+Advance
+● Manager CITS
+Diploma
+● Entrepreneur
+(Vocational)
+17 Arrangements for the ● Yes (For more details refe r “Guidelines
+Recognition of Prior learning for Private candidate” in DGT website MIS
+portal).
+(RPL)
+3
+NSQC Approved
+=====PAGE 4=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+18 International comparability -
+where known (research
+evidence to be provided)
+19 Date of planned review of the 3 Yrs. from the Date of Approval
+qualification.
+20 Formal structure of the qualification
+Mandatory components
+Estimated size (learning
+Title of component and identification hours)
+Level
+code/NOSs/ Learning Outcomes
+Skills Knowledge
+TRADE SPECIFIC
+(i) Prepare profile with an appropriate accuracy as 40 10 4
+per drawing following safety precautions.
+(NOS: PSS/N2001)
+(ii) Prepare electrical wire joints; carry out 95 20 4
+soldering, crimping and measure insulation
+resistance of underground cable. (NOS:
+PSS/N0108)
+(iii) Verify characteristics of electrical and magnetic 160 36 4
+circuits. (NOS: PSS/N6001, PSS/N6003)
+(iv) Install, test and maintenance of batteries and 50 10 4
+solar cell. (NOS: PSS/N6001)
+(v) Estimate, Assemble, install and test wiring 200 42 4
+system. (NOS: PSS/N6001)
+(vi) Plan and prepare Earthing installation. (NOS: 25 7 4
+PSS/N6002)
+(vii) Plan and execute electrical illumination system 45 10 4
+and test. (NOS: PSS/N9403)
+(viii) Select and perform measurements using 50 8 4
+analog / digital instruments and install/
+diagnose smart meters. (NOS: PSS/N1707)
+(ix) Perform testing, verify errors and calibrate 25 5 4
+instruments. (NOS: PSS/N9404)
+(x) Plan and carry out installation, fault detection 75 10 4
+and repairing of domestic appliances. (NOS:
+PSS/N6003)
+4
+NSQC Approved
+=====PAGE 5=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+(xi) Execute testing, evaluate performance and 75 12 4
+maintenance of transformer. (NOS:
+PSS/N2406, PSS/N2407)
+(xii) Read and apply engineering drawing for - 40 4
+different application in the field of work. (NOS:
+PSS/N9401)
+(xiii) Demonstrate basic mathematical concept and - 30 4
+principles to perform practical operations.
+Understand and explain basic science in the
+field of study. (NOS: PSS/N9402)
+(xiv) Plan, execute commissioning and evaluate 35 9 4
+performance of DC machines. (NOS:
+PSS/N4402)
+(xv) Execute testing, and maintenance of DC 77 24 4
+machines and motor starters. (NOS:
+PSS/N4402)
+(xvi) Plan, execute commissioning and evaluate 35 9 4
+performance of AC motors. (NOS: PSS/N1709)
+(xvii) Execute testing, and maintenance of AC 80 26 4
+motors and starters. (NOS: PSS/N1709)
+(xviii) Plan, execute testing, evaluate performance 23 9 4
+and carry out maintenance of Alternator / MG
+set. (NOS: PSS/N9405)
+(xix) Execute parallel operation of alternators. (NOS: 39 12 4
+PSS/N9405)
+(xx) Distinguish, organise and perform motor 50 12 4
+winding. (NOS: PSS/N4402)
+(xxi) Assemble simple electronic circuits and test for 75 22 4
+functioning. (NOS: PSS/N9406)
+(xxii) Assemble accessories and carry out wiring of 99 31 4
+control cabinets and equipment. (NOS:
+PSS/N9407)
+(xxiii) Perform speed control of AC and DC motors by 82 24 4
+using solid state devices. (NOS: PSS/N9408)
+(xxiv) Detect the faults and troubleshoot inverter, 50 11 4
+stabilizer, battery charger, emergency light and
+UPS etc. (NOS: PSS/N6002)
+(xxv) Plan, assemble and install solar panel. (NOS: 50 10 4
+PSS/N9409)
+(xxvi) Erect overhead domestic service line, outline 23 4 4
+various power plant layout and explain smart
+distribution grid and its components. (NOS:
+PSS/N0106)
+(xxvii) Examine the faults and carry out repairing of 25 7 4
+circuit breakers. (NOS: PSS/N7001)
+5
+NSQC Approved
+=====PAGE 6=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+(xxviii) Install and troubleshoot Electric Vehicle 50 10 4
+charging stations. (NOS: PSS/N9410)
+(xxix) Read and apply engineering drawing for - 40 4
+different application in the field of work. (NOS:
+PSS/N9401)
+(xxx) Demonstrate basic mathematical concept and - 32 4
+principles to perform practical operations.
+Understand and explain basic science in the
+field of study. (NOS: PSS/N9402)
+CORE SKILL
+EMPLOYABILITY SKILLS
+(i) - -
+Introduction to Employability Skills
+(ii) - -
+Constitutional values - Citizenship
+(iii) - -
+Becoming a Professional in the 21st Century
+(iv) - -
+Basic English Skills
+(v) - -
+Career Development & Goal Setting
+(vi) - -
+Communication Skills
+180
+(vii) - -
+Diversity & Inclusion
+(viii) - -
+Financial and Legal Literacy
+(ix) - -
+Essential Digital Skills
+(x) - -
+Entrepreneurship
+(xi) - -
+Customer Service
+(xii) - -
+Getting Ready for Apprenticeship & Jobs
+2400
+OJT/ Group Project 300
+6
+NSQC Approved
+=====PAGE 7=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+SECTION 1
+ASSESSMENT
+21 Body/Bodies which will carry out assessment:
+Controller of Examinations, DGT
+22 How will RPL assessment be managed and who will carry it out?
+DGT will carry out the RPL assessment following the below mentioned eligibility
+criteria for Trainee:
+Applicants aspiring to appear as Private Candidates in the AITT under CTS for
+award of NTC, have been categorized based on their educational background and
+experience. Subsequently ‘Private Candidates’ may be admitted under one of the
+following categories. Category wise ‘eligibility criteria’ for appearing as ‘Private
+Candidate’ in AITT under CTS has been listed below:
+Category I: Ex-trainees (successful pass-outs) of ITI
+A. Ex-trainees of ITI who already possess NTC in one of the trades under CTS, are
+eligible for applying as Private candidate for an allied trade, provided he/ she fulfils
+all the conditions regarding educational qualification etc. prescribed for that allied
+trade. (Refer Annexure III for list of allied trades)
+B. In addition, the applicant should possess minimum of 1 year experience (as on
+date of submission of application) post the date of AITT result declaration in the
+desired allied trade in establishments implementing Apprenticeship Training
+Scheme (ATS)/ establishments registered under the Apprenticeship portal or
+registered MSMEs or Entities registered with any government/local authorities /
+shops covered under Factories Act 1948 and Shops and Establishments Act
+applicable for the concerned State. II.
+Category II: ‘Ex-trainees (successful pass-outs) and current trainees under CoE
+scheme
+A. The applicant should have the minimum prescribed entry qualification and should
+fulfil eligibility criteria for the desired trade under CTS, in which he/she intends to
+appear for AITT as Private Candidate. Mapping of CoE trades, with that of regular
+CTS trades is provided in Annexure IV. CoE candidates must register as ‘Private
+Candidate’ under CTS in the relevant/mapped CTS trade only.
+B. There should be a minimum gap of 1 year between successful completions of
+CoE training i.e. from the date of result declaration to the date of submission of
+application for ‘Private Candidate’ certification.
+C. During this gap of 1 year, the candidate must have undergone Industry training
+or gained experience in desired trade in establishments implementing
+Apprenticeship Training Scheme (ATS)/ establishments registered under the
+Apprenticeship portal or registered MSMEs or Entities registered with any
+government/local authorities / shops covered under Factories Act 1948 and Shops
+and Establishments Act applicable for the concerned State.
+Category III: SCVT Candidates (admitted till August 2018 session)
+7
+NSQC Approved
+=====PAGE 8=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+A. No special provisions have been made for SCVT Trainees to enrol as ‘Private
+Candidate’. Going forward, SCVT trainees have been granted equivalence vide
+G.S.R 186(E) dated 2nd March 2017 for undergoing apprenticeship training under
+the Apprentices Act 1961 to obtain ‘NAC’ (Refer Annexure V).
+B. Only for SCVT trainees admitted till August 2018 batch, provision has been made
+for obtaining NTC by appearing in AITT under ‘Private Candidate’. Such trainees will
+continue to be governed by old guidelines for ‘Private Candidate’.
+Category IV: Other Candidates (candidate not falling in any of the above 3
+categories, including SCVT trainees enrolled from admission session 2019
+onwards)
+A. The applicant should have the minimum prescribed entry qualification and should
+fulfil eligibility criteria for the relevant trade under CTS, in which he/she desires to
+appear for AITT as Private Candidate.
+B. Applicant should be minimum 21 years of age on the date of submission of
+application. There is no upper age limit.
+C. The applicant should possess minimum of 3 years’ experience (on the date of
+submission of application) in the relevant trade in establishments implementing
+Apprenticeship Training Scheme (ATS)/ establishments registered under the
+Apprenticeship portal or registered MSMEs or Entities registered with any
+government/local authorities / shops covered under Factories Act 1948 and Shops
+and Establishments Act applicable for the concerned State.
+For updated information please refer to DGT web portal.
+23 Describe the overall assessment strategy and specific arrangements
+which have been put in place to ensure that assessment is always valid,
+reliable and fair and show that these are in line with the requirements
+of the NSQF.
+(1) Assessment process:
+The assessment for the qualification is carried out by conducting formative
+assessments, and end of year examinations (Summative). The formative
+assessments in respect of each Learning Outcome for practical and related theory
+are conducted by the concerned instructors for evaluating the knowledge and skill
+acquired by trainees and the behavioural transformation of the trainees. This
+formative assessment is primarily carried out by collecting evidence of competence
+gained by the trainees by evaluating them at work based on assessment criteria,
+asking questions and initiating formative discussions to assess understanding and
+by evaluating records and reports. Summative assessment is carried out by All India
+Trade Test on Trade Theory, Trade practical and Employability Skills. The question
+papers for the theory Examinations contain objective type questions.
+The marking pattern and distribution of marks for the qualification are as under:
+8
+NSQC Approved
+=====PAGE 9=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+Marking Pattern
+Sl. Type of Subject for the Trade Marks for Marks for the
+No. Assessment Test the 2nd Year
+1st Year
+1 Practical 250 250
+2 Trade Theory 100 100
+Summative
+Assessment
+3 Employability Skills 50 50
+4 Formative assessment based on Learning 200 200
+Outcomes
+TOTAL: 6 0 0 6 0 0
+(2) Minimum pass marks:
+The minimum pass percent for Trade Practical and Formative assessment is 60%
+& for all other subjects is 33%. There will be no Grace marks.
+Testing and certifications for the course:
+Controller of examinations, DGT carries out the assessment and issues National
+Trade Certificate (NTC) following the norms and guidelines issued by the Directorate
+from time to time.
+Overall assessment strategy:
+Assessment of the qualification evaluates trainees to show that they can integrate
+knowledge, skills and values for carrying out relevant tasks as per the defined
+learning outcomes and assessment criteria. The trainees may choose the preferred
+language for assessment. The underlying principle of assessment is fairness and
+transparency. While assessing the trainee, assessor is directed to assess as per the
+defined assessment criteria against the learning outcomes. The evidence of the
+competence acquired by the trainees can be obtained by conducting theory and
+practical examinations, observing the trainees at work, asking questions and
+initiating discussions to assess, understand and evaluate records and reports. The
+ultimate objective of the assessment is to assess the candidates as per the defined
+assessment criteria for the learning outcomes.
+Specific Arrangements for assessment:
+• Assessment is outcome-based.
+• There are formative and summative assessments in Theory and Practical.
+• Assessment is carried out in Trade theory, Trade Practical and Employability
+Skills.
+9
+NSQC Approved
+=====PAGE 10=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+• While Trade Theory and Trade Practical are used for assessing Trade-
+related jobs, numerical and logical skills, draw and read sketches and Employability
+skills is used to test the communication, professional language, leadership,
+entrepreneurship and team-work abilities of the trainee.
+• In addition to demonstration of theory and practical knowledge, trainees get
+a chance to present total personality.
+Quality assurance activities:
+Question papers are set by external paper setters/ software generated.
+Evaluation of Theory Examinations in Trade and Employability Skill is done by third-
+party agency.
+Trade Practical is examined by External Examiner.
+24. Assessment evidences
+Title of Component: Formative Assessment Breakup
+(on half yearly average of the learning assessment covered)
+Means of assessment
+Assessment will be evidence based comprising the following for each Learning Outcome:
+Serial Terminal Competency Maximum
+No. Weightage
+(%)
+1 Safety consciousness 15
+2 Workplace hygiene 5
+3 Attendance/ Punctuality 10
+4 Ability to follow Manuals/ Written instructions 5
+5 Application of Knowledge 10
+6 Skills to handle tools / equipment/ Instruments/ Devices 10
+7 Economical use of materials 5
+8 Working Strategy 10
+9 Quality in workmanship/ Performance 15
+10 VIVA 15
+Total Maximum Weightage (%) 100
+Pass/Fail
+The minimum pass percentage is 60% marks for formative assessment.
+10
+NSQC Approved
+=====PAGE 11=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+LEARNING OUTCOME WITH ASSESSMENT CRITERIA:
+LEARNING OUTCOME (TRADE SPECIFIC)
+LEARNING OUTCOMES ASSESSMENT CRITERIA
+FIRST YEAR
+1. Prepare profile with Identify the trade tools; demonstrate their uses with safety, care &
+an appropriate accuracy as maintenance.
+per drawing. (NOS: Prepare a simple half lap joint using firmer chisel with safety.
+PSS/N2001) Prepare tray using sheet metal with the safety.
+Demonstrate fixing of surface mounting type of accessories.
+Perform connections of electrical accessories.
+Make and wire up of a test board and test it.
+2. Prepare electrical Observe safety/ precaution during joints & soldering.
+wire joints, carry out Make simple straight twist and rat-tail joints in single strand conductors.
+soldering, crimping and Make married and ‘T’ (Tee) joint in stranded conductors.
+measure insulation Prepare a Britannia straight and ‘T’ (Tee) joint in bare conductors.
+resistance of underground Prepare western union joint in bare conductor.
+cable. (NOS: PSS/N0108) Solder the finished copper conductor joints with precaution.
+Prepare termination of cable lugs by using crimping tool.
+Make straight joint in different types of underground cables.
+Measure insulation resistance of underground cable.
+3. Verify Identify types of wires, cables and verify their specifications.
+characteristics of electrical Verify the characteristics of series, parallel and its combination circuit.
+and magnetic circuits. Analyze the effect of the short and open in series and parallel circuits.
+(NOS: PSS/N6001, Verify the relation of voltage components of RLC series circuit in AC.
+PSS/N6003) Determine the power factor by direct and indirect methods in an AC
+single phase RLC parallel circuit.
+Identify the phase sequence of a 3 ø supply using a phase-sequence
+meter.
+Prepare/ connect a lamp load in star and delta and determine
+relationship between line and phase values with precaution.
+Connect balanced and unbalanced loads in 3 phase star system and
+measure the power of 3 phase loads.
+Make the solenoid and determine its polarity for the given direction of
+current.
+Group the given capacitors to get the required capacity and voltage
+rating.
+Assemble a DC source 6V/500 mA using 1.5V cells.
+11
+NSQC Approved
+=====PAGE 12=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+4. Install, test and Determine the internal resistance of cell and make grouping of cells.
+maintenance of batteries Explain charging of battery and test for its condition with safety/
+and solar cell. (NOS: precaution.
+PSS/N6001) Carry out installation and maintenance of batteries.
+Determine total number of cells required for a given power requirement.
+5. Estimate, Assemble, Comply with safety & IE rules when performing the wiring.
+install and test wiring Prepare and mount the energy meter board.
+system. (NOS: PSS/N6001)
+Draw and wire up the consumers main board with ICDP switch and
+distribution fuse box.
+Draw and wire up a bank/hostel/jail in PVC conduit.
+Identify the types of fuses their ratings and applications.
+Identify the parts of a relay, MCB & ELCB and check its operation.
+Estimate the cost of material for wiring in PVC channel for an office
+room having 2 lamps, 1 Fan, one 6A socket outlet and wire up.
+Estimate the requirement for conduit wiring (3 phase) and wire up.
+Estimate the materials and wire up the lighting circuit for a godown.
+Estimate the materials and wire up a lighting circuit for a corridor in
+conduit.
+Test, locate the fault and repair a domestic wiring installation.
+6. Plan and prepare Plan work in compliance with standard safety norms related with
+Earthing installation. (NOS: earthing installation.
+PSS/N6002) Install the pipe earthing and test it.
+Install the plate earthing and test it.
+Measure the earth electrode resistance using earth tester.
+Carry out earth resistance improvement.
+7. Plan and execute Plan work in compliance with standard safety norms related with
+electrical illumination electrical illumination system.
+system and test. (NOS: Install light fitting with reflectors for direct and indirect lighting.
+N/A) Assemble and connect a single twin tube fluorescent light.
+Connect, install and test the HPMV & HPSV lamp with accessories.
+Prepare and test a decorative serial lamp set for 240 V using 6V bulb
+and flasher.
+Install light fitting for show case window lighting.
+8. Select and perform Identify the type of electrical instruments.
+measurements using Extend the range of MC voltmeter and ammeter.
+analog / digital instruments Measure the frequency by frequency meter.
+and install/ diagnose smart Measure the power and energy in a single & three phase circuit using
+meters. (NOS: PSS/N1707) wattmeter and energy meter with CT and PT.
+12
+NSQC Approved
+=====PAGE 13=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+Measure the value of resistance, voltage and current using digital
+multimeter.
+Measure the power factor in poly-phase circuit and verify the same with
+voltmeter, ammeter, watt-meter readings.
+Identify components of smart meters.
+Install and diagnose smart meters.
+9. Perform testing, Test single phase energy meter for its errors.
+verify errors and calibrate Determine the measurement errors while measuring resistance by
+instruments. (NOS: N/A) voltage drop method.
+Calibrate the analogmultimeter.
+10. Plan and carry out Plan work in compliance with standard safety norms related with
+installation, fault detection domestic appliances.
+and repairing of domestic Service and Repair of calling bell/ buzzer/ Alarm.
+appliances. (NOS: Service and repair an automatic iron.
+PSS/N6003) Repair and service of oven having multi-range heat control.
+Replace the heating element in a kettle and test.
+Service and repair an induction heater.
+Service and repair a geyser.
+Service and repair a mixer.
+Service and repair of washing machine.
+Install a pump set.
+Service and repair of table fan.
+Service, repair and install a ceiling fan.
+11. Execute testing, Plan work in compliance with standard safety norms related with
+evaluate performance and transformer.
+maintenance of transformer. Identify the types of transformers and their specifications.
+(NOS: PSS/N2406, Identify the terminals; verify the transformation ratio of a single-phase
+PSS/N2407) transformer.
+Connect and test a single-phase auto- transformer.
+Determine the losses (iron loss and copper loss) and the regulation of
+a single-phase transformer at different loads.
+Measure the current and voltage using CT and PT.
+Carry out winding for small transformer of 1KVA rating.
+Test the transformer oil with oil testing kit.
+Connect 3 single phase transformers for 3 phase operation of delta-
+delta /delta-star /star-star /star-delta.
+Connect the given two single phase transformers in parallel /series
+(secondary only) and measure voltage.
+Connect & test 3 phase transformer in parallel.
+13
+NSQC Approved
+=====PAGE 14=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+12. Read and apply Read & interpret the information on drawings and apply in executing
+engineering drawing for practical work.
+different application in the Read &analyze the specification to ascertain the material requirement,
+field of work. tools and assembly/maintenance parameters.
+Encounter drawings with missing/unspecified key information and
+make own calculations to fill in missing dimension/parameters to carry
+out the work.
+13. Demonstrate basic Solve different mathematical problems
+mathematical concept and Explain concept of basic science related to the field of study
+principles to perform
+practical operations.
+Understand and explain
+basic science in the field of
+study.
+SECOND YEAR
+14. Plan, execute Plan work in compliance with standard safety norms related with DC
+commissioning and machines.
+evaluate performance of DC Determine the load performance of a different type of DC generator on
+machines. (NOS: load.
+PSS/N4402) Connect, start, run and reverse direction of rotation of different types
+of DC motors.
+Conduct the load performance tests on different type of DC motor.
+Control the speed of a DC motor by different method.
+15. Execute testing, and Test a DC machine for continuity and insulation resistance.
+maintenance of DC Maintenance, troubleshooting & servicing of DC machines.
+machines and motor Test armature by using growler.
+starters. (NOS: PSS/N4402) Maintain, service and troubleshoot the DC motor starter.
+16. Plan, execute Plan work in compliance with standard safety norms related with AC
+commissioning and motors.
+evaluate performance of AC Draw circuit diagram and connect forward & reverse a 3-phase squirrel
+motors. (NOS: PSS/N1709) cage induction motor.
+Start, run and reverse an AC 3 phase squirrel cage induction motor by
+different type of starters.
+Measure the slip of 3 phase squirrel cage induction motor by
+tachometer for different output. Draw slip/ load characteristics of the
+motor.
+Determine the efficiency of 3 phase squirrel cage induction motor by
+no load test/ blocked rotor test and brake test.
+Plot the speed torque (Slip/Torque) characteristics of slip ring induction
+motor.
+Demonstrate speed control of 3 phase induction motor.
+Connect, start and run a 3-phase synchronous motor.
+14
+NSQC Approved
+=====PAGE 15=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+Connect start, run, control speed and reverse the DOR of different type
+of single-phase motors.
+Install a single-phase AC motor.
+17. Execute testing, and Test continuity and insulation of various AC motors.
+maintenance of AC motors Maintain, service and troubleshoot of three phase AC motors.
+and starters. (NOS: Maintain, service and troubleshoot of different types of single-phase
+PSS/N1709) AC motors.
+Maintain, service and troubleshoot the AC motor starter.
+18. Plan, execute Plan work in compliance with standard safety norms related with
+testing, evaluate Alternator & MG set.
+performance and carry out
+Connect start and run an alternator and build up the voltage.
+maintenance of Alternator /
+Determine the load performance of a 3-phase alternator.
+MG set. (NOS: N/A)
+Start and load a MG set with 3 phase induction motor coupled to DC
+shunt generator and build up the voltage.
+Perform/ Explain alignment of MG set.
+Preventive and breakdown maintenance of alternator / MG set.
+Explain the effect of excitation current in terms of V-curves of
+synchronous motor.
+19. Execute parallel Demonstrate parallel operation of an alternator Bright lamp method/
+operation of alternators. Dark lamp method/ Bright and dark lamp method.
+(NOS: N/A)
+Parallel operation of an alternator by using synchroscope.
+20. Distinguish, Rewind the field coil /armature winding/ table fan /ceiling fan.
+organise and perform motor Draw winding diagram & rewind a single-phase split type motor
+winding. (NOS: (Concentric coil winding).
+PSS/N4402) Draw winding diagram & rewind a 3-phase squirrel cage induction
+motor (single layer distributed winding).
+Draw winding diagram & rewind a 3-phase induction motor (single
+layer concentric type half coil connection).
+Draw winding diagram & rewind a 3-phase squired cage induction
+motor. (Double layer distributed type winding)
+21. Assemble simple Perform soldering on components/ lug / board with safety.
+electronic circuits and test
+Identify the passive /active components by visual appearance, code
+for functioning. (NOS: N/A)
+number and test for their condition.
+Identify the control and functional switches in CRO and measure the
+D.C. & A.C. voltage, frequency and time period.
+Construct and test a half &full wave rectifier with and without filter
+circuits.
+15
+NSQC Approved
+=====PAGE 16=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+Construct circuit by using transistor as a switch.
+Construct and test a UJT as relaxation oscillator & electronic timer.
+Construct amplifier circuit using Transistor, FET and JFET and test.
+Construct and test lamp dimmer using TRIAC/DIAC.
+Test IGBT and use in circuit for suitable operation.
+Construct and test the universal motor speed controller using SCR
+with safety.
+Construct and test logic gate circuits.
+22. Assemble Draw the layout diagram of 3 phase AC motor control cabinet.
+accessories and carry out
+Mount the control elements & wiring accessories on the control panel.
+wiring of control cabinets
+Carry out wiring in control cabinet for local and remote control of
+and equipment. (NOS: N/A)
+induction motor.
+Draw & wire up the control panel for forward/ reverse operation of
+induction motor.
+Perform wiring for automatic start delta starter.
+Draw & wire up control panel for sequential motor control for three
+motors.
+Draw & wire up the control panel for a given circuit diagram and
+connect the motor.
+Test the control panel for all the required logics.
+23. Perform speed Control the speed of DC motor by using DC drive.
+control of AC and DC Speed control of universal motor by using SCR.
+motors by using solid state Control speed and reverse the direction of rotation of different type of
+devices. (NOS: N/A) three phase induction motors using VVVF control /AC drive
+24. Detect the faults and Operation and maintenance of inverter.
+troubleshoot inverter, Troubleshoot and service a voltage stabilizer.
+stabilizer, battery charger, Identify the parts, trace the connection and test the DC regulated power
+emergency light and UPS supply with safety.
+etc. (NOS: PSS/N6002) Troubleshoot and service a DC regulated power supply.
+Test battery charger for its operation.
+Prepare an emergency light.
+Carryout maintenance of UPS.
+25. Plan, assemble and Plan work in compliance with solar panel installation norms.
+install solar panel. (NOS:
+Combination of solar cells for given power requirement.
+N/A)
+Assemble and install solar panel.
+Check the functionality of solar panel.
+16
+NSQC Approved
+=====PAGE 17=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+26. Erect overhead Prepare single line diagram of thermal/ hydel/ Solar /Wind power
+domestic service line and plants.
+outline various power plant
+Prepare layout plan and single line diagram of transmission line.
+layout and explain smart
+Draw an overhead and domestic service line.
+distribution grid and its
+components. (NOS: Explain erection ofan overhead service line pole for single phase 240V
+PSS/N0106) distribution system.
+Identify different type of insulator used in HT and LT line.
+Fasten jumper in insulators.
+Connect feeder cable with domestic service line.
+Identify components and equipment of smart distribution grid.
+Explain Smart Grid Communication infrastructure components.
+27. Examine the faults Prepare layout plan and single line diagram of Distribution substation
+and carry out repairing of
+Illustrate application of relays in control circuits and examine its
+circuit breakers. (NOS:
+operation.
+PSS/N7001)
+Identify parts of circuit breaker and check its operation.
+28. Install and Explain charger specifications.
+troubleshoot Electric
+Demonstrate installation of EV charging Station for Public places/
+Vehicle charging stations.
+Home.
+(NOS: N/A)
+29. Read and apply Read & interpret the information on drawings and apply in executing
+engineering drawing for practical work.
+different application in the Read &analyze the specification to ascertain the material requirement,
+field of work. tools and assembly/maintenance parameters.
+Encounter drawings with missing/unspecified key information and
+make own calculations to fill in missing dimension/parameters to carry
+out the work.
+30. Demonstrate basic Solve different mathematical problems
+mathematical concept and Explain concept of basic science related to the field of study
+principles to perform
+practical operations.
+Understand and explain
+basic science in the field of
+study.
+17
+NSQC Approved
+=====PAGE 18=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+EMPLOYABILITY SKILLS (CORE SKILL)
+LEARNING OUTCOME ASSESSMENT CRITERIA
+1. Introduction to Employability Outline the importance of Employability Skills for the current job
+Skills market and future of work
+List different learning and employability related GOI and private
+portals and their usage
+Research and prepare a note on different industries and the
+available opportunities
+2. Constitutional values - Explain the essential civic rights and duties required to be
+Citizenship followed to become a responsible citizen
+Discuss the role of personal values and ethics in personal and
+social development
+Identify and practice different environmentally sustainable
+practices
+3 Becoming a Professional in the Discuss relevant 21st century skills required for employment
+21st Century Highlight the importance of practicing 21st century skills like Self-
+Awareness, Behavior Skills, Positive attitude, self -motivation,
+problem solving, and time management skills in personal or
+professional life
+Create a pathway for adopting a learning mindset for personal
+and professional development
+4. Basic English Skills Use appropriate grammar and sentences while interacting with
+others
+Read English text with appropriate articulation
+Role play a situation on how to talk appropriately to a customer in
+English, over the phone or in person
+Write a short note/paragraph / letter/e -mail using correct English
+18
+NSQC Approved
+=====PAGE 19=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+5. Career Development & Goal Research and identify trends and different skills required to
+Setting match the current market requirement for a job
+Create a career development plan with well-defined short- and
+long-term goals
+6. Communication Skills Demonstrate how to communicate effectively using verbal and
+nonverbal communication etiquette
+Write a short note/paragraph on a familiar topic
+Explain the importance of communication etiquette including
+active listening for effective communication
+Role play a situation on how to work collaboratively with others in
+a team
+7. Diversity and Inclusion Exhibit how to behave, communicate and conduct oneself
+appropriately with all genders and PwD
+Discuss the POSH Act and its significance
+8. Financial and Legal Literacy Discuss various financial institutions, products, and services
+Demonstrate how to carry out offline and online financial
+transactions, safely and securely and check passbook/statement
+Explain the common components of salary such as Basic, PF,
+Allowances (HRA, TA, DA, etc.), tax deductions
+Calculate income and expenditure for budgeting
+Discuss the legal rights, laws, and aids
+9. Essential Digital Skills Describe the role of digital technology in day-to-day life and the
+workplace
+Demonstrate how to operate digital devices and use the
+associated applications and features, safely and securely
+Demonstrate how to connect devices securely to internet using
+different means
+Follow the dos and don’ts of cyber security to protect against
+cyber crimes
+Discuss the significance of displaying responsible online
+behaviour while using various social media platforms
+Create an e-mail id and follow e- mail etiquette to exchange e -
+mails
+Show how to create documents, spreadsheets and presentations
+using appropriate applications
+10. Entrepreneurship Describe the types of entrepreneurship and enterprises
+Discuss the process of identifying opportunities for potential
+business and relevant regulatory and statutory requirements
+19
+NSQC Approved
+=====PAGE 20=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+Describe the 4Ps of Marketing-Product, Price, Place and
+Promotion and apply them as per requirement
+Create a sample business plan, for the selected business
+opportunity
+Discuss various sources of funding and identify associated
+financial and legal risks with its mitigation plan
+11. Customer Service Describe different types of customers
+Role play a situation on how to identify customer needs and
+respond to them in a professional manner
+Explain various tools used to collect customer feedback
+12. Getting ready for Draft a professional Curriculum Vitae (CV)
+apprenticeship & Jobs Use various offline and online job search sources such as
+employment exchanges, recruitment agencies, and job portals
+respectively
+Demonstrate how to apply to identified job openings using offline
+/online methods as per requirement
+Discuss the significance of maintaining hygiene and dressing
+appropriately
+Discuss how to prepare for an interview
+Role play a mock interview
+List the steps for searching and registering for apprenticeship
+opportunities
+20
+NSQC Approved
+=====PAGE 21=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+SECTION 2
+25. EVIDENCE OF LEVEL
+OPTION A
+Title/Name of qualification/component: ELECTRICIAN Level: 4
+NSQF Domain Outcomes of the Qualification/Component How the outcomes relate to the NSQF level NSQF
+descriptors Level
+Process Requires Well Developed Skill The learner requires to demonstrate well developed 4
+● Estimate, Assemble, install and test wiring skill for example 'Estimate, Assemble, install and test
+wiring system', 'Perform testing, verify errors and
+system
+calibrate instruments', and 'Distinguish, organize and
+● Perform testing, verify errors and calibrate
+perform motor winding'. One needs to perform
+instruments.
+complex set of activities for these outcomes and there
+● Distinguish, organize and perform motor is no scope for error as these could cause fatal
+winding accidents if not done correctly.
+● Plan, execute testing, evaluate performance
+and carry out maintenance of Alternator / MG set The learner requires to apply clear choice of
+procedures in familiar context for example 'Plan and
+● Plan, assemble and install solar panel.
+prepare Earthing installation', 'Plan and carry out
+installation, fault detection and repairing of domestic
+Clear choice of procedures in familiar context
+appliances' and 'Detect the faults and troubleshoot
+● Plan and prepare Earthing installation. inverter, stabilizer, battery charger, emergency light
+● Plan and carry out installation, fault and UPS etc.' In all these learning outcomes the
+detection and repairing of domestic appliances. learner has to apply one's knowledge and decide what
+● Detect the faults and troubleshoot inverter, needs to be done to either meet the client's
+requirement or identify fault and decide how to rectify
+stabilizer, battery charger, emergency light and
+it or plan as per the layout and conditions available.
+UPS etc.
+Hence NSQF Level is 4 for this descriptor.
+21
+NSQC Approved
+=====PAGE 22=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+Title/Name of qualification/component: ELECTRICIAN Level: 4
+NSQF Domain Outcomes of the Qualification/Component How the outcomes relate to the NSQF level NSQF
+descriptors Level
+Professional Knowledge of facts in the field of work or study The learner requires to demonstrate knowledge of 4
+knowledge ● Comparison and Advantages of DC and AC facts, principles, processes and general concepts, in
+the field of work or study which is Electrical wiring,
+systems.
+electro-magnetism, repair of electrical appliances and
+● Line and phase voltage, current and power in
+machines etc.
+a 3 phase circuits with balanced and unbalanced
+load.
+Hence NSQF Level is 4 for this descriptor.
+Knowledge of Principles and general concepts
+in the field of work or study
+● Ohm's Law; Simple electrical circuits and
+problems.
+● Working principles and circuits of common
+domestic equipment and appliances.
+Knowledge of processes in the field of work or
+study
+● Different methods of measuring the values of
+resistance
+● Wiring circuits planning, permissible load in
+sub-circuit and main circuit.
+Professional ● Plan and execute electrical illumination system The learning outcomes indicated in the adjacent cell 4
+skill and test. require cognitive and practical skills to accomplish
+tasks that involve estimating bill of materials and cost
+● Perform testing, verify errors and calibrate
+required for the job or planning as per requirement and
+instruments.
+conditions available or detecting fault and deciding
+● Plan and carry out installation, fault detection
+course of action for repair; all of which involve solving
+and repairing of domestic appliances.
+problems by selecting and applying basic methods,
+tools, materials and information.
+22
+NSQC Approved
+=====PAGE 23=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+Title/Name of qualification/component: ELECTRICIAN Level: 4
+NSQF Domain Outcomes of the Qualification/Component How the outcomes relate to the NSQF level NSQF
+descriptors Level
+● Plan, execute commissioning and evaluate
+performance of DC/AC machines, Hence NSQF Level is 4 for this descriptor.
+transformer/Alternator/MG Set.
+● Distinguish, organise and perform motor
+winding.
+Core skill Desired Mathematical Skills The learning outcomes for example ‘Explain science 4
+● Explain science in the field of study including in the field of study including simple machine' and
+‘Interpret & use formal and technical communication'
+simple machine.
+etc. display the learning outcomes where the learner
+Understanding of social/political skill
+needs to display desired mathematical skill;
+● Explain personnel finance, entrepreneurship
+understanding of social, political skill and some skill of
+and manage/organize related task in day to day
+collecting and organizing information, communication.
+work for personal & societal growth.
+Organizing information and communication Hence NSQF Level is 4 for this descriptor.
+● Interpret & use formal and technical
+communication.
+Responsibility ● Plan and prepare Earthing installation. The role of Electrician is independently responsible to 4
+● Estimate, assemble, install and test wiring perform the works as per specifications and their own
+analysis of what needs to be done based on their
+system.
+understanding of electrical processes, principles and
+● Plan, execute commissioning and evaluate
+standards and they have got some responsibility for
+performance of DC machines.
+other’s works and learning as well; Learning outcomes
+● Plan, execute testing, evaluate performance like “Plan and prepare Earthing installation”, “Plan,
+and carry out maintenance of Alternator / MG set. execute testing, evaluate performance and carry out
+● Detect the faults and troubleshoot inverter, maintenance of Alternator / MG set” etc. reveal the
+stabilizer, battery charger, emergency light and same.
+Hence NSQF Level is 4 for this descriptor.
+UPS etc.
+23
+NSQC Approved
+=====PAGE 24=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+SECTION 3
+EVIDENCE OF NEED
+26 What evidence is there that the qualification is needed? What is the
+estimated uptake of this qualification and what is the basis of this
+estimate?
+In case of other Awarding Bodies (Institutes
+Basis under Central Ministries and states
+departments)
+Need of the Power Sector has a significant presence of organized as
+qualification well as unorganized skilled manpower requirement. This
+sector is poised to grow exponentially in the years to
+come and is highly labour intensive and there are many
+emerging trends in this sector.
+Hence the qualification has been designed keeping in
+view to cater to the ever-increasing demand of skilled
+manpower in consultation with stakeholders.
+Industry The job role defined for the qualification is as per the
+Relevance National Classification of Occupations 2015 which is
+developed by Employment Directorate under the ministry
+of Labour and Employment in collaboration with different
+industry partners and as per ILO guidelines. Moreover,
+the training is imparted in ITIs/ NSTIs/ MSTIs/ BTC/
+BTPs/ Industries / Establishments etc. where such
+requirement is available. This justifies the qualification is
+very much relevant for industry.
+Usage of the The Proposed qualification will create skilled Technician
+qualification for various establishments in different Sectors.
+Estimated uptake The present seating capacity is 1159788
+27 Recommendation from the concerned Line Ministry of the
+Government/Regulatory Body. To be supported by documentary
+evidences.
+The qualification, originally designed for Craftsman Training Scheme is in
+existence for many years and approved by DGT (Regulatory Body) under Ministry
+of Skill Development and Entrepreneurship, Govt. of India.
+24
+NSQC Approved
+=====PAGE 25=====
+NSQF QUALIFICATION FILE
+Approved in 22th NSQC Meeting-NCVET-25th August 2022
+Electrician
+28 What steps were taken to ensure that the qualification(s) does (do)
+not duplicate already existing or planned qualifications in the NSQF?
+Give justification for presenting a duplicate qualification
+The qualification is originally designed and approved by DGT for the Craftsman
+Training Scheme and is in existence for many years. No such duplicate
+qualification of same duration and competencies exists.
+29 What arrangements are in place to monitor and review the
+qualification(s)? What data will be used and at what point will the
+qualification(s) be revised or updated? Specify the review process
+here
+● The research wing of CSTARI & DGT reviews and updates the
+qualification, in consultation with industries and other stakeholders, on a regular
+basis by conducting trade committee meetings.
+● DGT will monitor any duplicity by comparing existing qualifications with
+upcoming ones in the National Qualifications Register (NQR) and relevant sectors.
+SECTION 4
+EVIDENCE OF PROGRESSION
+30 What steps have been taken in the design of this or other qualifications to
+ensure that there is a clear path to other qualifications in this sector?
+Show the career map here to reflect the clear progression
+On completion of the training the trainee will have an opportunity to move in
+vertical/horizontal pathways to promote to higher designations. The learner can further
+undergo other specialised courses to excel in the relevant field.
+Technician Senior Supervisor Manager
+Technician
+Entrepreneur
+25
+NSQC Approved

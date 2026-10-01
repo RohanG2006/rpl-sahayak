@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+/*
+  RPL-Sahayak visual language: "assessment register".
+  Paper + ink, hairline rules, tabular figures, square corners.
+  One accent (register blue); status colours are reserved for state, never decoration.
+  AI content is always marked with the dashed amber "AI ASSIST" stamp; human decisions with solid ink.
+*/
+:root {
+  --paper: #f5f3ee;
+  --sheet: #fffefb;
+  --ink: #16191d;
+  --ink-2: #3d434b;
+  --ink-3: #6b727c;
+  --rule: #d9d5cb;
+  --rule-strong: #b9b3a5;
+  --accent: #1d4ed8;
+  --accent-ink: #1e3a8a;
+  --accent-wash: #e8eefc;
+  --ok: #15803d;
+  --ok-wash: #e6f4ea;
+  --warn: #a16207;
+  --warn-wash: #fdf3d8;
+  --bad: #b91c1c;
+  --bad-wash: #fbe7e5;
+  --ai: #b45309;
+  --ai-wash: #fff6e8;
+  --focus: #1d4ed8;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-sheet: var(--sheet);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-wash: var(--accent-wash);
+  --color-ok: var(--ok);
+  --color-ok-wash: var(--ok-wash);
+  --color-warn: var(--warn);
+  --color-warn-wash: var(--warn-wash);
+  --color-bad: var(--bad);
+  --color-bad-wash: var(--bad-wash);
+  --color-ai: var(--ai);
+  --color-ai-wash: var(--ai-wash);
+  --font-sans: var(--font-plex), var(--font-deva), system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+  --radius-sm: 2px;
+  --radius: 3px;
+  --radius-md: 4px;
+}
+
+html { background: var(--paper); }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "tnum" 1, "lnum" 1;
+  -webkit-text-size-adjust: 100%;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* Small-caps section labels used across the register */
+.label {
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--ink-3);
+}
+
+.num { font-variant-numeric: tabular-nums; }
+
+/* Stamps: provenance markers. Never decorative. */
+.stamp {
+  display: inline-flex; align-items: center; gap: .35rem;
+  font-size: .6875rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  padding: .15rem .45rem; border-radius: 2px; line-height: 1.3; white-space: nowrap;
+}
+.stamp-ai { color: var(--ai); background: var(--ai-wash); border: 1.5px dashed var(--ai); }
+.stamp-human { color: var(--sheet); background: var(--ink); border: 1.5px solid var(--ink); }
+.stamp-official { color: var(--accent-ink); background: var(--accent-wash); border: 1.5px solid var(--accent); }
+.stamp-synthetic { color: var(--ink-2); background: repeating-linear-gradient(135deg, #eee9dd 0 6px, #f7f4ec 6px 12px); border: 1.5px solid var(--rule-strong); }
+
+/* AI panels: dashed left rule makes advisory content recognisable at a glance */
+.ai-panel { border: 1px solid var(--rule); border-left: 4px dashed var(--ai); background: var(--sheet); }
+.human-panel { border: 1px solid var(--rule); border-left: 4px solid var(--ink); background: var(--sheet); }
+
+.sheet { background: var(--sheet); border: 1px solid var(--rule); border-radius: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

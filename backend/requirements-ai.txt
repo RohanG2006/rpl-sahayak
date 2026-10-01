@@ -1,0 +1,3 @@
+# Optional real AI providers (MockProvider needs none of these)
+google-genai>=1.0
+openai>=1.50
