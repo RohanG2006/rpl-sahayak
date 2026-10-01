@@ -31,11 +31,32 @@ export interface Plan {
   worker: { id: string; full_name: string; status: string; years_experience: number | null; occupation: string | null; data_origin: string };
   qualification: { id: string; title: string; qualification_code: string; ncvet_code: string | null; nsqf_level: number; source_url: string };
   assessor: { id: string; name: string; code: string } | null;
-  match_snapshot: MatchResult; self_assessment: Record<string, unknown>; readiness: Record<string, unknown>;
+  match_snapshot: MatchResult; self_assessment: Record<string, string>; readiness: Readiness | Record<string, never>;
   tasks: PlanTask[]; evidence_count: number; created_at: string; updated_at: string;
+  scope_los: { lo_number: number; title: string; criteria: string[]; nos: string[] }[]; lo_total: number;
 }
 
 export const runMatch = (worker_id: string) => api<MatchResponse>("/qualifications/match", { body: { worker_id } });
 export const createPlan = (worker_id: string, qualification_id: string) => api<Plan>("/assessments", { body: { worker_id, qualification_id } });
 export const getPlan = (id: string) => api<Plan>(`/assessments/${id}`);
 export const listPlans = () => api<{ id: string; status: string; qualification_id: string; worker_id: string; ncvet_stage: string; updated_at: string }[]>("/assessments");
+
+export interface Readiness {
+  scope_los: number[]; rows: { lo_number: number; claim: string; declaration_evidence: string; corroborated: boolean; needs_probe: boolean }[];
+  claimed_share: number; weighted_coverage: number; corroborated_share: number; threshold: number; threshold_source: string;
+  pathway: "DIRECT_ASSESSMENT" | "UPSKILLING_SUGGESTED"; eligibility_flags: string[]; probe_los: number[]; reasons: string[]; note: string;
+}
+export type ScopeLO = { lo_number: number; title: string; criteria: string[]; nos: string[] };
+
+export const selfAssess = (planId: string, responses: Record<number, "regularly" | "sometimes" | "never">) =>
+  api<{ readiness: Readiness; status: string }>(`/assessments/${planId}/self-assessment`, { body: { responses } });
+export const startPlan = (planId: string) => api<Plan>(`/assessments/${planId}/start`, { method: "POST" });
+export const saveTaskProgress = (planId: string, taskCode: string, body: { checklist_state: Record<string, boolean>; worker_note?: string | null; status: "IN_PROGRESS" | "SUBMITTED" }) =>
+  api<Plan>(`/assessments/${planId}/tasks/${taskCode}/progress`, { method: "PUT", body });
+
+/** The worker's most recent open plan, or null. */
+export async function currentPlan(): Promise<Plan | null> {
+  const list = await listPlans();
+  const open = list.find((p) => !["DECIDED", "REPORT_ISSUED"].includes(p.status)) ?? list[0];
+  return open ? getPlan(open.id) : null;
+}

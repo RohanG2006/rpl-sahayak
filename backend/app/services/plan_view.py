@@ -55,8 +55,15 @@ def plan_view(db: Session, plan: AssessmentPlan, viewer: User) -> dict:
                                            "completed_at": a.completed_at.isoformat() if a.completed_at else None},
         })
 
+    scope = sorted({lo for t in tasks for lo in t["lo_numbers"]})
+    comps = {c.lo_number: c for c in q.competencies if c.category == "trade"}
+    scope_los = [{"lo_number": n, "title": comps[n].title, "criteria": comps[n].assessment_criteria[:3],
+                  "nos": comps[n].nos_codes_summary} for n in scope if n in comps]
+
     return {
         "id": plan.id,
+        "scope_los": scope_los,
+        "lo_total": len(comps),
         "status": plan.status,
         "ncvet_stage": workflow.NCVET_STAGE.get(plan.status),
         "pathway": plan.pathway,
