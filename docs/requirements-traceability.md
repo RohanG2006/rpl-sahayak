@@ -41,10 +41,10 @@ Legend: ⬜ not started · 🟨 in progress · ✅ verified · 🧪 simulated (d
 | R13 | Skill gap analysis | required − demonstrated, LO-sourced topics | `/worker/results`, candidate detail | `GET /skill-gaps/{id}` | `skill_gaps` | `test_gaps.py` | 11 | ✅ |
 | R14 | Self-assessment & RPL readiness | LO checklist + Cat IV eligibility + > 70 % pathway | `/worker/self-assessment` | `POST /assessments/{id}/self-assessment` | `assessment_plans.readiness_snapshot` | `test_readiness.py` | 5 | ✅ |
 | R15 | Evidence traceability Score → Criterion → Evidence → Submission | Linked drill-down | assessor scoring grid | `GET /assessments/{id}` nested | FKs on `evidence`, `assessor_scores` | `test_evidence.py::test_traceability_chain` | 9 | ✅ |
-| R16 | Audit trail | Event logging on every state change | `/admin/audit` | `services/audit.py` | `audit_logs` | `test_audit.py` | 14 | 🟨 |
+| R16 | Audit trail | Event logging on every state change | `/admin/audit` | `services/audit.py` | `audit_logs` | `test_audit.py` | 14 | ✅ |
 | R17 | Assessment report | PDF with disclaimer + audit metadata | candidate detail "Download report" | `GET /assessments/{id}/report.pdf` | — | `test_report.py` | 14 | ⬜ |
 | R18 | Multilingual (EN + HI) | i18n dictionary, worker flow translated | worker screens | — | `users.preferred_language` | `i18n keys parity test` | 1 | 🟨 |
-| R19 | Admin management | trades, QPs (read-only official), tasks, rubrics, users, stats, sync, audit | `/admin/*` | `/admin/*` | various | `test_admin.py` | — | ⬜ |
+| R19 | Admin management | trades, QPs (read-only official), tasks, rubrics, users, stats, sync, audit | `/admin/*` | `/admin/*` | various | `test_admin.py` | — | ✅ |
 | R20 | Security & privacy | JWT, bcrypt, RBAC, upload validation, rate limit, no keys client-side, PII-redacted logs | — | `core/security.py` | `users` | `test_security.py` | — | 🟨 |
 | R21 | AI provider abstraction + validation + fallback | AIService, providers, prompts, retry/fallback | — | `app/ai/*`, `/prompts` | `ai_observations` | `test_ai_service.py` (mock, malformed, fallback) | 3, 8 | ✅ |
 | R22 | Demo mode (Raj Kumar) | One-click scenario | `/` & header "DEMO MODE" | `POST /demo/load` | seeded rows (🧪) | `test_demo.py` | all | ⬜ |
