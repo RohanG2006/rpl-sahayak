@@ -39,17 +39,24 @@ export function clientId(): string {
 
 export async function refreshState() {
   try {
-    const items = await db().queue.orderBy("createdAt").toArray();
+    const items = await db().queue.orderBy("seq").toArray();
     state = { ...state, items, pending: items.filter((i) => i.status === "pending").length, failed: items.filter((i) => i.status === "failed").length };
   } catch { /* IndexedDB unavailable */ }
   emit();
 }
 
+// Monotonic sequence: microsecond-scaled clock, bumped when two ops land in the same millisecond.
+let lastSeq = 0;
+function nextSeq() {
+  lastSeq = Math.max(lastSeq + 1, Date.now() * 1000);
+  return lastSeq;
+}
+
 const backoff = (attempts: number) => Math.min(60_000, 2_000 * 2 ** Math.max(0, attempts - 1));
 
-export async function enqueue(op: Omit<QueuedOp, "attempts" | "nextAttemptAt" | "status" | "createdAt" | "client_ts" | "op_id"> & { op_id?: string }, file?: Omit<PendingEvidence, "op_id" | "createdAt">) {
+export async function enqueue(op: Omit<QueuedOp, "attempts" | "nextAttemptAt" | "status" | "createdAt" | "client_ts" | "op_id" | "seq"> & { op_id?: string }, file?: Omit<PendingEvidence, "op_id" | "createdAt">) {
   const op_id = op.op_id ?? crypto.randomUUID();
-  const row: QueuedOp = { ...op, op_id, client_ts: new Date().toISOString(), attempts: 0, nextAttemptAt: 0, status: "pending", createdAt: Date.now() };
+  const row: QueuedOp = { ...op, op_id, client_ts: new Date().toISOString(), attempts: 0, nextAttemptAt: 0, status: "pending", createdAt: Date.now(), seq: nextSeq() };
   await db().transaction("rw", db().queue, db().evidence, async () => {
     await db().queue.put(row);
     if (file) await db().evidence.put({ ...file, op_id, createdAt: row.createdAt });
@@ -77,7 +84,7 @@ export function flush(force = false): Promise<SyncResult | null> {
 async function doFlush(force: boolean): Promise<SyncResult | null> {
   if (!isOnline() || !getToken()) return null;
   const now = Date.now();
-  const due = (await db().queue.orderBy("createdAt").toArray()).filter((o) => o.status === "pending" && (force || o.nextAttemptAt <= now));
+  const due = (await db().queue.orderBy("seq").toArray()).filter((o) => o.status === "pending" && (force || o.nextAttemptAt <= now));
   if (!due.length) return null;
   state = { ...state, syncing: true }; emit();
   const records: SyncCounts = { applied: 0, duplicate: 0, conflict: 0, rejected: 0, failed: 0 };

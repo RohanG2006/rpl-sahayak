@@ -87,4 +87,17 @@ describe("offline sync queue", () => {
     expect(await db().evidence.get(good.op_id)).toBeUndefined();
     expect((await db().queue.get(bad.op_id))!.status).toBe("failed");
   });
+
+  it("keeps creation order for ops queued in the same millisecond (regression)", async () => {
+    const made = [];
+    for (let i = 0; i < 25; i++) made.push((await enqueue(jsonOp(`op${i}`))).op_id);
+    online = true;
+    const f = vi.spyOn(globalThis, "fetch").mockImplementation(async (_u, init) => {
+      const ops = JSON.parse(String(init!.body)).ops as { op_id: string }[];
+      return ok({ results: ops.map((o) => ({ op_id: o.op_id, status: "applied", detail: null })) });
+    });
+    await flush(true);
+    const sent = JSON.parse(String(f.mock.calls[0][1]!.body)).ops.map((o: { op_id: string }) => o.op_id);
+    expect(sent).toEqual(made);
+  });
 });

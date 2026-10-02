@@ -7,6 +7,7 @@ export interface CacheRow { key: string; data: unknown; savedAt: number }
 export interface QueuedOp {
   op_id: string; entity: string; op: string; payload: Record<string, unknown>; client_ts: string;
   kind: "json" | "evidence"; attempts: number; nextAttemptAt: number; status: "pending" | "failed"; lastError?: string; createdAt: number;
+  seq: number; // strictly increasing; ops created in the same millisecond still sync in creation order
   label: string; // human-readable, shown in the sync panel
 }
 
@@ -24,6 +25,9 @@ class OfflineDB extends Dexie {
   constructor() {
     super("rpl-sahayak");
     this.version(1).stores({ cache: "key", queue: "op_id, status, createdAt", evidence: "op_id" });
+    // v2: order by a monotonic sequence instead of createdAt (same-millisecond ops were ordered by random op_id)
+    this.version(2).stores({ queue: "op_id, status, seq, createdAt" }).upgrade((tx) =>
+      tx.table("queue").toCollection().modify((op: QueuedOp) => { op.seq = op.createdAt * 1000; }));
   }
 }
 
