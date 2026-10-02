@@ -13,3 +13,5 @@ coverage/
 docker/pg-embedded/node_modules/
 node_modules/
 out/
+.coverage
+htmlcov/
