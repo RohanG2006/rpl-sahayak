@@ -7,6 +7,7 @@ import { currentPlan, type Plan } from "@/lib/data/assessment";
 import { analyzeEvidence, confirmClaims, listEvidence, uploadEvidence, type EvidenceItem } from "@/lib/data/evidence";
 import { compressImage, kb } from "@/lib/image";
 import { useSession } from "@/lib/useSession";
+import { useOnSynced } from "@/lib/offline/useSynced";
 import { useT, type TKey } from "@/lib/i18n";
 import { ApiError } from "@/lib/api";
 
@@ -40,9 +41,16 @@ function EvidencePage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wid]);
 
+  useOnSynced(() => {
+    if (!wid) return;
+    listEvidence({ worker_id: wid }).then(setItems).catch(() => {});
+    currentPlan().then((p) => p && setPlan(p)).catch(() => {});
+  });
+
   const task = plan?.tasks.find((x) => x.task_code === taskCode);
   const reqs = useMemo(() => task?.evidence_required ?? [], [task]);
-  useEffect(() => { setCrit(reqs[0]?.criterion ?? ""); }, [reqs]);
+  // keep the worker's choice if still valid for this task, otherwise default to the first criterion
+  const critSel = reqs.some((r) => r.criterion === crit) ? crit : reqs[0]?.criterion ?? "";
 
   async function pick(f: File | null) {
     setCompressNote(null);
@@ -56,9 +64,10 @@ function EvidencePage() {
     if (!file || !plan) return;
     setBusy("upload"); setErr(null); setOk(null);
     try {
-      const ev = await uploadEvidence({ file, worker_id: wid, plan_id: plan.id, task_code: taskCode, criterion_code: crit || undefined, purpose: "assessment", caption, client_op_id: crypto.randomUUID() });
+      const criterion_id = plan.tasks.flatMap((x) => x.criteria).find((c) => c.criterion_code === critSel)?.id;
+      const ev = await uploadEvidence({ file, worker_id: wid, plan_id: plan.id, task_code: taskCode, criterion_code: critSel || undefined, criterion_id, purpose: "assessment", caption, client_op_id: crypto.randomUUID() });
       setItems((x) => [ev, ...x]);
-      setFile(null); setCaption(""); setCompressNote(null); setOk(t("ev.uploaded"));
+      setFile(null); setCaption(""); setCompressNote(null); setOk(ev.upload_status === "pending" ? t("ev.saved_offline") : t("ev.uploaded"));
     } catch (e) { fail(e); }
     setBusy(null);
   }
@@ -92,8 +101,8 @@ function EvidencePage() {
               <legend className="mb-1.5 text-[0.9375rem] font-medium">{t("ev.for")}</legend>
               <div className="flex flex-col gap-1.5">
                 {reqs.map((r) => (
-                  <label key={r.criterion + r.what} className={`flex min-h-12 cursor-pointer items-start gap-3 rounded-[3px] border px-3 py-2.5 ${crit === r.criterion ? "border-ink bg-accent-wash" : "border-rule-strong bg-sheet"}`}>
-                    <input type="radio" name="crit" className="mt-1" checked={crit === r.criterion} onChange={() => setCrit(r.criterion)} />
+                  <label key={r.criterion + r.what} className={`flex min-h-12 cursor-pointer items-start gap-3 rounded-[3px] border px-3 py-2.5 ${critSel === r.criterion ? "border-ink bg-accent-wash" : "border-rule-strong bg-sheet"}`}>
+                    <input type="radio" name="crit" className="mt-1" checked={critSel === r.criterion} onChange={() => setCrit(r.criterion)} />
                     <span><span className="font-medium">{r.what}</span> <span className="text-sm text-ink-3">({r.kind} · {r.criterion})</span>
                       <span className="block text-sm text-ink-3">{critText(r.criterion)?.text}</span></span>
                   </label>
@@ -130,7 +139,9 @@ function EvidencePage() {
                       {ev.data_origin === "synthetic" && <Stamp kind="synthetic" />}
                     </div>
                   </div>
-                  {o ? (
+                  {ev.upload_status === "pending" ? (
+                    <p className="mt-3 border-l-4 border-warn bg-warn-wash px-3 py-2 text-sm">{t("ev.pending")}</p>
+                  ) : o ? (
                     <div className="ai-panel mt-3 p-3 text-sm">
                       <p className="mb-1 font-semibold">{t("ev.feedback_title")}</p>
                       <AdvisoryNote provider={o.provider} fallback={o.fallback_used} />

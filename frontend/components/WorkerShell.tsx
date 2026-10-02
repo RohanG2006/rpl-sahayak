@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
 import Brand from "./Brand";
 import LangToggle from "./LangToggle";
+import SyncStatus, { OfflineBanner } from "./SyncStatus";
 import { useT, type TKey } from "@/lib/i18n";
 
 const I = {
@@ -34,15 +35,16 @@ export default function WorkerShell({ children, status }: { children: ReactNode;
     <div className="flex min-h-dvh flex-col">
       <header className="sticky top-0 z-20 border-b border-rule bg-paper/95 backdrop-blur-sm">
         <div className="mx-auto flex h-14 w-full max-w-xl min-w-0 items-center justify-between gap-2 px-4">
-          <Brand href="/worker/dashboard" />
-          <div className="flex items-center gap-2">
-            {status}
+          <Brand href="/worker/dashboard" collapse />
+          <div className="flex min-w-0 items-center gap-2">
+            {status ?? <SyncStatus />}
             <LangToggle />
             <Link href="/worker/profile" className="grid min-h-10 min-w-10 place-items-center rounded-[3px] border border-rule-strong hover:border-ink" aria-label={t("nav.profile")}>
               <Icon name="profile" size={18} />
             </Link>
           </div>
         </div>
+        <OfflineBanner />
       </header>
       <main className="mx-auto w-full max-w-xl flex-1 px-4 pb-28 pt-5">{children}</main>
       <nav aria-label="Worker" className="fixed inset-x-0 bottom-0 z-20 border-t border-rule bg-sheet">

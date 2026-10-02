@@ -19,8 +19,8 @@ Legend: ⬜ not started · 🟨 in progress · ✅ verified · 🧪 simulated (d
 | R6 | Reduced evaluator-to-evaluator variance | Rubric anchors + evidence checklist; consistency analytics | `/assessor/consistency`, `/admin/analytics` | `GET /analytics/consistency`, `services/consistency.py` | `consistency_ratings` (🧪) | `test_consistency.py` (κ, Fleiss κ, ICC vs hand fixtures) | 16 | ✅ 🧪 |
 | R7 | NSQF-aligned competency profile | LO-level + official formative-dimension profile, radar/bars | `/worker/results`, candidate detail | `GET /competencies/{id}`, `services/competency.py` | `competency_results` | `test_competency.py` | 10 | ✅ |
 | R8 | Certification recommendation for assessor sign-off | Rule-based recommendation with rule trace | candidate detail "Recommendation" | `POST /assessments/{id}/recommendation`, `services/recommendation.py` | `recommendations` | `test_recommendation.py` (70 % rule, safety gate, insufficient evidence) | 12 | ✅ |
-| R9 | Offline-capable operation | PWA + IndexedDB + local-first writes + demo toggle | all worker screens; status chip | — (client) | Dexie stores | `frontend/__tests__/syncQueue.test.ts` | 15 | ⬜ |
-| R10 | Later synchronisation | Batch sync, idempotent, retry, conflict rules | "Reconnect & Sync" | `POST /sync`, `GET /sync/status`, `services/sync.py` | `sync_queue` | `test_sync.py` (idempotency, conflict, assessor-owned reject) | 15 | ⬜ |
+| R9 | Offline-capable operation | PWA + IndexedDB + local-first writes + demo toggle | all worker screens; status chip | — (client) | Dexie stores | `frontend/__tests__/syncQueue.test.ts` | 15 | ✅ |
+| R10 | Later synchronisation | Batch sync, idempotent, retry, conflict rules | "Reconnect & Sync" | `POST /sync`, `GET /sync/status`, `services/sync.py` | `sync_queue` | `test_sync.py` (idempotency, conflict, assessor-owned reject) | 15 | ✅ |
 
 ## B. Expected outcomes
 
@@ -29,7 +29,7 @@ Legend: ⬜ not started · 🟨 in progress · ✅ verified · 🧪 simulated (d
 | O1 | Working workflow self-declaration → assessor scoring for ≥ 1 trade | R1–R5, R8, R11 for Electrician (DGT/1001) | ✅ |
 | O2 | NSQF qualification-pack mapping engine | R2 | ✅ |
 | O3 | Consistency improvement evidence on labelled test/simulation dataset | R6 (🧪) | ✅ 🧪 |
-| O4 | Offline-capable mobile/web interface | R9, R10, mobile-first worker UI | ⬜ |
+| O4 | Offline-capable mobile/web interface | R9, R10, mobile-first worker UI | 🟨 (SW to verify in Chrome) |
 | O5 | Explicit separation of AI assistance vs human judgement | R11, R12 | ✅ |
 
 ## C. Supporting requirements

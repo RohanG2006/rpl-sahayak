@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button, Meter, Notice, Spinner, TextArea } from "@/components/ui";
 import { currentPlan, saveTaskProgress, type Plan, type PlanTask } from "@/lib/data/assessment";
+import { useOnSynced } from "@/lib/offline/useSynced";
 import { useT, type TKey } from "@/lib/i18n";
 import { ApiError } from "@/lib/api";
 
@@ -20,7 +21,12 @@ export default function WorkerAssessmentPage() {
   const [err, setErr] = useState<string | null>(null);
   const fail = (e: unknown) => setErr(e instanceof ApiError ? (e.isOffline ? t("err.offline") : e.message) : t("err.generic"));
 
-  useEffect(() => { currentPlan().then(setPlan).catch((e) => { fail(e); setPlan(null); }); /* eslint-disable-next-line react-hooks/exhaustive-deps */ }, []);
+  useEffect(() => {
+    currentPlan().then(setPlan).catch((e) => { fail(e); setPlan(null); });
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- load once on mount
+  }, []);
+
+  useOnSynced(() => { currentPlan().then((p) => p && setPlan(p)).catch(() => {}); });
 
   if (plan === undefined) return <Spinner label={t("common.loading")} />;
   if (!plan) return <Notice tone="info">{t("task.no_plan")}</Notice>;

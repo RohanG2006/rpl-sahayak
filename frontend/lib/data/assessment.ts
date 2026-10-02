@@ -1,4 +1,6 @@
-import { api } from "../api";
+import { api, ApiError, patchCache } from "../api";
+import { isOnline } from "../offline/network";
+import { enqueue } from "../offline/sync";
 
 export interface MatchSkill { label: string; kind: string; similarity: number; lo_number: number | null; lo_title: string | null; nos: string[]; status: "matched" | "partial" | "unclear" }
 export interface LORow { lo_number: number; title: string; nos: string[]; status: "matched" | "partial" | "not_evidenced"; similarity: number; matched_by: string | null; skill_hours: number | null }
@@ -51,8 +53,27 @@ export type ScopeLO = { lo_number: number; title: string; criteria: string[]; no
 export const selfAssess = (planId: string, responses: Record<number, "regularly" | "sometimes" | "never">) =>
   api<{ readiness: Readiness; status: string }>(`/assessments/${planId}/self-assessment`, { body: { responses } });
 export const startPlan = (planId: string) => api<Plan>(`/assessments/${planId}/start`, { method: "POST" });
-export const saveTaskProgress = (planId: string, taskCode: string, body: { checklist_state: Record<string, boolean>; worker_note?: string | null; status: "IN_PROGRESS" | "SUBMITTED" }) =>
-  api<Plan>(`/assessments/${planId}/tasks/${taskCode}/progress`, { method: "PUT", body });
+type Progress = { checklist_state: Record<string, boolean>; worker_note?: string | null; status: "IN_PROGRESS" | "SUBMITTED" };
+
+async function saveTaskProgressOffline(planId: string, taskCode: string, body: Progress): Promise<Plan> {
+  await enqueue({ kind: "json", entity: "task_progress", op: "update", payload: { plan_id: planId, task_code: taskCode, ...body }, label: `Task ${taskCode} ${body.status === "SUBMITTED" ? "finished" : "progress"}` });
+  let plan: Plan | undefined;
+  await patchCache<Plan>(`/assessments/${planId}`, (p) => (plan = {
+    ...p,
+    tasks: p.tasks.map((t) => t.task_code !== taskCode ? t : {
+      ...t, attempt: { ...(t.attempt ?? { id: "local", started_at: null, completed_at: null }), checklist_state: body.checklist_state, worker_note: body.worker_note ?? null, status: body.status,
+        started_at: t.attempt?.started_at ?? new Date().toISOString(), completed_at: body.status === "SUBMITTED" ? new Date().toISOString() : t.attempt?.completed_at ?? null },
+    }),
+  }));
+  if (!plan) throw new ApiError(0, "offline", "No connection to the server.");
+  return plan;
+}
+
+export async function saveTaskProgress(planId: string, taskCode: string, body: Progress): Promise<Plan> {
+  if (!isOnline()) return saveTaskProgressOffline(planId, taskCode, body);
+  try { return await api<Plan>(`/assessments/${planId}/tasks/${taskCode}/progress`, { method: "PUT", body }); }
+  catch (e) { if (e instanceof ApiError && e.isOffline) return saveTaskProgressOffline(planId, taskCode, body); throw e; }
+}
 
 /** The worker's most recent open plan, or null. */
 export async function currentPlan(): Promise<Plan | null> {

@@ -6,6 +6,7 @@ import { getWorker } from "@/lib/data/worker";
 import { currentPlan, type Plan } from "@/lib/data/assessment";
 import { getGaps } from "@/lib/data/assessor";
 import { useSession } from "@/lib/useSession";
+import { useOnSynced } from "@/lib/offline/useSynced";
 import { useT, type TKey } from "@/lib/i18n";
 import { ApiError } from "@/lib/api";
 import type { Worker } from "@/lib/types";
@@ -41,6 +42,8 @@ export default function WorkerDashboard() {
   const [gapCount, setGapCount] = useState<number | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const wid = s?.user.worker_id;
+  const [tick, setTick] = useState(0);
+  useOnSynced(() => setTick((x) => x + 1));
   useEffect(() => {
     if (!wid) return;
     (async () => {
@@ -50,7 +53,7 @@ export default function WorkerDashboard() {
       setPlan(p);
       if (p && ["DECIDED", "REPORT_ISSUED"].includes(p.status)) setGapCount((await getGaps(p.id)).areas.filter((a) => a.status === "gap").length);
     })().catch((e) => setErr(e instanceof ApiError && e.isOffline ? t("err.offline") : t("err.generic")));
-  }, [wid, t]);
+  }, [wid, t, tick]);
 
   if (err) return <Notice tone="bad">{err}</Notice>;
   if (!w) return <Spinner label={t("common.loading")} />;
