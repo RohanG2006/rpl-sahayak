@@ -48,6 +48,7 @@ Run in the course of development; repeat before a demo.
 - [x] Experience → AI extraction review (remove/add items) → confirm
 - [x] Qualification match (contribution bar, LO coverage grid, eligibility with QF references)
 - [x] Self-assessment → readiness (75 % > 70 %) → start practical → tick/submit task
+- [x] AI evidence assistance on synced photos: rule-based quality checks, no score suggested, advisory label; evidence viewer shows criterion → evidence → worker submission and "captured offline"
 - [x] Assessor: scoring workspace (anchors, notes, AI vs assessor split) → recommendation with rule trace → decision
 - [x] Worker results / progress after decision
 - [x] Consistency dashboard (labelled simulation)
