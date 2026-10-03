@@ -36,7 +36,12 @@ export default function CandidateDetail() {
     const [w, ev, r, g, re, d] = await Promise.all([getWorkerFull(p.worker.id), listEvidence({ plan_id: id }), getResults(id), getGaps(id), getRecommendation(id), getDecision(id)]);
     setWorker(w); setEvidence(ev); setResults(r); setGaps(g); setRec(re); setDecision(d);
   }, [id]);
-  useEffect(() => { load().catch((e) => setErr(e instanceof ApiError ? e.message : "Could not load candidate.")); }, [load]);
+  useEffect(() => {
+    // Initial load runs in a microtask (no synchronous setState in the effect); `live` drops errors after unmount.
+    let live = true;
+    Promise.resolve().then(() => (live ? load() : undefined)).catch((e) => { if (live) setErr(e instanceof ApiError ? e.message : "Could not load candidate."); });
+    return () => { live = false; };
+  }, [load]);
 
   if (err) return <Notice tone="bad">{err}</Notice>;
   if (!plan || !worker || !results || !gaps) return <Spinner label="Loading candidate…" />;

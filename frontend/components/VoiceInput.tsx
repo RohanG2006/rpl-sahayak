@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState, useSyncExternalStore } from "react";
 import { Button } from "./ui";
 import { useT } from "@/lib/i18n";
 
@@ -9,16 +9,17 @@ type SR = { lang: string; continuous: boolean; interimResults: boolean; start():
   onresult: ((e: { resultIndex: number; results: ArrayLike<{ 0: { transcript: string }; isFinal: boolean }> }) => void) | null;
   onend: (() => void) | null; onerror: (() => void) | null };
 
+const noopSubscribe = () => () => {};
+function hasSpeech() {
+  const w = window as unknown as { SpeechRecognition?: unknown; webkitSpeechRecognition?: unknown };
+  return !!(w.SpeechRecognition || w.webkitSpeechRecognition);
+}
+
 export default function VoiceInput({ onText }: { onText: (text: string) => void }) {
   const { t, lang } = useT();
-  const [supported, setSupported] = useState(false);
+  const supported = useSyncExternalStore(noopSubscribe, hasSpeech, () => false);
   const [on, setOn] = useState(false);
   const rec = useRef<SR | null>(null);
-
-  useEffect(() => {
-    const w = window as unknown as { SpeechRecognition?: new () => SR; webkitSpeechRecognition?: new () => SR };
-    setSupported(!!(w.SpeechRecognition || w.webkitSpeechRecognition));
-  }, []);
 
   function toggle() {
     if (on) { rec.current?.stop(); return; }

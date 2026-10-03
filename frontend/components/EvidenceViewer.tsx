@@ -30,7 +30,11 @@ export default function EvidenceViewer({ ev, criterion, task, onClose, onAnalyze
       </div>
       <div className="grid max-h-[calc(92vh-56px)] gap-0 overflow-y-auto md:grid-cols-[1.4fr_1fr]">
         <div className="grid min-h-64 place-items-center bg-ink/95 p-2">
-          {ev.kind === "image" && url && /* eslint-disable-next-line @next/next/no-img-element */ <img src={url} alt={ev.caption ?? "Evidence"} className="max-h-[70vh] w-auto object-contain" />}
+          {ev.kind === "image" && url && (
+            // Authenticated blob: URL — next/image cannot optimise it, so a plain <img> is correct here.
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={url} alt={ev.caption ?? "Evidence"} className="max-h-[70vh] w-auto object-contain" />
+          )}
           {ev.kind === "video" && url && <video src={url} controls className="max-h-[70vh] w-full" />}
           {ev.kind === "document" && url && <a href={url} target="_blank" rel="noreferrer" className="text-sheet underline">Open PDF</a>}
           {!url && <span className="text-sheet/70">Loading…</span>}

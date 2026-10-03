@@ -96,7 +96,7 @@ export default function ConsistencyPage() {
       {/* Dumbbell: assessor leniency */}
       <section>
         <h2 className="text-lg font-semibold">Assessor leniency — mean case score</h2>
-        <p className="mb-3 text-sm text-ink-3">Each row is one synthetic assessor's average overall % across the 20 cases. Converging dots = assessors scoring the same candidates more alike.</p>
+        <p className="mb-3 text-sm text-ink-3">Each row is one synthetic assessor&apos;s average overall % across the 20 cases. Converging dots = assessors scoring the same candidates more alike.</p>
         <figure className="sheet p-4">
           <div className="mb-3 flex gap-4 text-xs"><span><span aria-hidden className="mr-1.5 inline-block h-2.5 w-2.5 rounded-full border-2 border-[var(--seq-3)] bg-sheet align-middle" />Baseline</span><span><span aria-hidden className="mr-1.5 inline-block h-2.5 w-2.5 rounded-full bg-[var(--seq-5)] align-middle" />Standardised</span></div>
           <ul className="flex flex-col gap-3">{d.assessors.map((a) => {
@@ -122,7 +122,7 @@ export default function ConsistencyPage() {
       {/* Strip plots: per-case spread */}
       <section>
         <h2 className="text-lg font-semibold">Per-case spread of the 5 assessors</h2>
-        <p className="mb-3 text-sm text-ink-3">Each row is one case; dots are the five assessors' overall %, the bar spans lowest to highest. Sorted by baseline range. Select a case to see task-level scores.</p>
+        <p className="mb-3 text-sm text-ink-3">Each row is one case; dots are the five assessors&apos; overall %, the bar spans lowest to highest. Sorted by baseline range. Select a case to see task-level scores.</p>
         <div className="grid gap-4 lg:grid-cols-2">
           {(["baseline", "standardised"] as const).map((m) => (
             <figure key={m} className="sheet p-3">

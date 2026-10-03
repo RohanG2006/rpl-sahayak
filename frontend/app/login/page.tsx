@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { useRouter } from "next/navigation";
 import Brand from "@/components/Brand";
 import LangToggle from "@/components/LangToggle";
@@ -15,6 +15,11 @@ const DEMO = [
   { label: "Admin", login: "admin@demo.rpl" },
 ];
 
+const noopSubscribe = () => () => {};
+function wasExpired() {
+  try { return sessionStorage.getItem("rpl.signout_reason") === "expired"; } catch { return false; }
+}
+
 export default function LoginPage() {
   const { t } = useT();
   const router = useRouter();
@@ -22,14 +27,7 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [err, setErr] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
-  const [expired, setExpired] = useState(false);
-
-  useEffect(() => {
-    try {
-      if (sessionStorage.getItem("rpl.signout_reason") === "expired") setExpired(true);
-      sessionStorage.removeItem("rpl.signout_reason");
-    } catch { /* ignore */ }
-  }, []);
+  const expired = useSyncExternalStore(noopSubscribe, wasExpired, () => false);
 
   async function submit(e: React.FormEvent, override?: { login: string; password: string }) {
     e.preventDefault();
@@ -39,6 +37,7 @@ export default function LoginPage() {
       const body = override ?? { login, password };
       const r = await api<{ access_token: string; expires_at: string; user: SessionUser }>("/auth/login", { body, auth: false });
       setSession(r.access_token, r.user, r.expires_at);
+      try { sessionStorage.removeItem("rpl.signout_reason"); } catch { /* ignore */ }
       const next = new URLSearchParams(location.search).get("next");
       router.replace(next && next.startsWith(`/${r.user.role}`) ? next : `/${r.user.role}/dashboard`);
     } catch (e) {

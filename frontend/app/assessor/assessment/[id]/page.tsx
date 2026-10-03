@@ -32,7 +32,12 @@ export default function ScoringWorkspace() {
     for (const t of p.tasks) for (const c of t.criteria) d[c.criterion_code] = { score: c.score?.final_score ?? null, note: c.score?.assessor_note ?? "" };
     setDraft(d);
   }, [id]);
-  useEffect(() => { load().catch((e) => setMsg({ tone: "bad", text: e instanceof ApiError ? e.message : "Could not load assessment." })); }, [load]);
+  useEffect(() => {
+    // Initial load runs in a microtask (no synchronous setState in the effect); `live` drops errors after unmount.
+    let live = true;
+    Promise.resolve().then(() => (live ? load() : undefined)).catch((e) => { if (live) setMsg({ tone: "bad", text: e instanceof ApiError ? e.message : "Could not load assessment." }); });
+    return () => { live = false; };
+  }, [load]);
 
   const task = useMemo(() => plan?.tasks.find((t) => t.task_code === tab), [plan, tab]);
   if (!plan) return msg ? <Notice tone="bad">{msg.text}</Notice> : <Spinner label="Loading assessment…" />;

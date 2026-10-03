@@ -19,17 +19,25 @@ function Candidates() {
   const status = params.get("status") ?? "";
   const page = Number(params.get("page") ?? 1);
   const [q, setQ] = useState(params.get("q") ?? "");
-  const [data, setData] = useState<{ total: number; rows: CandidateRow[]; page_size: number } | null>(null);
+  const [result, setResult] = useState<{ key: string; value: { total: number; rows: CandidateRow[]; page_size: number } } | null>(null);
   const [err, setErr] = useState<string | null>(null);
+  const queryKey = params.toString();
+  const data = result?.key === queryKey ? result.value : null; // stale results never shown for a new query
 
   useEffect(() => {
-    setData(null);
-    getCandidates({ status, q: params.get("q") ?? "", page, page_size: 20 }).then(setData).catch((e) => setErr(e instanceof ApiError ? e.message : "Could not load candidates."));
-  }, [status, page, params]);
+    let live = true;
+    getCandidates({ status, q: params.get("q") ?? "", page, page_size: 20 })
+      .then((value) => { if (live) setResult({ key: queryKey, value }); })
+      .catch((e) => { if (live) setErr(e instanceof ApiError ? e.message : "Could not load candidates."); });
+    return () => { live = false; };
+  }, [status, page, params, queryKey]);
 
   const go = (patch: Record<string, string>) => {
     const p = new URLSearchParams(params);
-    for (const [k, v] of Object.entries(patch)) v ? p.set(k, v) : p.delete(k);
+    for (const [k, v] of Object.entries(patch)) {
+      if (v) p.set(k, v);
+      else p.delete(k);
+    }
     router.replace(`/assessor/candidates?${p}`);
   };
   const pages = data ? Math.max(1, Math.ceil(data.total / data.page_size)) : 1;
