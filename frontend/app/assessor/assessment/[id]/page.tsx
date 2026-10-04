@@ -146,6 +146,8 @@ export default function ScoringWorkspace() {
                     {evs.some((e) => !e.ai_observation) && canScore && (
                       <Button className="mt-3" variant="secondary" disabled={!!busy} onClick={() => analyze(evs.find((e) => !e.ai_observation)!)}>{busy ? "Analysing…" : "Run AI on evidence"}</Button>
                     )}
+                    {latestObs?.simulated && <p className="mt-2 text-xs text-ink-3">Prepared demo output for synthetic placeholder evidence — not a live AI call.</p>}
+                    {latestObs?.provider === "rules" && <p className="mt-2 text-xs text-ink-3">Rule-based check of file quality and completeness — image content not interpreted.</p>}
                     <p className="mt-3 text-xs font-semibold text-ai">AI assistance only — assessor verification required.</p>
                   </div>
                   <div className="human-panel m-0 rounded-none border-0 border-l-4 p-4">

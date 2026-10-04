@@ -9,7 +9,7 @@ export default function Home() {
       <hr className="my-6 border-rule" />
       <p className="text-ink-2">Foundation build (Phase 1). Workflow screens are added in later phases.</p>
       <p className="mt-4"><span className="stamp stamp-ai">AI assist</span> <span className="stamp stamp-human">Assessor</span> <span className="stamp stamp-official">Official source</span> <span className="stamp stamp-synthetic">Synthetic</span></p>
-      <p className="mt-6"><Link className="text-accent underline" href="http://localhost:8000/docs">API documentation</Link></p>
+      <p className="mt-6 flex gap-4"><Link className="font-semibold text-accent underline" href="/demo">Five-minute demo</Link><Link className="text-accent underline" href="/login">Sign in</Link></p>
     </main>
   );
 }

@@ -1,0 +1,4773 @@
+{
+ "_label": "PREPARED DEMO OUTPUT — pre-computed observations for SYNTHETIC placeholder evidence so the demo does not wait for live AI calls. Not produced by a live model run; shown in the UI as 'prepared demo output'.",
+ "observations": {
+  "raj_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Names all, one minor confusion of use",
+   "confidence": 0.75,
+   "analysis_basis": "image"
+  },
+  "raj_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.63,
+   "analysis_basis": "image"
+  },
+  "raj_C02.1.png": {
+   "observed": [
+    "Electrical panel visible",
+    "Wiring activity observed",
+    "Tool usage observed"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Insulated gloves worn"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Full PPE except eye protection visible — anchor 3",
+   "confidence": 0.84,
+   "analysis_basis": "image"
+  },
+  "raj_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Isolates but tests only the circuit (tester not proven)",
+   "confidence": 0.78,
+   "analysis_basis": "image"
+  },
+  "raj_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Both tight, even turns, no nicked copper",
+   "confidence": 0.83,
+   "analysis_basis": "image"
+  },
+  "raj_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct lug and die, clean crimp, passes pull test",
+   "confidence": 0.86,
+   "analysis_basis": "image"
+  },
+  "raj_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Neat, straight, all terminations tight and covered",
+   "confidence": 0.71,
+   "analysis_basis": "image"
+  },
+  "raj_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All safety connections correct; minor termination issue",
+   "confidence": 0.83,
+   "analysis_basis": "image"
+  },
+  "raj_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Plan with 2+ items missing or wrong quantity",
+   "confidence": 0.76,
+   "analysis_basis": "image"
+  },
+  "raj_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: All cores correct with clear explanation of open/short",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "raj_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Complete and correct",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "raj_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Found exact point after one wrong guess",
+   "confidence": 0.75,
+   "analysis_basis": "image"
+  },
+  "raj_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Repaired and re-tested; minor finish issue",
+   "confidence": 0.79,
+   "analysis_basis": "image"
+  },
+  "raj_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct, tight, labelled",
+   "confidence": 0.86,
+   "analysis_basis": "image"
+  },
+  "raj_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Rating off by one step without reason",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "raj_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: List complete, one quantity off",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w002_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items",
+    "Insulated screwdriver and combination plier visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Names all, one minor confusion of use",
+   "confidence": 0.82,
+   "analysis_basis": "image"
+  },
+  "w002_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.69,
+   "analysis_basis": "image"
+  },
+  "w002_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: PPE worn only after instruction, incomplete",
+   "confidence": 0.67,
+   "analysis_basis": "image"
+  },
+  "w002_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag",
+    "Line tester in hand near isolator"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Isolates and proves dead; omits tag or second check",
+   "confidence": 0.75,
+   "analysis_basis": "image"
+  },
+  "w002_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: One joint acceptable, one loose or nicked",
+   "confidence": 0.71,
+   "analysis_basis": "image"
+  },
+  "w002_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Passes pull test; minor strand protrusion",
+   "confidence": 0.77,
+   "analysis_basis": "image"
+  },
+  "w002_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Neat with one minor defect",
+   "confidence": 0.76,
+   "analysis_basis": "image"
+  },
+  "w002_C04.2.png": {
+   "observed": [
+    "Switch terminals visible"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Works but one non-safety error (e.g. polarity at lamp holder)",
+   "confidence": 0.66,
+   "analysis_basis": "image"
+  },
+  "w002_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Plan with 2+ items missing or wrong quantity",
+   "confidence": 0.87,
+   "analysis_basis": "image"
+  },
+  "w002_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All cores correct, hesitant explanation",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w002_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Record incomplete and unitless",
+   "confidence": 0.91,
+   "analysis_basis": "image"
+  },
+  "w002_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Found exact point after one wrong guess",
+   "confidence": 0.79,
+   "analysis_basis": "image"
+  },
+  "w002_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Repaired and re-tested; minor finish issue",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w002_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Installed; loose terminal or wrong busbar side",
+   "confidence": 0.79,
+   "analysis_basis": "image"
+  },
+  "w002_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct rating, calculation slightly wrong",
+   "confidence": 0.7,
+   "analysis_basis": "image"
+  },
+  "w002_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Complete, correct list",
+   "confidence": 0.7,
+   "analysis_basis": "image"
+  },
+  "w003_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items",
+    "Insulated screwdriver and combination plier visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Names most but confuses uses of 2 or more",
+   "confidence": 0.71,
+   "analysis_basis": "image"
+  },
+  "w003_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.63,
+   "analysis_basis": "image"
+  },
+  "w003_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Some PPE worn unprompted, item missing",
+   "confidence": 0.64,
+   "analysis_basis": "image"
+  },
+  "w003_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag",
+    "Line tester in hand near isolator"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Isolates, tags, proves tester-circuit-tester before work",
+   "confidence": 0.66,
+   "analysis_basis": "image"
+  },
+  "w003_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Both tight; minor unevenness of turns",
+   "confidence": 0.8,
+   "analysis_basis": "image"
+  },
+  "w003_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Crimped but strands outside barrel or fails pull test",
+   "confidence": 0.75,
+   "analysis_basis": "image"
+  },
+  "w003_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Neat with one minor defect",
+   "confidence": 0.73,
+   "analysis_basis": "image"
+  },
+  "w003_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All safety connections correct; minor termination issue",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "w003_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Plan complete, one quantity off",
+   "confidence": 0.84,
+   "analysis_basis": "image"
+  },
+  "w003_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: All cores correct with clear explanation of open/short",
+   "confidence": 0.89,
+   "analysis_basis": "image"
+  },
+  "w003_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Complete with one unit error",
+   "confidence": 0.62,
+   "analysis_basis": "image"
+  },
+  "w003_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Found exact point after one wrong guess",
+   "confidence": 0.91,
+   "analysis_basis": "image"
+  },
+  "w003_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Repaired, functional test only",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w003_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct; minor finish issue",
+   "confidence": 0.88,
+   "analysis_basis": "image"
+  },
+  "w003_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct calculation and rating with justification",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w003_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: List complete, one quantity off",
+   "confidence": 0.82,
+   "analysis_basis": "image"
+  },
+  "w004_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items",
+    "Insulated screwdriver and combination plier visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Names all, one minor confusion of use",
+   "confidence": 0.71,
+   "analysis_basis": "image"
+  },
+  "w004_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Identifies type but misreads size/rating",
+   "confidence": 0.68,
+   "analysis_basis": "image"
+  },
+  "w004_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point",
+    "Safety footwear visible"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Full PPE, worn correctly after a reminder on one item",
+   "confidence": 0.71,
+   "analysis_basis": "image"
+  },
+  "w004_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag",
+    "Line tester in hand near isolator"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Isolates, tags, proves tester-circuit-tester before work",
+   "confidence": 0.91,
+   "analysis_basis": "image"
+  },
+  "w004_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Both tight, even turns, no nicked copper",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w004_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Crimped but strands outside barrel or fails pull test",
+   "confidence": 0.84,
+   "analysis_basis": "image"
+  },
+  "w004_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Neat with one minor defect",
+   "confidence": 0.66,
+   "analysis_basis": "image"
+  },
+  "w004_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All safety connections correct; minor termination issue",
+   "confidence": 0.82,
+   "analysis_basis": "image"
+  },
+  "w004_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Plan complete, one quantity off",
+   "confidence": 0.64,
+   "analysis_basis": "image"
+  },
+  "w004_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Interprets one core correctly, misses open core",
+   "confidence": 0.8,
+   "analysis_basis": "image"
+  },
+  "w004_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Readings recorded, units missing",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w004_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Found only with strong hints",
+   "confidence": 0.73,
+   "analysis_basis": "image"
+  },
+  "w004_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Repaired and re-tested; minor finish issue",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w004_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct, tight, labelled",
+   "confidence": 0.78,
+   "analysis_basis": "image"
+  },
+  "w004_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Rating off by one step without reason",
+   "confidence": 0.76,
+   "analysis_basis": "image"
+  },
+  "w004_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: List with 2+ omissions",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "w005_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items",
+    "Insulated screwdriver and combination plier visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Names all, one minor confusion of use",
+   "confidence": 0.73,
+   "analysis_basis": "image"
+  },
+  "w005_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.62,
+   "analysis_basis": "image"
+  },
+  "w005_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [
+    "Hands near open terminals without gloves — verify isolation"
+   ],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: PPE worn only after instruction, incomplete",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w005_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [
+    "Hands near open terminals without gloves — verify isolation"
+   ],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Isolates only when told; no prove-dead test",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "w005_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Both tight, even turns, no nicked copper",
+   "confidence": 0.62,
+   "analysis_basis": "image"
+  },
+  "w005_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct lug and die, clean crimp, passes pull test",
+   "confidence": 0.82,
+   "analysis_basis": "image"
+  },
+  "w005_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Neat with one minor defect",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "w005_C04.2.png": {
+   "observed": [
+    "Switch terminals visible"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [
+    "Hands near open terminals without gloves — verify isolation"
+   ],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Wrong connections corrected only with step-by-step help",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w005_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Plan complete, one quantity off",
+   "confidence": 0.68,
+   "analysis_basis": "image"
+  },
+  "w005_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Interprets one core correctly, misses open core",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w005_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Complete with one unit error",
+   "confidence": 0.8,
+   "analysis_basis": "image"
+  },
+  "w005_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Found exact point directly",
+   "confidence": 0.79,
+   "analysis_basis": "image"
+  },
+  "w005_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Repaired and re-tested; minor finish issue",
+   "confidence": 0.79,
+   "analysis_basis": "image"
+  },
+  "w005_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct; minor finish issue",
+   "confidence": 0.75,
+   "analysis_basis": "image"
+  },
+  "w005_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Rating off by one step without reason",
+   "confidence": 0.92,
+   "analysis_basis": "image"
+  },
+  "w005_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Complete, correct list",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w006_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Names all, one minor confusion of use",
+   "confidence": 0.66,
+   "analysis_basis": "image"
+  },
+  "w006_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct type, size, rating and suitable application",
+   "confidence": 0.92,
+   "analysis_basis": "image"
+  },
+  "w006_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Some PPE worn unprompted, item missing",
+   "confidence": 0.78,
+   "analysis_basis": "image"
+  },
+  "w006_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Isolates but tests only the circuit (tester not proven)",
+   "confidence": 0.91,
+   "analysis_basis": "image"
+  },
+  "w006_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Both tight; minor unevenness of turns",
+   "confidence": 0.86,
+   "analysis_basis": "image"
+  },
+  "w006_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Passes pull test; minor strand protrusion",
+   "confidence": 0.82,
+   "analysis_basis": "image"
+  },
+  "w006_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Functional but untidy; some copper exposed",
+   "confidence": 0.66,
+   "analysis_basis": "image"
+  },
+  "w006_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All safety connections correct; minor termination issue",
+   "confidence": 0.66,
+   "analysis_basis": "image"
+  },
+  "w006_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Plan complete, one quantity off",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "w006_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All cores correct, hesitant explanation",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w006_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Complete and correct",
+   "confidence": 0.69,
+   "analysis_basis": "image"
+  },
+  "w006_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Found exact point after one wrong guess",
+   "confidence": 0.76,
+   "analysis_basis": "image"
+  },
+  "w006_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Repaired, functional test only",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w006_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct; minor finish issue",
+   "confidence": 0.62,
+   "analysis_basis": "image"
+  },
+  "w006_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Rating off by one step without reason",
+   "confidence": 0.83,
+   "analysis_basis": "image"
+  },
+  "w006_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: List complete, one quantity off",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "w007_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Names most but confuses uses of 2 or more",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w007_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "w007_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag",
+    "Line tester in hand near isolator"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Isolates and proves dead; omits tag or second check",
+   "confidence": 0.86,
+   "analysis_basis": "image"
+  },
+  "w007_C04.2.png": {
+   "observed": [
+    "Switch terminals visible"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Works but one non-safety error (e.g. polarity at lamp holder)",
+   "confidence": 0.78,
+   "analysis_basis": "image"
+  },
+  "w007_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: All cores correct with clear explanation of open/short",
+   "confidence": 0.8,
+   "analysis_basis": "image"
+  },
+  "w007_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Found exact point after one wrong guess",
+   "confidence": 0.74,
+   "analysis_basis": "image"
+  },
+  "w007_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Repaired neatly, re-tested, explains cause to customer",
+   "confidence": 0.63,
+   "analysis_basis": "image"
+  },
+  "w008_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items",
+    "Insulated screwdriver and combination plier visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Names most but confuses uses of 2 or more",
+   "confidence": 0.7,
+   "analysis_basis": "image"
+  },
+  "w008_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Identifies type but misreads size/rating",
+   "confidence": 0.83,
+   "analysis_basis": "image"
+  },
+  "w008_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point",
+    "Safety footwear visible"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Full PPE, worn correctly after a reminder on one item",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w008_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag",
+    "Line tester in hand near isolator"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Isolates and proves dead; omits tag or second check",
+   "confidence": 0.73,
+   "analysis_basis": "image"
+  },
+  "w008_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Both tight; minor unevenness of turns",
+   "confidence": 0.87,
+   "analysis_basis": "image"
+  },
+  "w008_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Crimped but strands outside barrel or fails pull test",
+   "confidence": 0.82,
+   "analysis_basis": "image"
+  },
+  "w008_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Neat with one minor defect",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w008_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All safety connections correct; minor termination issue",
+   "confidence": 0.62,
+   "analysis_basis": "image"
+  },
+  "w008_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Plan complete, one quantity off",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w008_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All cores correct, hesitant explanation",
+   "confidence": 0.78,
+   "analysis_basis": "image"
+  },
+  "w008_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Complete with one unit error",
+   "confidence": 0.78,
+   "analysis_basis": "image"
+  },
+  "w008_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Found exact point after one wrong guess",
+   "confidence": 0.73,
+   "analysis_basis": "image"
+  },
+  "w008_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Repaired and re-tested; minor finish issue",
+   "confidence": 0.69,
+   "analysis_basis": "image"
+  },
+  "w008_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct; minor finish issue",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w008_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct rating, calculation slightly wrong",
+   "confidence": 0.69,
+   "analysis_basis": "image"
+  },
+  "w008_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: List complete, one quantity off",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w009_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Names most but confuses uses of 2 or more",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w009_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Identifies type but misreads size/rating",
+   "confidence": 0.69,
+   "analysis_basis": "image"
+  },
+  "w009_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [
+    "Hands near open terminals without gloves — verify isolation"
+   ],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Some PPE worn unprompted, item missing",
+   "confidence": 0.91,
+   "analysis_basis": "image"
+  },
+  "w009_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [
+    "Hands near open terminals without gloves — verify isolation"
+   ],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Isolates only when told; no prove-dead test",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w009_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: One joint acceptable, one loose or nicked",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w009_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Wrong die/lug size; needs guidance",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w009_C04.3.png": {
+   "observed": [
+    "Channel fixed straight"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Functional but untidy; some copper exposed",
+   "confidence": 0.92,
+   "analysis_basis": "image"
+  },
+  "w009_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: All connections correct and verified by candidate",
+   "confidence": 0.69,
+   "analysis_basis": "image"
+  },
+  "w009_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Plan with 2+ items missing or wrong quantity",
+   "confidence": 0.86,
+   "analysis_basis": "image"
+  },
+  "w009_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All cores correct, hesitant explanation",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w009_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Readings recorded, units missing",
+   "confidence": 0.78,
+   "analysis_basis": "image"
+  },
+  "w009_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Found exact point after one wrong guess",
+   "confidence": 0.73,
+   "analysis_basis": "image"
+  },
+  "w009_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Repaired and re-tested; minor finish issue",
+   "confidence": 0.69,
+   "analysis_basis": "image"
+  },
+  "w009_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct; minor finish issue",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w009_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Rating off by one step without reason",
+   "confidence": 0.75,
+   "analysis_basis": "image"
+  },
+  "w009_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: List complete, one quantity off",
+   "confidence": 0.73,
+   "analysis_basis": "image"
+  },
+  "w010_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items",
+    "Insulated screwdriver and combination plier visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Names most but confuses uses of 2 or more",
+   "confidence": 0.89,
+   "analysis_basis": "image"
+  },
+  "w010_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct type, size, rating and suitable application",
+   "confidence": 0.76,
+   "analysis_basis": "image"
+  },
+  "w010_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point",
+    "Safety footwear visible"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Full PPE, worn correctly after a reminder on one item",
+   "confidence": 0.87,
+   "analysis_basis": "image"
+  },
+  "w010_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag",
+    "Line tester in hand near isolator"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Isolates, tags, proves tester-circuit-tester before work",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w010_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Both tight; minor unevenness of turns",
+   "confidence": 0.69,
+   "analysis_basis": "image"
+  },
+  "w010_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Crimped but strands outside barrel or fails pull test",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w010_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Functional but untidy; some copper exposed",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w010_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: All connections correct and verified by candidate",
+   "confidence": 0.92,
+   "analysis_basis": "image"
+  },
+  "w010_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Plan complete, one quantity off",
+   "confidence": 0.76,
+   "analysis_basis": "image"
+  },
+  "w010_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All cores correct, hesitant explanation",
+   "confidence": 0.67,
+   "analysis_basis": "image"
+  },
+  "w010_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Complete with one unit error",
+   "confidence": 0.78,
+   "analysis_basis": "image"
+  },
+  "w010_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Found exact point directly",
+   "confidence": 0.91,
+   "analysis_basis": "image"
+  },
+  "w010_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Repaired and re-tested; minor finish issue",
+   "confidence": 0.8,
+   "analysis_basis": "image"
+  },
+  "w010_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct, tight, labelled",
+   "confidence": 0.86,
+   "analysis_basis": "image"
+  },
+  "w010_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct calculation and rating with justification",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "w010_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: List complete, one quantity off",
+   "confidence": 0.79,
+   "analysis_basis": "image"
+  },
+  "w011_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items",
+    "Insulated screwdriver and combination plier visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Names all, one minor confusion of use",
+   "confidence": 0.63,
+   "analysis_basis": "image"
+  },
+  "w011_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.78,
+   "analysis_basis": "image"
+  },
+  "w011_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point",
+    "Safety footwear visible"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Full, correct PPE unprompted throughout",
+   "confidence": 0.7,
+   "analysis_basis": "image"
+  },
+  "w011_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag",
+    "Line tester in hand near isolator"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Isolates, tags, proves tester-circuit-tester before work",
+   "confidence": 0.62,
+   "analysis_basis": "image"
+  },
+  "w011_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Both tight; minor unevenness of turns",
+   "confidence": 0.67,
+   "analysis_basis": "image"
+  },
+  "w011_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Passes pull test; minor strand protrusion",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w011_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Neat, straight, all terminations tight and covered",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w011_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All safety connections correct; minor termination issue",
+   "confidence": 0.75,
+   "analysis_basis": "image"
+  },
+  "w011_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Plan with 2+ items missing or wrong quantity",
+   "confidence": 0.86,
+   "analysis_basis": "image"
+  },
+  "w011_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Interprets one core correctly, misses open core",
+   "confidence": 0.84,
+   "analysis_basis": "image"
+  },
+  "w011_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Complete and correct",
+   "confidence": 0.91,
+   "analysis_basis": "image"
+  },
+  "w011_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Found exact point after one wrong guess",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "w011_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Repaired and re-tested; minor finish issue",
+   "confidence": 0.68,
+   "analysis_basis": "image"
+  },
+  "w011_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct; minor finish issue",
+   "confidence": 0.7,
+   "analysis_basis": "image"
+  },
+  "w011_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct rating, calculation slightly wrong",
+   "confidence": 0.8,
+   "analysis_basis": "image"
+  },
+  "w011_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: List complete, one quantity off",
+   "confidence": 0.91,
+   "analysis_basis": "image"
+  },
+  "w012_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items",
+    "Insulated screwdriver and combination plier visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Names all, one minor confusion of use",
+   "confidence": 0.92,
+   "analysis_basis": "image"
+  },
+  "w012_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct type, size, rating and suitable application",
+   "confidence": 0.76,
+   "analysis_basis": "image"
+  },
+  "w012_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point",
+    "Safety footwear visible"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Some PPE worn unprompted, item missing",
+   "confidence": 0.7,
+   "analysis_basis": "image"
+  },
+  "w012_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag",
+    "Line tester in hand near isolator"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Isolates and proves dead; omits tag or second check",
+   "confidence": 0.68,
+   "analysis_basis": "image"
+  },
+  "w012_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Both tight, even turns, no nicked copper",
+   "confidence": 0.64,
+   "analysis_basis": "image"
+  },
+  "w012_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Passes pull test; minor strand protrusion",
+   "confidence": 0.91,
+   "analysis_basis": "image"
+  },
+  "w012_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Functional but untidy; some copper exposed",
+   "confidence": 0.71,
+   "analysis_basis": "image"
+  },
+  "w012_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Works but one non-safety error (e.g. polarity at lamp holder)",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w012_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Plan complete, one quantity off",
+   "confidence": 0.63,
+   "analysis_basis": "image"
+  },
+  "w012_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All cores correct, hesitant explanation",
+   "confidence": 0.77,
+   "analysis_basis": "image"
+  },
+  "w012_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Complete with one unit error",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w012_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Found exact point after one wrong guess",
+   "confidence": 0.73,
+   "analysis_basis": "image"
+  },
+  "w012_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Repaired and re-tested; minor finish issue",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w012_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct; minor finish issue",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w012_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct calculation and rating with justification",
+   "confidence": 0.78,
+   "analysis_basis": "image"
+  },
+  "w012_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Complete, correct list",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w013_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items",
+    "Insulated screwdriver and combination plier visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Names all, one minor confusion of use",
+   "confidence": 0.68,
+   "analysis_basis": "image"
+  },
+  "w013_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Identifies type but misreads size/rating",
+   "confidence": 0.67,
+   "analysis_basis": "image"
+  },
+  "w013_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point",
+    "Safety footwear visible"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Full PPE, worn correctly after a reminder on one item",
+   "confidence": 0.71,
+   "analysis_basis": "image"
+  },
+  "w013_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag",
+    "Line tester in hand near isolator"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Isolates but tests only the circuit (tester not proven)",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w013_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Both tight, even turns, no nicked copper",
+   "confidence": 0.83,
+   "analysis_basis": "image"
+  },
+  "w013_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Crimped but strands outside barrel or fails pull test",
+   "confidence": 0.89,
+   "analysis_basis": "image"
+  },
+  "w013_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Neat, straight, all terminations tight and covered",
+   "confidence": 0.64,
+   "analysis_basis": "image"
+  },
+  "w013_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All safety connections correct; minor termination issue",
+   "confidence": 0.75,
+   "analysis_basis": "image"
+  },
+  "w013_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Complete layout and accurate material list",
+   "confidence": 0.83,
+   "analysis_basis": "image"
+  },
+  "w013_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All cores correct, hesitant explanation",
+   "confidence": 0.78,
+   "analysis_basis": "image"
+  },
+  "w013_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Complete and correct",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w013_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Found the area, not the exact point",
+   "confidence": 0.62,
+   "analysis_basis": "image"
+  },
+  "w013_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Repaired and re-tested; minor finish issue",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w013_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct; minor finish issue",
+   "confidence": 0.92,
+   "analysis_basis": "image"
+  },
+  "w013_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Selects with heavy prompting",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "w013_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Complete, correct list",
+   "confidence": 0.62,
+   "analysis_basis": "image"
+  },
+  "w014_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items",
+    "Insulated screwdriver and combination plier visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Names all, one minor confusion of use",
+   "confidence": 0.86,
+   "analysis_basis": "image"
+  },
+  "w014_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.89,
+   "analysis_basis": "image"
+  },
+  "w014_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point",
+    "Safety footwear visible"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Full PPE, worn correctly after a reminder on one item",
+   "confidence": 0.77,
+   "analysis_basis": "image"
+  },
+  "w014_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Isolates but tests only the circuit (tester not proven)",
+   "confidence": 0.8,
+   "analysis_basis": "image"
+  },
+  "w014_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Both tight, even turns, no nicked copper",
+   "confidence": 0.88,
+   "analysis_basis": "image"
+  },
+  "w014_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Crimped but strands outside barrel or fails pull test",
+   "confidence": 0.67,
+   "analysis_basis": "image"
+  },
+  "w014_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Neat with one minor defect",
+   "confidence": 0.8,
+   "analysis_basis": "image"
+  },
+  "w014_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Works but one non-safety error (e.g. polarity at lamp holder)",
+   "confidence": 0.68,
+   "analysis_basis": "image"
+  },
+  "w014_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Plan complete, one quantity off",
+   "confidence": 0.77,
+   "analysis_basis": "image"
+  },
+  "w014_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All cores correct, hesitant explanation",
+   "confidence": 0.66,
+   "analysis_basis": "image"
+  },
+  "w014_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Complete with one unit error",
+   "confidence": 0.86,
+   "analysis_basis": "image"
+  },
+  "w014_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Found exact point after one wrong guess",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w014_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Repaired and re-tested; minor finish issue",
+   "confidence": 0.63,
+   "analysis_basis": "image"
+  },
+  "w014_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct, tight, labelled",
+   "confidence": 0.7,
+   "analysis_basis": "image"
+  },
+  "w014_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct calculation and rating with justification",
+   "confidence": 0.74,
+   "analysis_basis": "image"
+  },
+  "w014_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: List with 2+ omissions",
+   "confidence": 0.74,
+   "analysis_basis": "image"
+  },
+  "w015_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Names most but confuses uses of 2 or more",
+   "confidence": 0.84,
+   "analysis_basis": "image"
+  },
+  "w015_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.8,
+   "analysis_basis": "image"
+  },
+  "w015_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Some PPE worn unprompted, item missing",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w015_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Isolates but tests only the circuit (tester not proven)",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w015_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Both tight, even turns, no nicked copper",
+   "confidence": 0.83,
+   "analysis_basis": "image"
+  },
+  "w015_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Passes pull test; minor strand protrusion",
+   "confidence": 0.83,
+   "analysis_basis": "image"
+  },
+  "w015_C04.3.png": {
+   "observed": [
+    "Channel fixed straight"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Functional but untidy; some copper exposed",
+   "confidence": 0.67,
+   "analysis_basis": "image"
+  },
+  "w015_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: All connections correct and verified by candidate",
+   "confidence": 0.64,
+   "analysis_basis": "image"
+  },
+  "w015_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Plan complete, one quantity off",
+   "confidence": 0.68,
+   "analysis_basis": "image"
+  },
+  "w015_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: All cores correct with clear explanation of open/short",
+   "confidence": 0.8,
+   "analysis_basis": "image"
+  },
+  "w015_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Readings recorded, units missing",
+   "confidence": 0.66,
+   "analysis_basis": "image"
+  },
+  "w015_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Found exact point after one wrong guess",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w015_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Repaired, functional test only",
+   "confidence": 0.88,
+   "analysis_basis": "image"
+  },
+  "w015_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Installed; loose terminal or wrong busbar side",
+   "confidence": 0.84,
+   "analysis_basis": "image"
+  },
+  "w015_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Rating off by one step without reason",
+   "confidence": 0.68,
+   "analysis_basis": "image"
+  },
+  "w015_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: List with 2+ omissions",
+   "confidence": 0.64,
+   "analysis_basis": "image"
+  },
+  "w016_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Names all, one minor confusion of use",
+   "confidence": 0.68,
+   "analysis_basis": "image"
+  },
+  "w016_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.77,
+   "analysis_basis": "image"
+  },
+  "w016_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Some PPE worn unprompted, item missing",
+   "confidence": 0.73,
+   "analysis_basis": "image"
+  },
+  "w016_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag",
+    "Line tester in hand near isolator"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Isolates and proves dead; omits tag or second check",
+   "confidence": 0.74,
+   "analysis_basis": "image"
+  },
+  "w016_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Both tight; minor unevenness of turns",
+   "confidence": 0.67,
+   "analysis_basis": "image"
+  },
+  "w016_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Crimped but strands outside barrel or fails pull test",
+   "confidence": 0.7,
+   "analysis_basis": "image"
+  },
+  "w016_C04.3.png": {
+   "observed": [
+    "Channel fixed straight"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Several loose terminations",
+   "confidence": 0.67,
+   "analysis_basis": "image"
+  },
+  "w016_C04.2.png": {
+   "observed": [
+    "Switch terminals visible"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All safety connections correct; minor termination issue",
+   "confidence": 0.71,
+   "analysis_basis": "image"
+  },
+  "w016_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Plan with 2+ items missing or wrong quantity",
+   "confidence": 0.74,
+   "analysis_basis": "image"
+  },
+  "w016_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All cores correct, hesitant explanation",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w016_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Readings recorded, units missing",
+   "confidence": 0.64,
+   "analysis_basis": "image"
+  },
+  "w016_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Found only with strong hints",
+   "confidence": 0.79,
+   "analysis_basis": "image"
+  },
+  "w016_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Repaired, functional test only",
+   "confidence": 0.79,
+   "analysis_basis": "image"
+  },
+  "w016_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Installed with step-by-step help",
+   "confidence": 0.83,
+   "analysis_basis": "image"
+  },
+  "w016_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Rating off by one step without reason",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w016_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: List complete, one quantity off",
+   "confidence": 0.74,
+   "analysis_basis": "image"
+  },
+  "w017_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Names most but confuses uses of 2 or more",
+   "confidence": 0.88,
+   "analysis_basis": "image"
+  },
+  "w017_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w017_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point",
+    "Safety footwear visible"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Full PPE, worn correctly after a reminder on one item",
+   "confidence": 0.8,
+   "analysis_basis": "image"
+  },
+  "w017_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Isolates but tests only the circuit (tester not proven)",
+   "confidence": 0.71,
+   "analysis_basis": "image"
+  },
+  "w017_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Both tight; minor unevenness of turns",
+   "confidence": 0.64,
+   "analysis_basis": "image"
+  },
+  "w017_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Crimped but strands outside barrel or fails pull test",
+   "confidence": 0.7,
+   "analysis_basis": "image"
+  },
+  "w017_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Neat with one minor defect",
+   "confidence": 0.76,
+   "analysis_basis": "image"
+  },
+  "w017_C04.2.png": {
+   "observed": [
+    "Switch terminals visible"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Works but one non-safety error (e.g. polarity at lamp holder)",
+   "confidence": 0.86,
+   "analysis_basis": "image"
+  },
+  "w017_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Plan complete, one quantity off",
+   "confidence": 0.68,
+   "analysis_basis": "image"
+  },
+  "w017_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All cores correct, hesitant explanation",
+   "confidence": 0.75,
+   "analysis_basis": "image"
+  },
+  "w017_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Readings recorded, units missing",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w017_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Found exact point directly",
+   "confidence": 0.71,
+   "analysis_basis": "image"
+  },
+  "w017_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Repaired and re-tested; minor finish issue",
+   "confidence": 0.82,
+   "analysis_basis": "image"
+  },
+  "w017_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct; minor finish issue",
+   "confidence": 0.88,
+   "analysis_basis": "image"
+  },
+  "w017_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Rating off by one step without reason",
+   "confidence": 0.86,
+   "analysis_basis": "image"
+  },
+  "w017_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: List complete, one quantity off",
+   "confidence": 0.84,
+   "analysis_basis": "image"
+  },
+  "w018_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Names most but confuses uses of 2 or more",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w018_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Identifies type but misreads size/rating",
+   "confidence": 0.62,
+   "analysis_basis": "image"
+  },
+  "w018_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Some PPE worn unprompted, item missing",
+   "confidence": 0.86,
+   "analysis_basis": "image"
+  },
+  "w018_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [
+    "Hands near open terminals without gloves — verify isolation"
+   ],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Isolates only when told; no prove-dead test",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "w018_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: One joint acceptable, one loose or nicked",
+   "confidence": 0.68,
+   "analysis_basis": "image"
+  },
+  "w018_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Wrong die/lug size; needs guidance",
+   "confidence": 0.8,
+   "analysis_basis": "image"
+  },
+  "w018_C04.3.png": {
+   "observed": [
+    "Channel fixed straight"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Neat with one minor defect",
+   "confidence": 0.64,
+   "analysis_basis": "image"
+  },
+  "w018_C04.2.png": {
+   "observed": [
+    "Switch terminals visible"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [
+    "Hands near open terminals without gloves — verify isolation"
+   ],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Wrong connections corrected only with step-by-step help",
+   "confidence": 0.65,
+   "analysis_basis": "image"
+  },
+  "w018_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Plan complete, one quantity off",
+   "confidence": 0.83,
+   "analysis_basis": "image"
+  },
+  "w018_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All cores correct, hesitant explanation",
+   "confidence": 0.73,
+   "analysis_basis": "image"
+  },
+  "w018_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Readings recorded, units missing",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w018_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Found only with strong hints",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w018_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Repaired, functional test only",
+   "confidence": 0.67,
+   "analysis_basis": "image"
+  },
+  "w018_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Installed with step-by-step help",
+   "confidence": 0.88,
+   "analysis_basis": "image"
+  },
+  "w018_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 0,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 0: Cannot select",
+   "confidence": 0.79,
+   "analysis_basis": "image"
+  },
+  "w018_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: List with major omissions, guided",
+   "confidence": 0.71,
+   "analysis_basis": "image"
+  },
+  "w019_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items",
+    "Insulated screwdriver and combination plier visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Names all and explains use and care without prompting",
+   "confidence": 0.78,
+   "analysis_basis": "image"
+  },
+  "w019_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.68,
+   "analysis_basis": "image"
+  },
+  "w019_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [
+    "Hands near open terminals without gloves — verify isolation"
+   ],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: PPE worn only after instruction, incomplete",
+   "confidence": 0.89,
+   "analysis_basis": "image"
+  },
+  "w019_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [
+    "Hands near open terminals without gloves — verify isolation"
+   ],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Isolates only when told; no prove-dead test",
+   "confidence": 0.63,
+   "analysis_basis": "image"
+  },
+  "w019_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Both tight; minor unevenness of turns",
+   "confidence": 0.74,
+   "analysis_basis": "image"
+  },
+  "w019_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct lug and die, clean crimp, passes pull test",
+   "confidence": 0.82,
+   "analysis_basis": "image"
+  },
+  "w019_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Neat with one minor defect",
+   "confidence": 0.84,
+   "analysis_basis": "image"
+  },
+  "w019_C04.2.png": {
+   "observed": [
+    "Switch terminals visible"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [
+    "Hands near open terminals without gloves — verify isolation"
+   ],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Wrong connections corrected only with step-by-step help",
+   "confidence": 0.78,
+   "analysis_basis": "image"
+  },
+  "w019_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Plan with 2+ items missing or wrong quantity",
+   "confidence": 0.82,
+   "analysis_basis": "image"
+  },
+  "w019_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All cores correct, hesitant explanation",
+   "confidence": 0.89,
+   "analysis_basis": "image"
+  },
+  "w019_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Readings recorded, units missing",
+   "confidence": 0.75,
+   "analysis_basis": "image"
+  },
+  "w019_C06.2.png": {
+   "observed": [
+    "Loose terminal identified at the fault point"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Found the area, not the exact point",
+   "confidence": 0.87,
+   "analysis_basis": "image"
+  },
+  "w019_C06.3.png": {
+   "observed": [
+    "Terminal re-made and tightened after repair"
+   ],
+   "potentially_missing": [
+    "Re-test after repair not shown"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Repaired neatly, re-tested, explains cause to customer",
+   "confidence": 0.84,
+   "analysis_basis": "image"
+  },
+  "w019_C07.2.png": {
+   "observed": [
+    "MCB mounted on DIN rail with outgoing wire tight"
+   ],
+   "potentially_missing": [
+    "MCB rating label not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct; minor finish issue",
+   "confidence": 0.64,
+   "analysis_basis": "image"
+  },
+  "w019_C07.1.png": {
+   "observed": [
+    "Load calculation written next to MCB rating"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Correct calculation and rating with justification",
+   "confidence": 0.75,
+   "analysis_basis": "image"
+  },
+  "w019_C08.3.png": {
+   "observed": [
+    "Annotated diagram with material list"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: List complete, one quantity off",
+   "confidence": 0.91,
+   "analysis_basis": "image"
+  },
+  "w020_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Names most but confuses uses of 2 or more",
+   "confidence": 0.76,
+   "analysis_basis": "image"
+  },
+  "w020_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w020_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Some PPE worn unprompted, item missing",
+   "confidence": 0.62,
+   "analysis_basis": "image"
+  },
+  "w020_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Isolates but tests only the circuit (tester not proven)",
+   "confidence": 0.87,
+   "analysis_basis": "image"
+  },
+  "w020_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Work incomplete in the image"
+   ],
+   "suggested_score": 1,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 1: Loose joint, needs re-doing with help",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w020_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Crimped but strands outside barrel or fails pull test",
+   "confidence": 0.63,
+   "analysis_basis": "image"
+  },
+  "w020_C04.3.png": {
+   "observed": [
+    "Channel fixed straight"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Functional but untidy; some copper exposed",
+   "confidence": 0.91,
+   "analysis_basis": "image"
+  },
+  "w020_C04.2.png": {
+   "observed": [
+    "Switch terminals visible"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Works but one non-safety error (e.g. polarity at lamp holder)",
+   "confidence": 0.73,
+   "analysis_basis": "image"
+  },
+  "w020_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Plan with 2+ items missing or wrong quantity",
+   "confidence": 0.91,
+   "analysis_basis": "image"
+  },
+  "w020_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Interprets one core correctly, misses open core",
+   "confidence": 0.79,
+   "analysis_basis": "image"
+  },
+  "w020_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Readings recorded, units missing",
+   "confidence": 0.84,
+   "analysis_basis": "image"
+  },
+  "w021_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items",
+    "Insulated screwdriver and combination plier visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Names most but confuses uses of 2 or more",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w021_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.8,
+   "analysis_basis": "image"
+  },
+  "w021_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point",
+    "Safety footwear visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Full, correct PPE unprompted throughout",
+   "confidence": 0.88,
+   "analysis_basis": "image"
+  },
+  "w021_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: Isolates but tests only the circuit (tester not proven)",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "w021_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Both tight, even turns, no nicked copper",
+   "confidence": 0.67,
+   "analysis_basis": "image"
+  },
+  "w021_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Passes pull test; minor strand protrusion",
+   "confidence": 0.66,
+   "analysis_basis": "image"
+  },
+  "w021_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Neat, straight, all terminations tight and covered",
+   "confidence": 0.86,
+   "analysis_basis": "image"
+  },
+  "w021_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: All connections correct and verified by candidate",
+   "confidence": 0.74,
+   "analysis_basis": "image"
+  },
+  "w021_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Plan complete, one quantity off",
+   "confidence": 0.82,
+   "analysis_basis": "image"
+  },
+  "w021_C05.2.png": {
+   "observed": [
+    "Multimeter display visible in continuity mode"
+   ],
+   "potentially_missing": [
+    "Meter range setting not readable"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All cores correct, hesitant explanation",
+   "confidence": 0.67,
+   "analysis_basis": "image"
+  },
+  "w021_C05.4.png": {
+   "observed": [
+    "Reading sheet with values and units"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Complete with one unit error",
+   "confidence": 0.92,
+   "analysis_basis": "image"
+  },
+  "w022_C01.1.png": {
+   "observed": [
+    "Tool tray laid out with labelled items",
+    "Insulated screwdriver and combination plier visible"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Names all and explains use and care without prompting",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w022_C01.2.png": {
+   "observed": [
+    "Cable marking visible on the sheath",
+    "Wire sizes separated by gauge"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Correct type and size, hesitant on rating/application",
+   "confidence": 0.7,
+   "analysis_basis": "image"
+  },
+  "w022_C02.1.png": {
+   "observed": [
+    "Insulated gloves worn at work point",
+    "Safety footwear visible"
+   ],
+   "potentially_missing": [
+    "Safety goggles not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Full PPE, worn correctly after a reminder on one item",
+   "confidence": 0.72,
+   "analysis_basis": "image"
+  },
+  "w022_C02.2.png": {
+   "observed": [
+    "Main switch in OFF position with warning tag",
+    "Line tester in hand near isolator"
+   ],
+   "potentially_missing": [
+    "Prove-dead test on a known live point not visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 4,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 4: Isolates, tags, proves tester-circuit-tester before work",
+   "confidence": 0.89,
+   "analysis_basis": "image"
+  },
+  "w022_C03.1.png": {
+   "observed": [
+    "Twist joint turns appear tight and even"
+   ],
+   "potentially_missing": [
+    "Second joint partly out of frame"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 2,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 2: One joint acceptable, one loose or nicked",
+   "confidence": 0.84,
+   "analysis_basis": "image"
+  },
+  "w022_C03.2.png": {
+   "observed": [
+    "Lug crimped with barrel fully closed"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Passes pull test; minor strand protrusion",
+   "confidence": 0.9,
+   "analysis_basis": "image"
+  },
+  "w022_C04.3.png": {
+   "observed": [
+    "Channel fixed straight",
+    "No exposed copper at accessories"
+   ],
+   "potentially_missing": [
+    "One accessory cover not fitted"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Neat with one minor defect",
+   "confidence": 0.85,
+   "analysis_basis": "image"
+  },
+  "w022_C04.2.png": {
+   "observed": [
+    "Switch terminals visible",
+    "Phase conductor routed through the switch"
+   ],
+   "potentially_missing": [
+    "Earth terminal of the socket not clearly visible"
+   ],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: All safety connections correct; minor termination issue",
+   "confidence": 0.81,
+   "analysis_basis": "image"
+  },
+  "w022_C04.1.png": {
+   "observed": [
+    "Hand-written material list visible with quantities"
+   ],
+   "potentially_missing": [],
+   "safety_concerns": [],
+   "competency_indicators": [
+    "Neat, consistent workmanship"
+   ],
+   "suggested_score": 3,
+   "suggested_score_reason": "Visible evidence most closely matches anchor 3: Plan complete, one quantity off",
+   "confidence": 0.62,
+   "analysis_basis": "image"
+  }
+ }
+}

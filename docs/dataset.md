@@ -95,36 +95,55 @@ The guidelines are used for **process design**, not as data rows:
 Every CSV begins with the comment line
 `# SYNTHETIC / DEMONSTRATION DATA — NOT REAL WORKER DATA` and every row has `data_origin=synthetic`.
 
-| File | Rows (target) | Content |
+The files hold **inputs only** (what a worker would provide and what a synthetic assessor would score).
+Every derived value — skill extraction, qualification match, readiness, competency results, recommendation —
+is computed by the application when the data is seeded through the real API (`python -m app.seed --demo`).
+
+| File | Rows (prototype-v1) | Content |
 |---|---|---|
-| `workers.csv` | 40 | id, synthetic name, age, gender, state, district, locality, language, occupation, years, education, archetype |
-| `experiences.csv` | 40 | free-text declaration (EN / Hinglish / HI) |
-| `skills.csv` | ~300 | confirmed skills/tools/tasks per worker |
-| `assessments.csv` | 24 | plan per assessed worker, status, assigned assessor |
-| `task_scores.csv` | ~190 | task-level results |
-| `assessor_scores.csv` | ~900 | criterion-level AI-suggested vs final scores, overrides |
-| `evidence.csv` | ~120 | evidence metadata → placeholder images in `frontend/public/demo-evidence/` |
+| `workers.csv` | 40 | synthetic name, fake mobile (`90001xxxxx`), age, gender, state/district/locality, language, occupation, years, education, employer, archetype, target workflow stage |
+| `experiences.csv` | 40 | free-text declaration (English / Hinglish / Hindi) |
+| `skills.csv` | per worker | confirmed items: the rule extractor's output with simulated worker edits (an item removed, an item added) |
+| `assessments.csv` | 25 | self-assessment answers over the 8 in-scope LOs; decision policy (`follow` the recommendation, or a deliberate synthetic-assessor disagreement) |
+| `task_scores.csv` | per task | which practical tasks the worker submitted |
+| `evidence.csv` | 326 | evidence metadata → one of 16 placeholder images in `data/demo/evidence/`, upload file name, caption, offline flag |
+| `assessor_scores.csv` | 363 | synthetic assessor's final 0–4 score + note per criterion |
+| `prepared_ai_observations.json` | 1 per evidence file | **prepared** AI observations (observed / missing / safety concern / suggested score / confidence) keyed by upload file name |
 | `consistency_test_set.csv` | see §4 | **SIMULATION/TEST DATA** |
 
 **Generation:** `scripts/generate_demo_data.py`, seeded (`SEED=2026`), reproducible.
 **Names:** composed from lists of common Indian given names and surnames combined at random;
-no record corresponds to a real person. Mobile numbers use the reserved-looking prefix
-`90000xxxxx` and are fake. Localities are real state/district names (public geography) chosen at random.
+no record corresponds to a real person. Mobile numbers (`90001xxxxx`) are fake. Localities are real state/district
+names (public geography). Synthetic worker accounts share the PIN `1234` (documented, demo only).
 
-**Archetypes (≥ 3 each):** highly experienced; medium; beginner; domestic electrician; industrial
-electrician; informal apprentice; incomplete documentation; strong practical / weak theory;
-safety gaps; missing evidence.
+**Archetypes (10, ≥ 3 each):** highly experienced (5); medium (5); beginner (4); domestic (5); industrial (4);
+informal apprentice (4); incomplete documentation (3); strong practical / weak theory (4); safety gaps (3);
+missing evidence (3).
 
-**Assumptions:** experience years and skill sets are drawn per archetype; criterion scores are drawn
-from archetype-specific distributions (e.g. "safety gaps" archetype has low safety-critical scores).
-These distributions are design assumptions for demonstrating UI states, not empirical estimates.
+**Workflow spread after seeding:** 25 assessment plans — 5 decided, 7 awaiting the assessor's decision, 3 partly
+scored, 4 with evidence and AI notes, 3 with tasks in progress, 3 before the practical — and 15 workers at earlier
+stages (profile, declaration, extraction, confirmation, match).
 
-**Evidence images:** placeholder illustrations/annotated diagrams generated for the prototype —
-not photographs of real work. Labelled "Synthetic evidence placeholder".
+**Assumptions:** experience years and skills are drawn per archetype; criterion scores are drawn from
+archetype-specific distributions (e.g. "safety gaps" lowers safety-critical criteria by ~2 points; "strong practical /
+weak theory" lowers knowledge, viva and drawing criteria; "missing evidence" uploads ~30 % of required items).
+These are design assumptions for demonstrating realistic UI states, not empirical estimates. Some synthetic decisions
+deliberately differ from the recommendation so "agreement with recommendation" is not trivially 100 %.
 
-**Demo persona:** *Raj Kumar*, 6 years informal electrician experience (learned from uncle) — synthetic.
+**Evidence images:** 16 placeholder schematics generated with Pillow, each watermarked "SYNTHETIC EVIDENCE
+PLACEHOLDER — not a real photo" and captioned with the criterion it stands for.
 
-**Assessors:** 5 synthetic assessor accounts (A01–A05).
+**Prepared AI observations:** because the placeholder images contain no real work, AI observations for them are
+pre-written to be consistent with the synthetic assessor's scores (suggested score equals the final score ~72 % of the
+time, otherwise ±1). They are stored with provider `demo-prepared` and every screen labels them "prepared demo output
+— not a live AI call". Uploads that are not in this file (real photos) go through the live rule/LLM path.
+
+**Demo persona:** *Raj Kumar*, 6 years informal electrician experience (learned from his uncle) — synthetic. His
+C02.1 observation reproduces the example in the project specification. `POST /api/v1/demo/raj` rebuilds only this
+record at a checkpoint (`fresh`, `practical`, `evidence_ready`, `awaiting_decision`) and is available only when
+`DEMO_MODE_ENABLED=true`.
+
+**Assessors:** 5 synthetic assessor accounts (A01–A05); Raj is always assigned to A01.
 
 ---
 

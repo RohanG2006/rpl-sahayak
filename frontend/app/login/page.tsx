@@ -67,6 +67,7 @@ export default function LoginPage() {
 
         <section className="mt-10 border-t border-rule pt-5">
           <div className="flex items-center gap-2"><h2 className="label">{t("login.demo")}</h2><Stamp kind="synthetic" /></div>
+          <p className="mt-2 text-sm"><Link href="/demo" className="font-semibold text-accent underline underline-offset-2">Open the five-minute demo →</Link></p>
           <ul className="mt-3 flex flex-wrap gap-2">
             {DEMO.map((d) => (
               <li key={d.login}>
