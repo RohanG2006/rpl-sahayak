@@ -8,7 +8,7 @@ database (`rpl_sahayak_test`) that is rebuilt on every run — never the develop
 
 ```bash
 node docker/pg-embedded/start.mjs --test-db      # PostgreSQL on :5433 (creates rpl_sahayak_test)
-backend/.venv/Scripts/python -m pytest backend -q                        # 134 backend tests
+backend/.venv/Scripts/python -m pytest backend -q                        # 144 backend tests
 backend/.venv/Scripts/python -m pytest backend -q --cov=app --cov-report=term-missing   # with coverage (95%)
 npm --prefix frontend test                        # 12 frontend tests (Vitest + fake IndexedDB)
 npm --prefix frontend run lint                    # ESLint (clean)
