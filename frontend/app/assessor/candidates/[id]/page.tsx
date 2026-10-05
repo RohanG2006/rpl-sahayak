@@ -7,7 +7,7 @@ import { CompetencyBars, DECISION, OUTCOME, StatusBadge } from "@/components/sta
 import { Button, Notice, Spinner, Stamp } from "@/components/ui";
 import { getPlan, type Plan, type Readiness } from "@/lib/data/assessment";
 import {
-  getDecision, getGaps, getRecommendation, getResults, getWorkerFull, makeRecommendation, recordDecision,
+  downloadReport, getDecision, getGaps, getRecommendation, getResults, getWorkerFull, makeRecommendation, recordDecision,
   type Decision, type Gaps, type Recommendation, type Results,
 } from "@/lib/data/assessor";
 import { listEvidence, type EvidenceItem } from "@/lib/data/evidence";
@@ -60,6 +60,7 @@ export default function CandidateDetail() {
         <div className="flex flex-col items-end gap-2">
           <StatusBadge status={plan.status} />
           <Link href={`/assessor/assessment/${plan.id}`} className="inline-flex min-h-11 items-center rounded-[3px] bg-ink px-4 text-sm font-semibold text-sheet">Open scoring workspace →</Link>
+          <ReportButton planId={plan.id} decided={["DECIDED", "REPORT_ISSUED"].includes(plan.status)} />
         </div>
       </header>
 
@@ -257,6 +258,19 @@ function DecisionPanel({ plan, rec, decision, onDone }: { plan: Plan; rec: Recom
           <p className="text-xs text-ink-3">Recorded under your name and assessor code in the audit trail. Cannot be changed afterwards.</p>
         </div>
       )}
+    </div>
+  );
+}
+
+function ReportButton({ planId, decided }: { planId: string; decided: boolean }) {
+  const [busy, setBusy] = useState(false);
+  const [err, setErr] = useState<string | null>(null);
+  return (
+    <div className="flex flex-col items-end">
+      <Button variant="secondary" disabled={busy} onClick={async () => { setBusy(true); setErr(null); try { await downloadReport(planId); } catch (e) { setErr(e instanceof Error ? e.message : "Report failed."); } setBusy(false); }}>
+        {busy ? "Preparing…" : decided ? "Download report (PDF)" : "Download draft report (PDF)"}
+      </Button>
+      {err && <p className="mt-1 text-xs text-bad">{err}</p>}
     </div>
   );
 }

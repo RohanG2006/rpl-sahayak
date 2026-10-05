@@ -258,3 +258,22 @@ def consistency(db: Session = Depends(get_db), user: User = Depends(require_role
     Every statistic is computed from the stored ratings at request time."""
     from app.services.consistency import analyse
     return analyse(db)
+
+
+@router.get("/assessments/{assessment_id}/report.pdf")
+def report_pdf(assessment_id: str, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
+    """Downloadable assessment report (spec §44). Workers: after the decision. Assessor/admin: any time (DRAFT before decision).
+    The first download after the decision moves the plan to REPORT_ISSUED."""
+    from fastapi.responses import Response
+
+    from app.services.report import build_report
+    p = load_plan(db, assessment_id, user)
+    _worker_gate(p, user)
+    pdf, meta = build_report(db, p)
+    if meta["decided"] and p.status == "DECIDED":
+        workflow.advance_plan(db, p, "REPORT_ISSUED", user)
+    audit.record(db, "report.downloaded", "assessment_plan", p.id, actor=user,
+                 summary=f"Assessment report ({'final' if meta['decided'] else 'draft'}) downloaded by {user.role_code}")
+    db.commit()
+    name = f"rpl-report-{p.id[:8]}{'' if meta['decided'] else '-DRAFT'}.pdf"
+    return Response(pdf, media_type="application/pdf", headers={"Content-Disposition": f'attachment; filename="{name}"', "Cache-Control": "no-store"})

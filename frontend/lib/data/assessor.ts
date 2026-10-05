@@ -39,3 +39,21 @@ export const recordDecision = (body: { plan_id: string; decision: Decision["deci
 export const scoreTask = (planId: string, taskCode: string, scores: { criterion_code: string; final_score: number; assessor_note: string | null }[]) =>
   api<Plan>(`/assessments/${planId}/tasks/${taskCode}/score`, { body: { scores } });
 export const getWorkerFull = (workerId: string) => api<import("../types").Worker>(`/workers/${workerId}`);
+
+/** Authenticated PDF download (the report endpoint needs the bearer token, so a plain link cannot be used). */
+export async function downloadReport(planId: string): Promise<void> {
+  const { API_BASE } = await import("../config");
+  const { getToken } = await import("../session");
+  const res = await fetch(`${API_BASE}/assessments/${planId}/report.pdf`, { headers: { Authorization: `Bearer ${getToken()}` } });
+  if (!res.ok) {
+    const j = await res.json().catch(() => null);
+    throw new Error(j?.error?.message ?? "Could not create the report.");
+  }
+  const name = /filename="([^"]+)"/.exec(res.headers.get("content-disposition") ?? "")?.[1] ?? "rpl-report.pdf";
+  const url = URL.createObjectURL(await res.blob());
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = name;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 10_000);
+}

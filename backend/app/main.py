@@ -31,7 +31,8 @@ def create_app() -> FastAPI:
 
     install_handlers(app)
     app.add_middleware(
-        CORSMiddleware, allow_origins=s.cors_origins, allow_credentials=True, allow_methods=["*"], allow_headers=["*"]
+        CORSMiddleware, allow_origins=s.cors_origins, allow_credentials=True, allow_methods=["*"], allow_headers=["*"],
+        expose_headers=["Content-Disposition"],  # lets the browser read report/evidence file names
     )
 
     api = APIRouter(prefix="/api/v1")

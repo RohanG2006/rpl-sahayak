@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
 import { CompetencyBars } from "@/components/staff";
-import { Notice, Spinner, Stamp } from "@/components/ui";
+import { Button, Notice, Spinner, Stamp } from "@/components/ui";
 import { currentPlan, type Plan } from "@/lib/data/assessment";
-import { getDecision, getGaps, getResults, type Decision, type Gaps, type Results } from "@/lib/data/assessor";
+import { downloadReport, getDecision, getGaps, getResults, type Decision, type Gaps, type Results } from "@/lib/data/assessor";
 import { useT, type TKey } from "@/lib/i18n";
 import { ApiError } from "@/lib/api";
 
@@ -14,6 +14,7 @@ export default function WorkerResults() {
   const [r, setR] = useState<Results | null>(null);
   const [g, setG] = useState<Gaps | null>(null);
   const [err, setErr] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -62,6 +63,9 @@ export default function WorkerResults() {
         )}
       </section>
       <p className="text-sm text-ink-3">{t("res.scope", { n: Object.keys(r.learning_outcomes).length, total: plan.lo_total })} {t("res.note")}</p>
+      <Button size="lg" variant="secondary" disabled={busy} onClick={async () => { setBusy(true); try { await downloadReport(plan.id); } catch (e) { setErr(e instanceof Error ? e.message : t("err.generic")); } setBusy(false); }}>
+        {busy ? t("res.report_busy") : t("res.report")}
+      </Button>
     </div>
   );
 }

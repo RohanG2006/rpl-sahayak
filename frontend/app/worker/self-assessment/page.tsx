@@ -35,6 +35,20 @@ export default function SelfAssessmentPage() {
   const locked = !["PLAN_CREATED", "SELF_ASSESSED", "READINESS_EVALUATED"].includes(plan.status);
   const complete = plan.scope_los.every((lo) => answers[lo.lo_number]);
 
+  // Built from structured values (not the server's English sentences) so the explanation follows the chosen language.
+  function reasons(r: Readiness): string[] {
+    const pct = (x: number) => Math.round(x * 100);
+    const items = (keys: string[]) => keys.map((k) => t(`elig.${k}` as TKey)).join(", ");
+    const out = [
+      t("sa.reason.coverage", { pct: pct(r.weighted_coverage), threshold: pct(r.threshold), cmp: t(r.weighted_coverage > r.threshold ? "sa.reason.above" : "sa.reason.below") }),
+      t("sa.reason.corroborated", { pct: pct(r.corroborated_share) }),
+    ];
+    if (r.eligibility_flags.length) out.push(t("sa.reason.eligibility", { items: items(r.eligibility_flags) }));
+    const unknown = ((plan?.match_snapshot?.eligibility ?? []) as { key: string; result: string }[]).filter((c) => c.result === "unknown").map((c) => c.key);
+    if (unknown.length) out.push(t("sa.reason.unknown", { items: items(unknown) }));
+    return out;
+  }
+
   async function submit() {
     setBusy(true); setErr(null);
     try { setResult((await selfAssess(plan!.id, answers)).readiness); window.scrollTo(0, 0); } catch (e) { fail(e); }
@@ -59,7 +73,7 @@ export default function SelfAssessmentPage() {
           <p className="mt-1 text-xl font-semibold">{result.pathway === "DIRECT_ASSESSMENT" ? t("sa.direct") : t("sa.upskill")}</p>
           <div className="mt-3"><Meter value={result.weighted_coverage * 100} tone={result.pathway === "DIRECT_ASSESSMENT" ? "ok" : "warn"} label={t("sa.coverage")} /></div>
           <p className="mt-1 text-sm num">{t("sa.coverage")}: {Math.round(result.weighted_coverage * 100)}% (&gt; {Math.round(result.threshold * 100)}%)</p>
-          <ul className="mt-3 list-disc pl-5 text-sm text-ink-2">{result.reasons.map((r) => <li key={r}>{r}</li>)}</ul>
+          <ul className="mt-3 list-disc pl-5 text-sm text-ink-2">{reasons(result).map((r) => <li key={r}>{r}</li>)}</ul>
           {result.pathway !== "DIRECT_ASSESSMENT" && <p className="mt-2 text-sm">{t("sa.upskill_note")}</p>}
           <Button className="mt-4" size="lg" block disabled={busy} onClick={start}>{t("sa.start")}</Button>
         </section>
